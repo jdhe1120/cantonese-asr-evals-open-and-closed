@@ -1,0 +1,26 @@
+# LIDA Stories Hong Kong (LIDA故事香港, lidastories.net, CC BY 4.0): reading level (1-5, "級") and titles of each story,
+# as shown on lidastories.net (checked 2026-10-20). Keys are the clip-id story names (Audio/yue-NNNN_<name>.mp3).
+# The runner tags each story clip with its level, so the stories group can be read by learner level. All 20 are
+# narrated by the same person (Stephanie Hung), so the group tests graded material in one voice, not speaker variety.
+
+[stories]
+clean = { level = 1, title_zh = "梳洗好", title_en = "Clean and ready" }
+doing = { level = 1, title_zh = "佢哋做緊乜嘢？", title_en = "What are they doing?" }
+family = { level = 1, title_zh = "我屋企人", title_en = "My family" }
+food = { level = 1, title_zh = "嘢食", title_en = "Food" }
+weather = { level = 1, title_zh = "天氣", title_en = "The weather" }
+bed = { level = 2, title_zh = "準備瞓覺", title_en = "Going to bed" }
+cafe = { level = 2, title_zh = "去咖啡舖", title_en = "Going to a café" }
+cleaning = { level = 2, title_zh = "打掃", title_en = "Cleaning" }
+eating = { level = 2, title_zh = "出去食飯", title_en = "Eating out" }
+work = { level = 2, title_zh = "準備返工", title_en = "Going to work" }
+cinema = { level = 3, title_zh = "去戲院", title_en = "Going to the cinema" }
+clothes = { level = 3, title_zh = "買衫", title_en = "Buying clothes" }
+birth = { level = 4, title_zh = "生仔", title_en = "Giving birth" }
+job = { level = 4, title_zh = "搵工", title_en = "Finding a job" }
+malik = { level = 4, title_zh = "馬利克嘅故事", title_en = "Malik's story" }
+standing = { level = 4, title_zh = "因為一個正確嘅原因而突出", title_en = "Standing out for the right reason" }
+agostino = { level = 5, title_zh = "阿戈斯蒂諾嘅故事", title_en = "Agostino's story" }
+birds = { level = 5, title_zh = "朝早嘅雀仔聲", title_en = "The sound of birds in the morning" }
+norway = { level = 5, title_zh = "嚟到挪威", title_en = "Coming to Norway" }
+oldman = { level = 5, title_zh = "搵個老男人做老公", title_en = "An old man as a husband" }

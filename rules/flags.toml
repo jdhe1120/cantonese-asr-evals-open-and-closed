@@ -1,0 +1,32 @@
+# Results to read with care. Shown as a marker on the results page and in results/summary.md, with the note as the
+# explanation. group is a group id (stories, commonvoice, narration, cantomap, mixed, wordshk, gzdaily, gzcabin) or "*".
+#   contaminated  the model was very likely trained on this test data: don't compare it on this group
+#   partial       the model covers only part of the group: its average isn't comparable
+#
+# Contamination check (recomputed 2026-11-01 on the current 300-clip groups): share of clips whose output matches the
+# reference exactly, punctuation included, after NFKC (so full- and half-width punctuation count as equal) and t2s. Real recognition gets the words right but chooses punctuation its own way; memorised data comes back
+# verbatim. Apart from cantonese.ai on Common Voice, every other model scored 0-17% on Common Voice and 0-6% on mixed Cantonese-English.
+
+[[flag]]
+model = "whisper-yue"
+group = "commonvoice"
+kind = "contaminated"
+note = "Its model card lists Common Voice as training data. 86% of clips match the reference exactly, punctuation included (cantonese.ai 86%, every other model 0-17%)."
+
+[[flag]]
+model = "whisper-yue"
+group = "mixed"
+kind = "contaminated"
+note = "Its model card lists a cleaned copy of this dataset as training data. 39% of clips match the reference exactly, punctuation included (other models 0-6%)."
+
+[[flag]]
+model = "cantonese-ai"
+group = "commonvoice"
+kind = "contaminated"
+note = "86% of clips match the reference exactly, punctuation included (Whisper 86%, every other model 0-17%): very likely trained on Common Voice."
+
+[[flag]]
+model = "cantonese-ai"
+group = "narration"
+kind = "contaminated"
+note = "Gets 75% of the reference characters most models miss (best other model 45%; on CantoMap it has no such lead), and writes this corpus's 嘞 spelling here but 喇 almost everywhere else: very likely trained on these recordings (public as CanCLID/zoengjyutgaai)."

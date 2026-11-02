@@ -1,0 +1,13 @@
+# Mixed Cantonese-English (AlienKevin/mixed_cantonese_and_english_speech) clips checked by listening, keyed by
+# "<parquet file>#group<g>/row<r>" so verdicts survive re-sampling. Candidates come from scripts/audit_clips.py.
+#   broken  the audio doesn't say the reference; scripts/prepare_public.py swaps in another row from the same blocks
+# Five of the six broken ones sit in two 100-row blocks (file 1 block 9: rows 54, 80, 87; file 0 block 6: rows 5, 8);
+# the other clips sampled from those blocks are fine.
+
+[segments]
+"data/train-00003-of-00006.parquet#group19/row85" = "broken"  # 2026-10-21, was mixed-p115
+"data/train-00001-of-00006.parquet#group9/row87" = "broken"   # 2026-10-21, was mixed-p205
+"data/train-00000-of-00006.parquet#group6/row5" = "broken"    # 2026-10-21, was mixed-p41
+"data/train-00000-of-00006.parquet#group6/row8" = "broken"    # 2026-10-21, was mixed-p232
+"data/train-00001-of-00006.parquet#group9/row80" = "broken"   # 2026-10-21, was mixed-p117
+"data/train-00001-of-00006.parquet#group9/row54" = "broken"   # 2026-10-21, was mixed-p99

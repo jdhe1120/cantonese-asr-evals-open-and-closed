@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="746" height="468" viewBox="0 0 746 468" role="img" aria-label="Scored in simplified, graphs folded, digits as Chinese numerals. Average of 6 groups." font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="746" height="468" rx="8" fill="#fcfcfb"/>
+<text x="20" y="32" font-size="17" fill="#0b0b0b" text-anchor="start" font-weight="600">Character error rate: lower is better</text>
+<text x="20" y="54" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">Scored in simplified, graphs folded, digits as Chinese numerals. Average of 6 groups.</text>
+<rect x="20" y="66" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="38" y="77" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">Open model</text>
+<rect x="120" y="66" width="12" height="12" rx="3" fill="#eb6834"/>
+<text x="138" y="77" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">Closed API</text>
+<text x="332" y="118" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">CantoCaptions v3</text>
+<path d="M344 104h114.5a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-114.5z" fill="#2a78d6"/>
+<text x="470.4802080036667" y="118" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">7.5%</text>
+<text x="332" y="148" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">Qwen3-ASR-1.7B prompted for traditional</text>
+<path d="M344 134h118.9a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-118.9z" fill="#2a78d6"/>
+<text x="474.9328363990475" y="148" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">7.8%</text>
+<text x="332" y="178" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">Qwen3-ASR-1.7B</text>
+<path d="M344 164h119.2a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-119.2z" fill="#2a78d6"/>
+<text x="475.1660640217231" y="178" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">7.8%</text>
+<text x="332" y="208" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">CantoCaptions v2</text>
+<path d="M344 194h122.5a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-122.5z" fill="#2a78d6"/>
+<text x="478.52452029838946" y="208" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">8.0%</text>
+<text x="332" y="238" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">cantonese.ai</text>
+<path d="M344 224h129.8a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-129.8z" fill="#eb6834"/>
+<text x="485.8424558766586" y="238" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">8.5%</text>
+<text x="332" y="268" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">SenseVoice-Small</text>
+<path d="M344 254h161.6a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-161.6z" fill="#2a78d6"/>
+<text x="517.6245261376508" y="268" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">10.5%</text>
+<text x="332" y="298" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">Azure Speech standard</text>
+<path d="M344 284h171.5a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-171.5z" fill="#eb6834"/>
+<text x="527.4760905282966" y="298" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">11.2%</text>
+<text x="332" y="328" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">GLM-ASR-Nano-2512 + Cantonese prompt</text>
+<path d="M344 314h250.5a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-250.5z" fill="#2a78d6"/>
+<text x="606.4961865763202" y="328" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">16.2%</text>
+<text x="332" y="358" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">GLM-ASR-Nano-2512</text>
+<path d="M344 344h277.5a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-277.5z" fill="#2a78d6"/>
+<text x="633.5038156385523" y="358" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">17.9%</text>
+<text x="332" y="388" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">Gemini 3.5 Transcribe</text>
+<path d="M344 374h293.7a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-293.7z" fill="#eb6834"/>
+<text x="649.7212492019751" y="388" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">18.9%</text>
+<text x="332" y="418" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">MAI-Transcribe-2</text>
+<path d="M344 404h326.0a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-326.0z" fill="#eb6834"/>
+<text x="682.0" y="418" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">21.0%</text>
+<text x="20" y="454" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">Left out: Many Speakers, Storytelling (a ranked model appears trained on them). Unranked: JackyHoCL Whisper fine-tune.</text>
+</svg>

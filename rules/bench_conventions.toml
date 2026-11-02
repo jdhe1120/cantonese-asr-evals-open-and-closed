@@ -1,0 +1,60 @@
+# Copied unmodified from cantocaptions-dataset (rules/bench_conventions.toml, commit 07e1dd5),
+# by Jon Miller (rookes). MIT License, Copyright (c) 2026 Jon Miller; full text in
+# rules/LICENSE-cantocaptions-dataset.
+#
+# Interchangeable graphs for the external benchmark (`bench --equiv`).
+#
+# Each class lists graphs that write the same particle (or word) under different
+# conventions: CantoCaptions standards, HK writing generally, Guangzhou writing.
+# Choosing one member over another is a convention, not a recognition error. So
+# before scoring, every member is folded to the class's first graph, in BOTH the
+# reference and the hypothesis. It is symmetric, which gives stock Qwen exactly
+# the same allowance as a fine-tuned model. The dataset files themselves are
+# never modified.
+#
+# Graphs are single characters. Folding is a per-character translate run
+# before the suite's t2s/punctuation normalization, so a class may mix
+# traditional and simplified graphs freely.
+#
+# Numerals (一三八… vs 138…) are deliberately absent: deferred until these
+# results have been looked at on their own.
+
+[[equivalent]]
+graphs = "啊呀吖𠻺"
+
+[[equivalent]]
+graphs = "㗎𠺢嘎噶"
+
+[[equivalent]]
+graphs = "啦喇嘞"
+
+[[equivalent]]
+graphs = "俾畀"
+
+# The remaining rules/standardization.toml contrast sets (strict vs loose
+# graph for one slot).
+[[equivalent]]
+graphs = "咁噉"
+
+[[equivalent]]
+graphs = "囉囖咯"
+
+[[equivalent]]
+graphs = "添𠻹㖭"
+
+[[equivalent]]
+graphs = "啫唧"
+
+[[equivalent]]
+graphs = "嘅𠸏"
+
+# Further pairs that differ by convention or region between these references
+# and CantoCaptions output.
+[[equivalent]]
+graphs = "嗎嘛"
+
+[[equivalent]]
+graphs = "呢咧"
+
+[[equivalent]]
+graphs = "翻返"

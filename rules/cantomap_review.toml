@@ -1,0 +1,20 @@
+# CantoMap segments checked by listening (safecantonese/cantomap file names, so verdicts survive re-sampling).
+# Candidates come from scripts/audit_clips.py; the verdict is a person's, after listening to the clip.
+#   broken     the audio doesn't say the reference at all; skipped by scripts/prepare_public.py
+#   ok         the reference matches; the clip is just hard (kept)
+#   cut-start  the reference's opening words are not in the audio (clip edge); kept, reference unchanged
+#   cut-end    the reference's closing words are not in the audio (clip edge); kept, reference unchanged
+# Whole recordings that don't match their transcripts are CMAP_BROKEN in scripts/prepare_public.py.
+
+[segments]
+"160818_002_31_32_B2_ts7.wav" = "broken"      # 2026-10-20
+"160816_004_23_24_C1_ts85.wav" = "ok"         # 2026-10-20
+"160725_010_1_2_B_ts43.wav" = "ok"            # 2026-10-20
+"160816_008_29_30_A_ts137.wav" = "ok"         # 2026-10-20, fast speech (12 chars/s)
+"160816_006F27_28_B_ts29.wav" = "cut-end"     # 2026-10-20
+"160729_006F15_16_D_ts18.wav" = "cut-end"     # 2026-10-20
+"160818_009F37_38_D_ts49.wav" = "cut-end"     # 2026-10-20
+"160729_006F15_16_C1_ts39.wav" = "cut-start"  # 2026-10-20
+"160816_001F21_22_B_ts27.wav" = "cut-start"   # 2026-10-20
+"160725_012_3_4_B2_ts50.wav" = "ok"           # 2026-10-20
+"160819_004_41_42_B_ts30.wav" = "cut-end"     # 2026-10-20
