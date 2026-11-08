@@ -1,9 +1,9 @@
 """Text normalisation for scoring.
 
 NFKC first: PDF text layers use Kangxi radical code points (⼆ ⼗ ⽉) that
-render identically to the normal graphs; NFKC folds them. Then optional
-interchangeable-graph folding (rules/bench_conventions.toml), then OpenCC t2s,
-then drop punctuation, symbols and whitespace.
+render identically to the normal graphs; NFKC folds them. Then lowercase (some models write English in capitals, the
+references mostly don't; case isn't something a listener hears), optional interchangeable-graph folding
+(rules/bench_conventions.toml), then OpenCC t2s, then drop punctuation, symbols and whitespace.
 
 The traditional view (trad=True) skips t2s, so a simplified character counts as an error; instead Hong Kong and
 Taiwan variant spellings of the same traditional character (裏/裡, 着/著, 衞/衛) are folded to one form, so neither
@@ -143,7 +143,7 @@ def numerals_to_chinese(text: str) -> str:
 
 
 def normalize(text: str, equiv: bool = False, numerals: bool = False, trad: bool = False) -> str:
-    text = unicodedata.normalize("NFKC", text).translate(_RADICALS)
+    text = unicodedata.normalize("NFKC", text).translate(_RADICALS).lower()
     if numerals:
         text = numerals_to_chinese(text)
     if equiv:

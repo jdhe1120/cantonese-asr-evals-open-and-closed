@@ -20,16 +20,27 @@ character error rate.
   Qwen3-ASR-1.7B close behind (the gap is within noise). CantoCaptions writes traditional out of the box; Qwen often writes
   simplified and needs a Hong Kong converter (`cantoeval/convert.py`).
 - **Best paid API:** cantonese.ai, then Azure Speech standard (`zh-HK`), though the top open models beat both.
+- **General models given a transcription prompt (Gemini 4 Argon, Gemini 3.8 Flash)** get English words inside Cantonese
+  right most often of the ranked models (89% of English words, against 84% for CantoCaptions v3, which often writes a
+  Chinese sound-alike: alfresco → 阿弗雷克); CER barely shows this. But they do badly on very short clips, with no
+  sentence around them (Argon: 38% under 2 seconds), and sometimes tidy up conversational speech (唔係唔係 → 咪).
+  Knowing 《三國演義》's names helps them on Storytelling.
+- **Bigger audio models don't win.** Qwen3-Omni (30B, 3B active) comes close to Qwen3-ASR-1.7B; Step-Audio-2-mini (8.3B)
+  and MiMo-V2.5-ASR (8B) trail it, mostly on very short clips (MiMo: 27% CER under 2 seconds, against 11% for
+  CantoCaptions v3). FireRedASR2-AED (1.15B) is the best of the models not built on Qwen.
+- **The WenetSpeech-Yue models** (SenseVoice-Small-Yue, Whisper-medium-Yue, Conformer-U2pp-Yue) write simplified and put
+  English in capitals. In simplified, SenseVoice-Small-Yue and Whisper-medium-Yue (both 9.7%) edge out stock SenseVoice
+  (10.0%) and U2pp trails (12.2%); in traditional they have no converter and score 33–36%.
 
 <!-- results:begin -->
 | Task | Best | Within a point |
 |---|---|---|
-| Many Speakers | **Qwen3-ASR-1.7B prompted for traditional** 4.1% | Qwen3-ASR-1.7B 4.4%, CantoCaptions v2 4.5% |
-| Storytelling | **Qwen3-ASR-1.7B** 8.2% | CantoCaptions v3 8.5%, Qwen3-ASR-1.7B prompted for traditional 8.6% |
-| Conversation | **Qwen3-ASR-1.7B** 17.1% | Qwen3-ASR-1.7B prompted for traditional 17.3%, cantonese.ai 17.9% |
-| Canto + Eng Mixed | **CantoCaptions v2** 8.0% | CantoCaptions v3 8.3% |
-| Synthetic Voice | **Qwen3-ASR-1.7B** 6.4% | CantoCaptions v3 6.6%, CantoCaptions v2 7.3% |
-| GZ Daily Use | **CantoCaptions v2** 2.6% | Qwen3-ASR-1.7B 2.7%, Qwen3-ASR-1.7B prompted for traditional 2.8% |
+| Many Speakers | **Qwen3-ASR-1.7B prompted for traditional** 4.1% | Qwen3-ASR-1.7B 4.4%, Step-Audio-2-mini 4.4% |
+| Storytelling | **MiMo-V2.5-ASR** 7.2% | Qwen3-Omni-30B-A3B 7.2%, Qwen3-ASR-1.7B 8.2% |
+| Conversation | **Qwen3-ASR-1.7B** 17.0% | Qwen3-ASR-1.7B prompted for traditional 17.2%, FireRedASR2-AED 17.6% |
+| Canto + Eng Mixed | **CantoCaptions v2** 7.4% | Gemini 4 Argon 7.5%, CantoCaptions v3 7.7% |
+| Synthetic Voice | **Qwen3-ASR-1.7B** 6.4% | CantoCaptions v3 6.5%, CantoCaptions v2 7.3% |
+| GZ Daily Use | **CantoCaptions v2** 2.6% | Step-Audio-2-mini 2.7%, Qwen3-Omni-30B-A3B 2.7% |
 | GZ Car Commands | **cantonese.ai** 4.1% | Qwen3-ASR-1.7B prompted for traditional 4.5%, Qwen3-ASR-1.7B 4.7% |
 | Stories by Level | **CantoCaptions v3** 3.2% | – |
 
@@ -41,39 +52,57 @@ Scored in simplified. The winners are the same models in traditional, where Qwen
 
 ### Simplified
 
-| Model | Type | Average | Many Speakers (300) † | Storytelling (300) † | Conversation (300) | Canto + Eng Mixed (300) | Synthetic Voice (300) | GZ Daily Use (300) | GZ Car Commands (300) | Stories by Level (183) |
-|---|---|---|---|---|---|---|---|---|---|---|
-| CantoCaptions v3 | open | **7.5%** | 4.5% | 8.5% | 18.9% | 8.3% | 6.6% | 2.9% | 5.3% | 3.2% |
-| Qwen3-ASR-1.7B prompted for traditional | open | **7.8%** | 4.1% | 8.6% | 17.3% | 9.4% | 7.3% | 2.8% | 4.5% | 5.5% |
-| Qwen3-ASR-1.7B | open | **7.8%** | 4.4% | 8.2% | 17.1% | 10.8% | 6.4% | 2.7% | 4.7% | 5.2% |
-| CantoCaptions v2 | open | **8.0%** | 4.5% | 8.7% | 20.5% | 8.0% | 7.3% | 2.6% | 5.7% | 4.3% |
-| cantonese.ai | closed | **8.5%** | 1.5% ⚠️ | 4.3% ⚠️ | 17.9% | 10.9% | 10.5% | 3.4% | 4.1% | 4.3% |
-| SenseVoice-Small | open | **10.5%** | 6.5% | 11.2% | 20.3% | 17.5% | 8.7% | 3.5% | 6.0% | 7.1% |
-| Azure Speech standard | closed | **11.2%** | 7.4% | 16.0% | 19.5% | 16.5% | 10.5% | 4.5% | 10.5% | 5.4% |
-| GLM-ASR-Nano-2512 + Cantonese prompt | open | **16.2%** | 12.0% | 19.4% | 25.3% | 17.8% | 21.8% | 7.1% | 13.3% | 11.9% |
-| GLM-ASR-Nano-2512 | open | **17.9%** | 13.8% | 19.8% | 29.5% | 17.0% | 25.4% | 7.8% | 14.9% | 12.9% |
-| Gemini 3.5 Transcribe | closed | **18.9%** | 15.3% | 24.6% | 30.1% | 15.2% | 19.0% | 15.9% | 20.0% | 13.5% |
-| MAI-Transcribe-2 | closed | **21.0%** | 12.3% | 28.8% | 22.1% | 14.5% | 27.0% | 17.9% | 17.9% | 26.5% |
-| JackyHoCL Whisper fine-tune | open | unranked | 0.9% ⚠️ | 19.0% | 26.1% | 2.2% ⚠️ | 13.6% | 5.5% | 10.6% | 9.1% |
+| Model | Type | Size | Average | Many Speakers (300) † | Storytelling (300) † | Conversation (300) | Canto + Eng Mixed (300) | Synthetic Voice (300) | GZ Daily Use (300) | GZ Car Commands (300) | Stories by Level (183) |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| CantoCaptions v3 | open | 1.7B | **7.4%** | 4.5% | 8.5% | 18.9% | 7.7% | 6.5% | 2.9% | 5.3% | 3.2% |
+| Qwen3-ASR-1.7B | open | 1.7B | **7.7%** | 4.4% | 8.2% | 17.0% | 10.2% | 6.4% | 2.7% | 4.7% | 5.2% |
+| Qwen3-ASR-1.7B prompted for traditional | open | 1.7B | **7.7%** | 4.1% | 8.6% | 17.2% | 9.0% | 7.3% | 2.8% | 4.5% | 5.5% |
+| CantoCaptions v2 | open | 1.7B | **7.9%** | 4.5% | 8.7% | 20.4% | 7.4% | 7.3% | 2.6% | 5.6% | 4.3% |
+| cantonese.ai | closed | – | **8.4%** | 1.5% ⚠️ | 4.3% ⚠️ | 17.9% | 10.1% | 10.5% | 3.4% | 4.1% | 4.3% |
+| Qwen3-Omni-30B-A3B | open | 30B (3B active) | **8.5%** | 4.6% | 7.2% | 19.2% | 11.0% | 7.5% | 2.7% | 5.3% | 5.1% |
+| FireRedASR2-AED | open | 1.15B | **8.6%** | 5.8% | 9.7% | 17.6% | 11.2% | 8.2% | 2.7% | 5.9% | 6.1% |
+| SenseVoice-Small-Yue | open | 234M | **9.7%** | 6.5% | 10.2% | 20.1% | 15.0% | 8.0% | 3.0% | 5.3% | 6.8% |
+| Whisper-medium-Yue | open | 769M | **9.7%** | 6.5% | 9.5% | 20.3% | 13.1% | 8.2% | 3.7% | 7.9% | 5.0% |
+| Step-Audio-2-mini | open | 8.3B | **10.0%** | 4.4% | 10.2% | 19.7% | 13.9% | 12.2% | 2.7% | 5.0% | 6.4% |
+| SenseVoice-Small | open | 234M | **10.0%** | 6.5% | 11.2% | 20.2% | 15.8% | 8.6% | 3.4% | 5.1% | 7.1% |
+| Azure Speech standard | closed | – | **11.0%** | 7.4% | 16.0% | 19.4% | 15.4% | 10.5% | 4.5% | 10.5% | 5.4% |
+| Conformer-U2pp-Yue | open | 130M | **12.2%** | 8.2% | 10.5% | 21.6% | 23.9% | 9.1% | 4.6% | 7.0% | 6.7% |
+| MiMo-V2.5-ASR | open | 8B | **12.6%** | 7.6% | 7.2% | 24.7% | 13.3% | 13.2% | 5.1% | 8.6% | 10.6% |
+| Gemini 3.8 Flash | closed | – | **14.3%** | 11.2% | 11.8% | 31.7% | 9.1% | 12.5% | 9.3% | 13.3% | 10.3% |
+| Gemini 4 Argon | closed | – | **15.4%** | 5.2% | 11.9% | 30.9% | 7.5% | 17.7% | 7.3% | 14.8% | 14.2% |
+| GLM-ASR-Nano-2512 + Cantonese prompt | open | 1.5B | **16.0%** | 12.0% | 19.4% | 25.2% | 17.0% | 21.7% | 7.1% | 13.3% | 11.9% |
+| GLM-ASR-Nano-2512 | open | 1.5B | **17.7%** | 13.8% | 19.8% | 29.3% | 16.2% | 25.4% | 7.8% | 14.8% | 12.9% |
+| Gemini 3.5 Transcribe | closed | – | **18.9%** | 15.3% | 24.6% | 30.1% | 14.8% | 19.0% | 15.9% | 20.0% | 13.5% |
+| MAI-Transcribe-2 | closed | – | **20.9%** | 12.3% | 28.8% | 22.1% | 14.0% | 26.9% | 17.9% | 17.9% | 26.5% |
+| JackyHoCL Whisper fine-tune | open | 809M | unranked | 0.9% ⚠️ | 19.0% | 26.1% | 2.1% ⚠️ | 13.5% | 5.5% | 10.5% | 9.1% |
 
 ### Traditional
 
-| Model | Type | Average | Many Speakers (300) † | Storytelling (299) † | Conversation (300) | Canto + Eng Mixed (243) | Synthetic Voice (300) | Stories by Level (182) |
-|---|---|---|---|---|---|---|---|---|
-| CantoCaptions v3 | open | **9.3%** | 4.7% | 8.7% | 19.1% | 8.0% | 6.8% | 3.2% |
-| Qwen3-ASR-1.7B prompted for traditional + HK converter | open | **9.9%** | 4.5% | 9.0% | 17.5% | 9.1% | 7.5% | 5.7% |
-| Qwen3-ASR-1.7B + HK converter | open | **10.0%** | 4.8% | 8.6% | 17.3% | 10.7% | 6.5% | 5.5% |
-| CantoCaptions v2 | open | **10.0%** | 4.7% | 8.9% | 20.6% | 7.9% | 7.3% | 4.4% |
-| cantonese.ai | closed | **10.8%** | 1.6% ⚠️ | 4.6% ⚠️ | 18.1% | 10.1% | 10.7% | 4.4% |
-| SenseVoice-Small + HK converter | open | **13.4%** | 6.9% | 11.5% | 20.5% | 17.1% | 8.8% | 7.4% |
-| Azure Speech standard | closed | **13.8%** | 7.7% | 16.6% | 22.8% | 16.1% | 10.6% | 5.8% |
-| Gemini 3.5 Transcribe | closed | **19.3%** | 15.6% | 24.9% | 30.4% | 14.1% | 19.1% | 13.6% |
-| GLM-ASR-Nano-2512 + Cantonese prompt | open | **20.3%** | 13.4% | 21.0% | 28.5% | 17.6% | 22.0% | 13.1% |
-| MAI-Transcribe-2 | closed | **22.7%** | 12.9% | 29.7% | 22.2% | 14.3% | 27.6% | 26.7% |
-| GLM-ASR-Nano-2512 | open | **22.9%** | 15.1% | 22.1% | 33.2% | 16.6% | 27.0% | 14.8% |
-| JackyHoCL Whisper fine-tune | open | unranked | 0.9% ⚠️ | 19.8% | 26.3% | 2.1% ⚠️ | 14.7% | 9.4% |
+| Model | Type | Size | Average | Many Speakers (300) † | Storytelling (299) † | Conversation (300) | Canto + Eng Mixed (243) | Synthetic Voice (300) | Stories by Level (182) |
+|---|---|---|---|---|---|---|---|---|---|
+| CantoCaptions v3 | open | 1.7B | **9.1%** | 4.7% | 8.7% | 19.0% | 7.4% | 6.7% | 3.2% |
+| Qwen3-ASR-1.7B prompted for traditional + HK converter | open | 1.7B | **9.8%** | 4.5% | 9.0% | 17.4% | 8.7% | 7.4% | 5.7% |
+| Qwen3-ASR-1.7B + HK converter | open | 1.7B | **9.8%** | 4.8% | 8.6% | 17.2% | 10.1% | 6.5% | 5.5% |
+| CantoCaptions v2 | open | 1.7B | **9.9%** | 4.7% | 8.9% | 20.6% | 7.4% | 7.2% | 4.4% |
+| cantonese.ai | closed | – | **10.6%** | 1.6% ⚠️ | 4.6% ⚠️ | 18.1% | 9.4% | 10.6% | 4.4% |
+| Qwen3-Omni-30B-A3B | open | 30B (3B active) | **11.9%** | 4.9% | 8.6% | 23.6% | 10.3% | 7.8% | 5.8% |
+| SenseVoice-Small + HK converter | open | 234M | **12.9%** | 6.9% | 11.5% | 20.4% | 15.4% | 8.7% | 7.4% |
+| Azure Speech standard | closed | – | **13.5%** | 7.7% | 16.6% | 22.7% | 15.0% | 10.5% | 5.8% |
+| Gemini 3.8 Flash | closed | – | **15.8%** | 11.2% | 11.9% | 31.7% | 8.9% | 12.4% | 10.2% |
+| Gemini 4 Argon | closed | – | **17.7%** | 5.3% | 12.1% | 31.1% | 7.6% | 17.9% | 14.2% |
+| Gemini 3.5 Transcribe | closed | – | **19.2%** | 15.6% | 24.9% | 30.3% | 13.8% | 19.1% | 13.6% |
+| GLM-ASR-Nano-2512 + Cantonese prompt | open | 1.5B | **20.1%** | 13.4% | 21.0% | 28.5% | 16.9% | 22.0% | 13.1% |
+| MAI-Transcribe-2 | closed | – | **22.6%** | 12.9% | 29.7% | 22.2% | 13.8% | 27.6% | 26.7% |
+| GLM-ASR-Nano-2512 | open | 1.5B | **22.7%** | 15.1% | 22.1% | 33.1% | 15.8% | 27.0% | 14.8% |
+| FireRedASR2-AED | open | 1.15B | **32.6%** | 30.8% | 35.2% | 42.1% | 23.2% | 34.8% | 30.5% |
+| Whisper-medium-Yue | open | 769M | **33.1%** | 31.8% | 35.2% | 44.6% | 24.5% | 34.0% | 29.4% |
+| SenseVoice-Small-Yue | open | 234M | **33.9%** | 31.7% | 35.5% | 44.5% | 26.2% | 34.3% | 30.6% |
+| Step-Audio-2-mini | open | 8.3B | **34.6%** | 30.4% | 36.0% | 44.8% | 25.2% | 37.8% | 30.5% |
+| Conformer-U2pp-Yue | open | 130M | **36.1%** | 32.9% | 35.7% | 45.2% | 34.1% | 34.5% | 30.7% |
+| MiMo-V2.5-ASR | open | 8B | **36.5%** | 33.1% | 33.4% | 48.3% | 24.4% | 38.9% | 34.5% |
+| JackyHoCL Whisper fine-tune | open | 809M | unranked | 0.9% ⚠️ | 19.8% | 26.2% | 2.0% ⚠️ | 14.6% | 9.4% |
 
-Percentages are character error rates, graphs folded, digits → 中文. ⚠️ very likely trained on this test data. † left out of every Average. All eight scoring combinations and every transcript are in [`results/`](results/summary.md) (run `20261031T052510Z`).
+Percentages are character error rates, graphs folded, digits → 中文. ⚠️ very likely trained on this test data. † left out of every Average. All eight scoring combinations and every transcript are in [`results/`](results/summary.md) (run `20261108T044145Z`).
 <!-- results:end -->
 
 **How to read this**
@@ -85,6 +114,8 @@ Percentages are character error rates, graphs folded, digits → 中文. ⚠️ 
   count. Traditional scores what Hong Kong readers see, but has no Guangzhou groups, where Qwen is strong. The two aren't
   comparable, so only compare within a table.
 - **Graphs folded** counts interchangeable spellings as equal (啦/喇/嘞). **Digits → 中文** counts 2016 and 二零一六 as equal.
+  Letter case never counts (HELP = help).
+- **Size** is the parameter count; for a mixture-of-experts model, also how many are active per token.
 - **Scoring changes the details, not the picture.** Across all eight combinations, CantoCaptions v3 and Qwen stay in the
   top four, cantonese.ai is the best paid API, and Azure is next.
 - **⚠️ marks scores that can't be compared,** because the model very likely trained on that data, which is common with
@@ -106,11 +137,15 @@ uv run python -m cantoeval check                     # verify the clips and scor
 uv run python -m cantoeval run --models sensevoice   # transcribe and score
 ```
 
+The WenetSpeech-Yue checkpoints need `uv run python scripts/fetch_models.py` first. MiMo-V2.5-ASR, Step-Audio-2-mini and
+Qwen3-Omni run on [Modal](https://modal.com) GPUs: `uv run --with modal python scripts/modal_batch.py mimo-asr` (about
+$1–2 a model for the full set; see [`docs/details.md`](docs/details.md#running)).
+
 Transcribing needs the clips (below). Hosted models need keys: `cp .env.example .env`, then fill in what you run.
 
 | Model | `.env` entries |
 |---|---|
-| `gemini` | `GEMINI_API` (paid) or `GEMINI_API_FREE_KEY` (free tier) |
+| `gemini`, `gemini-3.8-flash`, `gemini-argon` | `GEMINI_API` (paid) or `GEMINI_API_FREE_KEY` (free tier) |
 | `azure-standard`, `mai` | `MAI_ENDPOINT` (`https://<resource>.cognitiveservices.azure.com`), `MAI_API_KEY` |
 | `cantonese-ai` | `CANTONESE_AI_API_KEY` |
 

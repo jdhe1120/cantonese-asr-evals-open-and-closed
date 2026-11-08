@@ -126,6 +126,7 @@ const mname=m=>SHORTM[m]||nm(m).split(' (')[0];
 // scoring view: graphs folded? digits -> 中文? traditional (t-prefixed views, only on clips with c.trad)?
 const key=()=>{const b=equiv?(nums?'equivNum':'equiv'):(nums?'num':'strict');return trad?'t'+b[0].toUpperCase()+b.slice(1):b};
 const TOGHTML=`<span class="tog" ><button data-script="simp" title="both sides converted to simplified first, so script never counts (the community benchmark's method)">simplified</button><button data-script="trad" title="no conversion: a simplified character counts as an error. Only datasets with traditional references; Hong Kong and Taiwan variants (裏/裡) count the same">traditional</button></span>`;
+const size=m=>esc(((doc.modelInfo||{})[m]||{}).params||'');  // parameter count; none for closed APIs
 const tradOnly=m=>!!((doc.modelInfo||{})[m]||{}).tradOnly;  // converted rows: shown only in the traditional view
 const simpOnly=m=>!!((doc.modelInfo||{})[m]||{}).simpOnly;  // mostly-simplified writers: their converted row replaces them in the traditional view
 const shown=m=>trad?!simpOnly(m):!tradOnly(m);
@@ -221,7 +222,7 @@ function render(){
       `<span class="${c.sub?'':'big'} ${cls(v)}">${pct(v)}</span>${mark(m,c.gid)}${p.n<p.N?`<span class="cnt warn">${p.n}/${p.N}</span>`:''}`}</td>`};
   const isOpen=m=>!!((doc.modelInfo||{})[m]||{}).hf;  // open weights on Hugging Face; the rest are closed APIs
   const section=(name,list)=>list.length?`<tr class="sect"><td colspan="${cols.length+1}">${name}</td></tr>`+
-    list.map(m=>`<tr><td title="${nm(m)}"><b>${nm(m).split(' (')[0]}</b></td>${cols.map(c=>scoreCell(m,c)).join('')}</tr>`).join(''):'';
+    list.map(m=>`<tr><td title="${nm(m)}"><b>${nm(m).split(' (')[0]}</b>${size(m)?`<div class="small mut" title="parameters">${size(m)}</div>`:''}</td>${cols.map(c=>scoreCell(m,c)).join('')}</tr>`).join(''):'';
   $('summary').innerHTML=`<tr><th>${useMean?'average clip CER':'corpus CER'}</th>${cols.map(c=>
       `<th class="brw ${c.sub?'lvlcol':''}" data-g="${c.gid}" title="${esc(c.title)}: click to browse its clips">${c.tog?`<span class="lvtog" title="show or hide the levels">${levelsOpen?'▾':'▸'}</span> `:''}<span class="dsn">${c.label}</span><div class="small mut">${c.list.length} clips</div></th>`).join('')}</tr>`+
     section('Open models',models.filter(isOpen))+section('Closed APIs',models.filter(m=>!isOpen(m)))+
@@ -231,7 +232,7 @@ function render(){
     e.stopPropagation();levelsOpen=!levelsOpen;remember('levelsOpen',levelsOpen?'1':'0');render()});
   document.querySelectorAll('#summary th.brw').forEach(th=>th.onclick=()=>{
     browse=th.dataset.g;remember('browse',browse);render();$('browser').scrollIntoView({behavior:'smooth',block:'start'})});
-  $('models').innerHTML=models.map(m=>{const i=(doc.modelInfo||{})[m]||{};return `<tr><td><b>${nm(m)}</b></td><td class="mut">${esc(i.detail||'')}${i.revision?` <code>rev ${esc(i.revision)}</code>`:''}</td></tr>`}).join('');
+  $('models').innerHTML=models.map(m=>{const i=(doc.modelInfo||{})[m]||{};return `<tr><td><b>${nm(m)}</b>${size(m)?` <span class="small mut">${size(m)}</span>`:''}</td><td class="mut">${esc(i.detail||'')}${i.revision?` <code>rev ${esc(i.revision)}</code>`:''}</td></tr>`}).join('');
   const stat=(x)=>{
     if(x.status==='done'){const v=x.scores[key()].cer;return `<span class="${cls(v)}">${pct(v)}</span>`}
     if(x.status==='running')return '<span class="spin"></span> running';

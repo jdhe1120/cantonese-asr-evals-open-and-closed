@@ -9,11 +9,24 @@
   falls from about 8% to 34% on narration in traditional. Prompting it for traditional barely helps (the model doesn't
   follow instructions). Running its output through a Hong Kong converter afterwards does: it lands within about a point
   of its simplified score.
+- **General models (Gemini 4 Argon, Gemini 3.8 Flash).** Neither has a transcription mode, so both get the same short
+  prompt (`gemini_argon.PROMPT`: verbatim spoken Cantonese, traditional characters, transcript only) with the audio
+  inline, default sampling, one try per clip. Their error falls sharply with clip length inside every group, which the
+  speech models don't show: on Synthetic Voice, Argon goes from 39% on clips under 2 seconds to 2% at 4-8 seconds
+  (CantoCaptions v3: 12% to 3%). With only a few syllables they guess a likely phrase (熄電視 → 識電腦). On long
+  Cantonese-only clips Argon ties CantoCaptions v3 (8.9% each over 8 seconds, leaving out Canto + Eng Mixed); its edge
+  there is English words, which it writes correctly where CantoCaptions writes sound-alikes. Its Storytelling gains are
+  mostly 《三國演義》's names (玄德, 張角, 涿郡). Neither is flagged: on Common Voice they match the punctuated references
+  exactly no more often than other models (Argon 19 of 106), and on narration they don't copy the corpus's 嘞 spelling.
+  Their exact-match rate on Common Voice looks high only because they rarely write punctuation and most references
+  have none.
 
 ## Running
 
 - Models: `cantocaptions-v3`, `cantocaptions`, `qwen3-asr-stock`, `qwen3-asr-trad`, `sensevoice`, `whisper-yue`, `glm-asr`,
-  `glm-asr-yue` (same weights, Cantonese prompt), `azure-standard`, `gemini`, `mai`, `cantonese-ai`. Hugging Face models are pinned
+  `glm-asr-yue` (same weights, Cantonese prompt), `sensevoice-yue`, `whisper-m-yue`, `u2pp-yue`, `fireredasr2`,
+  `mimo-asr`, `step-audio2`, `qwen3-omni`, `azure-standard`, `gemini`, `gemini-3.8-flash`, `gemini-argon`, `mai`,
+  `cantonese-ai`. Hugging Face models are pinned
   to a revision, so a new upload never mixes into old results.
 - Every transcription is cached in `cache/<model>/`, keyed on the audio and the reference, so a model is only called
   for clips it hasn't done; re-running is cheap and paid APIs are never billed twice. `--force` ignores the cache.
@@ -23,7 +36,20 @@
   one that runs out of quota partway has done the start of its list (so a list that alternates groups covers each).
 - Rate-limited APIs (like `gemini`) pace themselves and stop for the day when their quota is used up;
   re-run later to continue. Gemini's limits reset at midnight Pacific.
+- `scripts/gemini_batch.py MODEL submit|status|collect` sends every uncached clip for `gemini-argon` or
+  `gemini-3.8-flash` through the Gemini Batch API instead (half price, no daily request cap; the full set took minutes)
+  and writes the results to the cache. Batch results have no per-clip time, so those rows show no speed.
 - On a machine with little memory, run local models one at a time: each run keeps its models loaded.
+- `scripts/fetch_models.py` downloads the WenetSpeech-Yue checkpoints (`ASLP-lab/WSYue-ASR`, pinned, checksums checked)
+  into `models/` (gitignored) and applies what WeNet's loader needs. `whisper-m-yue` and `u2pp-yue` run in an isolated
+  WeNet worker, `fireredasr2` in its own isolated env (both via `uv run --isolated`, so their pins don't touch the main
+  env), all on CPU. FireRedASR2 takes about 10 s a clip on a laptop CPU, so the full set is an overnight run.
+- `mimo-asr`, `step-audio2` and `qwen3-omni` are too big for a laptop and run on Modal (`modal_apps/`). Run
+  `uv run --with modal python scripts/modal_batch.py MODEL [--limit N]`: one temporary app, the model loaded once, clips
+  sent in chunks and cached as each chunk returns; nothing stays deployed. Each app's `download` function fetches the
+  pinned weights into a Modal Volume first (`MODAL_WEIGHTS_VOLUME`). The full set took 13 min on an A100-80GB for
+  Qwen3-Omni (about $0.70) and 36–39 min on an A100-40GB for Step-Audio-2-mini and MiMo (about $1.50 each). Their
+  speed column is GPU time per clip.
 - Results: `runs/latest.json` (live, what the page reads) and `runs/<id>.json|csv` per run.
 - On the page, click a score for its diff; shift-click a second score in the same row, or use "compare with", to put
   two models side by side.
@@ -42,8 +68,8 @@ results, so you know which to listen to.
 
 ## Scoring
 
-`cantoeval/normalize.py`, `cantoeval/metrics.py`: NFKC, then OpenCC traditional-to-simplified, then punctuation,
-symbols and spaces stripped; CER by Levenshtein distance. The headline is the mean of per-clip CER, with corpus CER
+`cantoeval/normalize.py`, `cantoeval/metrics.py`: NFKC, lowercase (English in capitals isn't an error; several models
+write it that way), then OpenCC traditional-to-simplified, then punctuation, symbols and spaces stripped; CER by Levenshtein distance. The headline is the mean of per-clip CER, with corpus CER
 (all errors / all reference characters) beside it. Groups are scored separately; the README's Average is only a rough guide across them. Four views:
 
 - **strict**
@@ -70,6 +96,15 @@ A gap of a point or two between models is within noise at these clip counts; rea
 - **Whisper on Common Voice.** The Cantonese Whisper fine-tune gets most Common Voice clips exactly right, almost
   certainly because it was trained on them. Don't compare models on that group with it.
 - **Narration references** contain some errors.
+- **WeNet's Whisper defaults to English.** WeNet's `transcribe()` passes no language, and its decoder then starts with
+  the English token, so Whisper-medium-Yue translated about 1 in 8 car-command clips into English. The worker passes
+  `zh`, the tag its fine-tuning data got. WeNet also can't take Whisper input over 30 s; the two longer clips
+  (CantoMap) are cut once at their quietest point.
+- **Letter case.** The WenetSpeech-Yue models write English in capitals and FireRedASR2 lowercases everything, so
+  scoring lowercases both sides; before that, capitals put those models at 55–57% on Canto + Eng Mixed.
+- **Gemini blocks some clips.** Gemini 3.8 Flash returned no transcript for 2 clips (`blockReason: OTHER`, on
+  ordinary speech) on all three tries; they are scored as complete misses, as is the one clip Gemini 3.5 Transcribe
+  always returns empty for.
 - **Narration may be training data.** The same recordings, with the same transcripts (281 of our 300 references
   match word for word), are published as [CanCLID/zoengjyutgaai](https://huggingface.co/datasets/CanCLID/zoengjyutgaai),
   a CC0 corpus offered for ASR training. Any model trained on public Cantonese speech may have heard these clips, so

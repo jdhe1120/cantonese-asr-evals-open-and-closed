@@ -69,15 +69,15 @@ SHORT = {"Common Voice": "Many Speakers", "Narration": "Storytelling", "CantoMap
 UNRANKED = {"whisper-yue"}
 
 
-def _table(cols, models, label, cell, mark, view, is_open, average=None, left_out=()) -> list[str]:
+def _table(cols, models, label, cell, mark, view, is_open, size, average=None, left_out=()) -> list[str]:
     """Models as rows, groups as columns headed with their clip counts. With `average` (model -> mean or None), rows
     are ranked by it and models it can't rank go last; without it, open models come first, then closed APIs.
     Groups in left_out (ids) are marked † in the header: the Average skips them."""
     head = lambda g, members: (f"{SHORT.get(g.strip(), g.strip()).replace('level ', 'LIDA L')} ({len(members)})"
                                + (" †" if any(gid in left_out for x, gid, _ in cols if x == g) else ""))
-    first = "| Model | Type | Average | " if average else "| Model | Type | "
+    first = "| Model | Type | Size | Average | " if average else "| Model | Type | Size | "
     lines = [first + " | ".join(head(g, mem) for g, _, mem in cols) + " |",
-             "|---|---|" + ("---|" if average else "") + "---|" * len(cols)]
+             "|---|---|---|" + ("---|" if average else "") + "---|" * len(cols)]
     if average:
         models = sorted(models, key=lambda m: (average(m) is None, average(m) or 0))
     else:
@@ -85,7 +85,7 @@ def _table(cols, models, label, cell, mark, view, is_open, average=None, left_ou
     for m in models:
         kind = "open" if is_open(m) else "closed"
         mean = "" if not average else ("unranked" if average(m) is None else f"**{100 * average(m):.1f}%**") + " | "
-        lines.append(f"| {label(m)} | {kind} | {mean}" + " | ".join(
+        lines.append(f"| {label(m)} | {kind} | {size(m)} | {mean}" + " | ".join(
             (c := cell(g.strip(), m, view)) + (mark(m, gid) if c != "–" else "") for g, gid, _ in cols) + " |")
     return lines
 
@@ -130,6 +130,7 @@ def export(src: Path = RUNS_DIR / "latest.json", out: Path = OUT, readme: Path =
     rows = _rows(doc)
     label = lambda m: info[m]["label"].split(" (")[0]
     is_open = lambda m: bool(info[m].get("hf"))  # open weights on Hugging Face; the rest are closed APIs
+    size = lambda m: info[m].get("params") or "–"  # parameter count; closed APIs don't publish theirs
     groups = [r for r in rows if not r[0].startswith("  ")]
     levels = [r for r in rows if r[0].startswith("  ")]
     trad_only = lambda m: bool(info[m].get("tradOnly"))  # converted rows: traditional tables only
@@ -183,7 +184,7 @@ def export(src: Path = RUNS_DIR / "latest.json", out: Path = OUT, readme: Path =
 
     trad_view, simp_view = TRAD_VIEWS[0][0], VIEWS[0][0]
     headline = [m for m in trad_models if f"{m}+hk" not in models]  # a raw row only where no converted row replaces it
-    table = lambda rs, ms, view, avg=True: _table(rs, ms, label, cell, mark, view, is_open,
+    table = lambda rs, ms, view, avg=True: _table(rs, ms, label, cell, mark, view, is_open, size,
                                                   average(view, rs) if avg else None, trained_on if avg else ())
     md = [f"# Results\n\nRun `{doc['runId']}`, clip set `{doc['clipSetVersion']}`. Average clip CER (the mean of "
           "per-clip CER, as in the community benchmark); groups are scored separately, with each column's clip count "

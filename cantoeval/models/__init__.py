@@ -11,11 +11,20 @@ REGISTRY = {
     "qwen3-asr-trad": "qwen_trad",  # stock weights, prompted for traditional characters (qwen_trad.CHOSEN)
     "sensevoice": "sensevoice",
     "whisper-yue": "whisper_yue",
+    "sensevoice-yue": "sensevoice_yue",  # WenetSpeech-Yue models (ASLP-lab/WSYue-ASR; scripts/fetch_models.py)
+    "whisper-m-yue": "whisper_m_yue",
+    "u2pp-yue": "u2pp_yue",
+    "fireredasr2": "fireredasr2",
+    "mimo-asr": "mimo_asr",  # Modal GPU, filled by scripts/modal_batch.py
+    "step-audio2": "step_audio2",
+    "qwen3-omni": "qwen3_omni",
     "glm-asr": "glm_asr",
     "glm-asr-yue": "glm_asr_yue",
     "azure-standard": "azure_standard",
     "mai": "mai",
     "gemini": "gemini",
+    "gemini-3.8-flash": "gemini_flash",  # general models prompted to transcribe (same prompt, gemini_argon.PROMPT)
+    "gemini-argon": "gemini_argon",
     "cantonese-ai": "cantonese_ai",
 }
 # Experiments: run only when named (never listed from cache alongside a run, never exported). "module:arg" passes arg
@@ -29,8 +38,9 @@ DERIVED = {"qwen3-asr-stock+hk": "qwen3-asr-stock", "qwen3-asr-trad+hk": "qwen3-
 DEFAULT = ["cantocaptions", "sensevoice"]
 # Column order in results: open models left, closed (paid / hosted) right.
 COLUMNS = ["cantocaptions-v3", "cantocaptions", "qwen3-asr-stock", "qwen3-asr-stock+hk", "qwen3-asr-trad",
-           "qwen3-asr-trad+hk", "sensevoice", "sensevoice+hk", "whisper-yue", "glm-asr", "glm-asr-yue",
-           "azure-standard", "gemini", "mai"]
+           "qwen3-asr-trad+hk", "sensevoice", "sensevoice+hk", "sensevoice-yue", "whisper-yue", "whisper-m-yue", "u2pp-yue",
+           "fireredasr2", "mimo-asr", "step-audio2", "qwen3-omni", "glm-asr", "glm-asr-yue",
+           "azure-standard", "gemini", "gemini-3.8-flash", "gemini-argon", "mai"]
 COLUMNS += ["cantonese-ai"]
 
 
@@ -69,7 +79,9 @@ def unload_local() -> None:
     """Drop every loaded local model, so the next one gets the memory (the runner does local models one at a time)."""
     import gc
     import sys
-    for mod, attr in (("_qwen", "_loaded"), ("sensevoice", "_model"), ("glm_asr", "_loaded"), ("whisper_yue", "_pipe")):
+    from ._worker import stop_all
+    stop_all()  # isolated worker processes (WeNet models, FireRedASR2)
+    for mod, attr in (("_qwen", "_loaded"), ("sensevoice", "_model"), ("sensevoice_yue", "_model"), ("glm_asr", "_loaded"), ("whisper_yue", "_pipe")):
         m = sys.modules.get(f"cantoeval.models.{mod}")
         if m is not None:
             setattr(m, attr, {} if isinstance(getattr(m, attr), dict) else None)
@@ -126,6 +138,55 @@ INFO = {
         "hf": "JackyHoCL/whisper-large-v3-turbo-cantonese-yue-english",
         "revision": "58d693f",
     },
+    "sensevoice-yue": {
+        "label": "SenseVoice-Small-Yue (WenetSpeech-Yue)",
+        "detail": "ASLP-lab/WSYue-ASR at 4a74a91, sensevoice_small_yue: SenseVoiceSmall fine-tuned on WenetSpeech-Yue "
+                  "(ASLP@NPU, 2025). Run like the stock row: FunASR + fsmn-vad at df20e6b, language yue, ITN on.",
+        "hf": "ASLP-lab/WSYue-ASR",
+        "revision": "4a74a91",
+    },
+    "whisper-m-yue": {
+        "label": "Whisper-medium-Yue (WenetSpeech-Yue)",
+        "detail": "ASLP-lab/WSYue-ASR at 4a74a91, whisper_medium_yue: Whisper medium (769M) fine-tuned on WenetSpeech-Yue, "
+                  "WeNet a54b90b, CPU, attention decoding.",
+        "hf": "ASLP-lab/WSYue-ASR",
+        "revision": "4a74a91",
+    },
+    "u2pp-yue": {
+        "label": "Conformer-U2pp-Yue (WenetSpeech-Yue)",
+        "detail": "ASLP-lab/WSYue-ASR at 4a74a91, u2pp_conformer_yue: 130M Conformer U2++ trained on WenetSpeech-Yue, "
+                  "WeNet a54b90b, CPU, default decode, fbank dither off.",
+        "hf": "ASLP-lab/WSYue-ASR",
+        "revision": "4a74a91",
+    },
+    "fireredasr2": {
+        "label": "FireRedASR2-AED",
+        "detail": "FireRedTeam/FireRedASR2-AED at 2304afe (Mar 2026), stock, fireredasr2s code at 4e7d9aa, CPU, the README's "
+                  "AED decoding (beam 3). Lowercases English.",
+        "hf": "FireRedTeam/FireRedASR2-AED",
+        "revision": "2304afe",
+    },
+    "mimo-asr": {
+        "label": "MiMo-V2.5-ASR",
+        "detail": "XiaomiMiMo/MiMo-V2.5-ASR at 227ce4c (Apr 2026, 8B) + MiMo-Audio-Tokenizer at 8a41b55, stock, the repo's "
+                  "MimoAudio.asr_sft (code 876312a) with automatic language detection, on a Modal A100.",
+        "hf": "XiaomiMiMo/MiMo-V2.5-ASR",
+        "revision": "227ce4c",
+    },
+    "step-audio2": {
+        "label": "Step-Audio-2-mini",
+        "detail": "stepfun-ai/Step-Audio-2-mini at e36fdd5 (8.3B), stock, the makers' StepAudio2 code (76e272b) and ASR "
+                  "system prompt 请记录下你所听到的语音内容。, greedy, on a Modal A100. Leading language tag dropped.",
+        "hf": "stepfun-ai/Step-Audio-2-mini",
+        "revision": "e36fdd5",
+    },
+    "qwen3-omni": {
+        "label": "Qwen3-Omni-30B-A3B (prompted)",
+        "detail": "Qwen/Qwen3-Omni-30B-A3B-Instruct at 26291f7, stock, thinker only, prompt 请将这段粤语语音转换为纯文本。 "
+                  "(the card's ASR prompt naming Cantonese), greedy, on a Modal A100 80 GB.",
+        "hf": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+        "revision": "26291f7",
+    },
     "glm-asr": {
         "label": "GLM-ASR-Nano-2512",
         "detail": "zai-org/GLM-ASR-Nano-2512 at 61ba4e0 (1.5B, Dec 2025), stock, via transformers' GlmAsrForConditionalGeneration, "
@@ -145,6 +206,18 @@ INFO = {
         "detail": "Azure Speech fast transcription with no enhancedMode (the regular locale-specific recognizer, not MAI), "
                   "locale zh-HK, api-version 2025-10-15. Microsoft doesn't name the model; newest zh-HK base model on "
                   "the resource is 20260811.",
+        "hf": None,
+    },
+    "gemini-argon": {
+        "label": "Gemini 4 Argon (prompted)",
+        "detail": "gemini-4-argon via generateContent, audio inline with a prompt asking for verbatim spoken Cantonese "
+                  "in traditional characters (gemini_argon.PROMPT), default sampling.",
+        "hf": None,
+    },
+    "gemini-3.8-flash": {
+        "label": "Gemini 3.8 Flash (prompted)",
+        "detail": "gemini-3.8-flash via generateContent with the same prompt and request as gemini-argon "
+                  "(gemini_argon.PROMPT), default sampling.",
         "hf": None,
     },
     "mai": {
@@ -173,11 +246,20 @@ for _name, _base in DERIVED.items():
 # Models that mostly write simplified: in the traditional view their "+ HK converter" row stands in for them
 for _name in ("qwen3-asr-stock", "sensevoice"):
     INFO[_name]["simpOnly"] = True
-for _name, _spec in EXPERIMENTS.items():
+for _name, _spec in ((n, s) for n, s in EXPERIMENTS.items() if s.startswith("qwen_trad:")):
     _v = _spec.partition(":")[2]
     INFO[_name] = {**INFO["qwen3-asr-stock"], "simpOnly": False, "label": f"Qwen3-ASR-1.7B trad test: {_v}",
                    "detail": f"Experiment: stock Qwen3-ASR-1.7B at bcd2b5b asked for traditional characters, variant "
                              f"'{_v}' (cantoeval/models/qwen_trad.py)."}
+# Parameter counts of the open models (model cards; FireRedASR2's from its load log). Closed APIs don't publish theirs.
+PARAMS = {"cantocaptions": "1.7B", "cantocaptions-v3": "1.7B", "qwen3-asr-stock": "1.7B", "sensevoice": "234M",
+          "sensevoice-yue": "234M", "whisper-yue": "809M", "whisper-m-yue": "769M", "u2pp-yue": "130M",
+          "fireredasr2": "1.15B", "glm-asr": "1.5B", "glm-asr-yue": "1.5B", "mimo-asr": "8B", "step-audio2": "8.3B",
+          "qwen3-omni": "30B (3B active)"}
+PARAMS["qwen3-asr-trad"] = PARAMS["qwen3-asr-stock"]
+PARAMS.update({_name: PARAMS[_base] for _name, _base in DERIVED.items() if _base in PARAMS})
+for _name, _p in PARAMS.items():
+    INFO[_name]["params"] = _p
 
 
 def describe(name: str) -> dict:

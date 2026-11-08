@@ -137,9 +137,10 @@ def run(models: list[str], only_clips: list[str] | None = None, force: bool = Fa
             redo = force and model not in shown_only and (model not in model_clips or clip.id in model_clips[model])
             hit = None if redo else cache.get(model, clip.id, clip.digest)  # --force redoes only what it re-runs
             if hit:
+                took = hit.get("seconds") or None  # batch results (scripts/gemini_batch.py) have no per-clip time
                 doc["cells"][model][clip.id].update(
-                    status="done", text=hit["text"], seconds=round(hit["seconds"], 2), cached=True,
-                    rtf=round(hit["seconds"] / clip.seconds, 2) if clip.seconds else None,
+                    status="done", text=hit["text"], seconds=round(took, 2) if took else None, cached=True,
+                    rtf=round(took / clip.seconds, 2) if took and clip.seconds else None,
                     **_scored(clip, hit["text"], is_trad(clip)))
             elif model in shown_only:  # display only and never run on this clip: final now, not "pending"
                 doc["cells"][model][clip.id].update(status="skipped", note="not part of this run and no cached result")

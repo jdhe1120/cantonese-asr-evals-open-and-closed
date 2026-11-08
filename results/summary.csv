@@ -31,10 +31,38 @@ Common Voice,sensevoice+hk,equivNum,0.0653,0.0609,300,300
 Common Voice,sensevoice+hk,equiv,0.0653,0.0609,300,300
 Common Voice,sensevoice+hk,num,0.0832,0.0759,300,300
 Common Voice,sensevoice+hk,strict,0.0832,0.0759,300,300
+Common Voice,sensevoice-yue,equivNum,0.0646,0.0579,300,300
+Common Voice,sensevoice-yue,equiv,0.0646,0.0579,300,300
+Common Voice,sensevoice-yue,num,0.0825,0.0733,300,300
+Common Voice,sensevoice-yue,strict,0.0825,0.0733,300,300
 Common Voice,whisper-yue,equivNum,0.0088,0.0087,300,300
 Common Voice,whisper-yue,equiv,0.0088,0.0087,300,300
 Common Voice,whisper-yue,num,0.0103,0.0097,300,300
 Common Voice,whisper-yue,strict,0.0103,0.0097,300,300
+Common Voice,whisper-m-yue,equivNum,0.0655,0.0599,300,300
+Common Voice,whisper-m-yue,equiv,0.0655,0.0599,300,300
+Common Voice,whisper-m-yue,num,0.082,0.0749,300,300
+Common Voice,whisper-m-yue,strict,0.082,0.0749,300,300
+Common Voice,u2pp-yue,equivNum,0.0818,0.0739,300,300
+Common Voice,u2pp-yue,equiv,0.0818,0.0739,300,300
+Common Voice,u2pp-yue,num,0.0979,0.0882,300,300
+Common Voice,u2pp-yue,strict,0.0979,0.0882,300,300
+Common Voice,fireredasr2,equivNum,0.0584,0.0513,300,300
+Common Voice,fireredasr2,equiv,0.0584,0.0513,300,300
+Common Voice,fireredasr2,num,0.0769,0.0669,300,300
+Common Voice,fireredasr2,strict,0.0769,0.0669,300,300
+Common Voice,mimo-asr,equivNum,0.0757,0.0606,300,300
+Common Voice,mimo-asr,equiv,0.0757,0.0606,300,300
+Common Voice,mimo-asr,num,0.0879,0.0713,300,300
+Common Voice,mimo-asr,strict,0.0879,0.0713,300,300
+Common Voice,step-audio2,equivNum,0.0439,0.0403,300,300
+Common Voice,step-audio2,equiv,0.0439,0.0403,300,300
+Common Voice,step-audio2,num,0.0639,0.0576,300,300
+Common Voice,step-audio2,strict,0.0639,0.0576,300,300
+Common Voice,qwen3-omni,equivNum,0.0456,0.0413,300,300
+Common Voice,qwen3-omni,equiv,0.0456,0.0413,300,300
+Common Voice,qwen3-omni,num,0.0523,0.0473,300,300
+Common Voice,qwen3-omni,strict,0.0523,0.0473,300,300
 Common Voice,glm-asr,equivNum,0.1376,0.1215,300,300
 Common Voice,glm-asr,equiv,0.1376,0.1215,300,300
 Common Voice,glm-asr,num,0.1571,0.1389,300,300
@@ -51,6 +79,14 @@ Common Voice,gemini,equivNum,0.1534,0.1489,300,300
 Common Voice,gemini,equiv,0.1545,0.1508,300,300
 Common Voice,gemini,num,0.1663,0.1598,300,300
 Common Voice,gemini,strict,0.1674,0.1618,300,300
+Common Voice,gemini-3.8-flash,equivNum,0.1118,0.1036,300,300
+Common Voice,gemini-3.8-flash,equiv,0.1118,0.1036,300,300
+Common Voice,gemini-3.8-flash,num,0.1223,0.1122,300,300
+Common Voice,gemini-3.8-flash,strict,0.1223,0.1122,300,300
+Common Voice,gemini-argon,equivNum,0.0519,0.047,300,300
+Common Voice,gemini-argon,equiv,0.053,0.049,300,300
+Common Voice,gemini-argon,num,0.0626,0.0569,300,300
+Common Voice,gemini-argon,strict,0.0637,0.0589,300,300
 Common Voice,mai,equivNum,0.1231,0.1219,300,300
 Common Voice,mai,equiv,0.1231,0.1219,300,300
 Common Voice,mai,num,0.1317,0.1292,300,300
@@ -91,10 +127,38 @@ Narration,sensevoice+hk,equivNum,0.1117,0.1091,300,300
 Narration,sensevoice+hk,equiv,0.1135,0.1106,300,300
 Narration,sensevoice+hk,num,0.142,0.1351,300,300
 Narration,sensevoice+hk,strict,0.1438,0.1367,300,300
+Narration,sensevoice-yue,equivNum,0.1023,0.1003,300,300
+Narration,sensevoice-yue,equiv,0.1041,0.1018,300,300
+Narration,sensevoice-yue,num,0.133,0.1266,300,300
+Narration,sensevoice-yue,strict,0.1349,0.1281,300,300
 Narration,whisper-yue,equivNum,0.19,0.1844,300,300
 Narration,whisper-yue,equiv,0.1918,0.1859,300,300
 Narration,whisper-yue,num,0.21,0.2017,300,300
 Narration,whisper-yue,strict,0.2118,0.2033,300,300
+Narration,whisper-m-yue,equivNum,0.0955,0.0919,300,300
+Narration,whisper-m-yue,equiv,0.0973,0.0934,300,300
+Narration,whisper-m-yue,num,0.126,0.118,300,300
+Narration,whisper-m-yue,strict,0.1278,0.1195,300,300
+Narration,u2pp-yue,equivNum,0.1052,0.1029,300,300
+Narration,u2pp-yue,equiv,0.107,0.1044,300,300
+Narration,u2pp-yue,num,0.1371,0.1293,300,300
+Narration,u2pp-yue,strict,0.1389,0.1308,300,300
+Narration,fireredasr2,equivNum,0.0968,0.0936,300,300
+Narration,fireredasr2,equiv,0.0986,0.0951,300,300
+Narration,fireredasr2,num,0.1283,0.1204,300,300
+Narration,fireredasr2,strict,0.1301,0.1219,300,300
+Narration,mimo-asr,equivNum,0.0719,0.0591,300,300
+Narration,mimo-asr,equiv,0.0737,0.0606,300,300
+Narration,mimo-asr,num,0.1049,0.0866,300,300
+Narration,mimo-asr,strict,0.1067,0.0881,300,300
+Narration,step-audio2,equivNum,0.1021,0.0983,300,300
+Narration,step-audio2,equiv,0.1039,0.0998,300,300
+Narration,step-audio2,num,0.1328,0.1257,300,300
+Narration,step-audio2,strict,0.1347,0.1272,300,300
+Narration,qwen3-omni,equivNum,0.0723,0.0668,300,300
+Narration,qwen3-omni,equiv,0.0741,0.0682,300,300
+Narration,qwen3-omni,num,0.0994,0.0897,300,300
+Narration,qwen3-omni,strict,0.1012,0.0912,300,300
 Narration,glm-asr,equivNum,0.1978,0.1804,300,300
 Narration,glm-asr,equiv,0.1996,0.1819,300,300
 Narration,glm-asr,num,0.2286,0.2074,300,300
@@ -111,6 +175,14 @@ Narration,gemini,equivNum,0.2461,0.2296,300,300
 Narration,gemini,equiv,0.2496,0.2327,300,300
 Narration,gemini,num,0.2643,0.2444,300,300
 Narration,gemini,strict,0.2678,0.2474,300,300
+Narration,gemini-3.8-flash,equivNum,0.1179,0.1016,300,300
+Narration,gemini-3.8-flash,equiv,0.1202,0.1031,300,300
+Narration,gemini-3.8-flash,num,0.1342,0.1167,300,300
+Narration,gemini-3.8-flash,strict,0.1364,0.1182,300,300
+Narration,gemini-argon,equivNum,0.1194,0.0917,300,300
+Narration,gemini-argon,equiv,0.1209,0.0923,300,300
+Narration,gemini-argon,num,0.1376,0.1074,300,300
+Narration,gemini-argon,strict,0.139,0.108,300,300
 Narration,mai,equivNum,0.2877,0.2765,300,300
 Narration,mai,equiv,0.2886,0.2776,300,300
 Narration,mai,num,0.3013,0.2876,300,300
@@ -119,186 +191,294 @@ Narration,cantonese-ai,equivNum,0.0426,0.0398,300,300
 Narration,cantonese-ai,equiv,0.0444,0.0412,300,300
 Narration,cantonese-ai,num,0.0487,0.0447,300,300
 Narration,cantonese-ai,strict,0.0505,0.0462,300,300
-"CantoMap (conversation, noisy references)",cantocaptions-v3,equivNum,0.1893,0.1857,300,300
-"CantoMap (conversation, noisy references)",cantocaptions-v3,equiv,0.1895,0.1861,300,300
-"CantoMap (conversation, noisy references)",cantocaptions-v3,num,0.2185,0.2144,300,300
-"CantoMap (conversation, noisy references)",cantocaptions-v3,strict,0.2188,0.2148,300,300
-"CantoMap (conversation, noisy references)",cantocaptions,equivNum,0.205,0.1922,300,300
-"CantoMap (conversation, noisy references)",cantocaptions,equiv,0.2056,0.1927,300,300
-"CantoMap (conversation, noisy references)",cantocaptions,num,0.2346,0.2213,300,300
-"CantoMap (conversation, noisy references)",cantocaptions,strict,0.2352,0.2218,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-stock,equivNum,0.1713,0.1679,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-stock,equiv,0.1713,0.1679,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-stock,num,0.2025,0.1987,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-stock,strict,0.2025,0.1987,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-stock+hk,equivNum,0.1713,0.1679,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-stock+hk,equiv,0.1713,0.1679,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-stock+hk,num,0.2025,0.1987,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-stock+hk,strict,0.2025,0.1987,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-trad,equivNum,0.1733,0.1699,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-trad,equiv,0.1733,0.1699,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-trad,num,0.2045,0.2007,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-trad,strict,0.2045,0.2007,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-trad+hk,equivNum,0.1733,0.1699,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-trad+hk,equiv,0.1733,0.1699,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-trad+hk,num,0.2045,0.2007,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-trad+hk,strict,0.2045,0.2007,300,300
-"CantoMap (conversation, noisy references)",sensevoice,equivNum,0.2035,0.1947,300,300
-"CantoMap (conversation, noisy references)",sensevoice,equiv,0.2035,0.1947,300,300
-"CantoMap (conversation, noisy references)",sensevoice,num,0.2307,0.2213,300,300
-"CantoMap (conversation, noisy references)",sensevoice,strict,0.2307,0.2213,300,300
-"CantoMap (conversation, noisy references)",sensevoice+hk,equivNum,0.2035,0.1947,300,300
-"CantoMap (conversation, noisy references)",sensevoice+hk,equiv,0.2035,0.1947,300,300
-"CantoMap (conversation, noisy references)",sensevoice+hk,num,0.2307,0.2213,300,300
-"CantoMap (conversation, noisy references)",sensevoice+hk,strict,0.2307,0.2213,300,300
-"CantoMap (conversation, noisy references)",whisper-yue,equivNum,0.2615,0.254,300,300
-"CantoMap (conversation, noisy references)",whisper-yue,equiv,0.2615,0.254,300,300
-"CantoMap (conversation, noisy references)",whisper-yue,num,0.2802,0.2676,300,300
-"CantoMap (conversation, noisy references)",whisper-yue,strict,0.2802,0.2676,300,300
-"CantoMap (conversation, noisy references)",glm-asr,equivNum,0.2949,0.2493,300,300
-"CantoMap (conversation, noisy references)",glm-asr,equiv,0.2949,0.2493,300,300
-"CantoMap (conversation, noisy references)",glm-asr,num,0.3243,0.2788,300,300
-"CantoMap (conversation, noisy references)",glm-asr,strict,0.3243,0.2788,300,300
-"CantoMap (conversation, noisy references)",glm-asr-yue,equivNum,0.2528,0.2376,300,300
-"CantoMap (conversation, noisy references)",glm-asr-yue,equiv,0.2528,0.2376,300,300
-"CantoMap (conversation, noisy references)",glm-asr-yue,num,0.2824,0.2672,300,300
-"CantoMap (conversation, noisy references)",glm-asr-yue,strict,0.2824,0.2672,300,300
-"CantoMap (conversation, noisy references)",azure-standard,equivNum,0.1945,0.175,300,300
-"CantoMap (conversation, noisy references)",azure-standard,equiv,0.1991,0.1787,300,300
-"CantoMap (conversation, noisy references)",azure-standard,num,0.2231,0.2035,300,300
-"CantoMap (conversation, noisy references)",azure-standard,strict,0.2276,0.2072,300,300
-"CantoMap (conversation, noisy references)",gemini,equivNum,0.301,0.2818,300,300
-"CantoMap (conversation, noisy references)",gemini,equiv,0.3023,0.2827,300,300
-"CantoMap (conversation, noisy references)",gemini,num,0.3228,0.2957,300,300
-"CantoMap (conversation, noisy references)",gemini,strict,0.3241,0.2966,300,300
-"CantoMap (conversation, noisy references)",mai,equivNum,0.2211,0.1979,300,300
-"CantoMap (conversation, noisy references)",mai,equiv,0.2217,0.1982,300,300
-"CantoMap (conversation, noisy references)",mai,num,0.2246,0.2008,300,300
-"CantoMap (conversation, noisy references)",mai,strict,0.2252,0.2012,300,300
-"CantoMap (conversation, noisy references)",cantonese-ai,equivNum,0.1795,0.1753,300,300
-"CantoMap (conversation, noisy references)",cantonese-ai,equiv,0.1795,0.1753,300,300
-"CantoMap (conversation, noisy references)",cantonese-ai,num,0.2103,0.2045,300,300
-"CantoMap (conversation, noisy references)",cantonese-ai,strict,0.2103,0.2045,300,300
-Mixed Cantonese–English,cantocaptions-v3,equivNum,0.0829,0.0816,300,300
-Mixed Cantonese–English,cantocaptions-v3,equiv,0.0829,0.0816,300,300
-Mixed Cantonese–English,cantocaptions-v3,num,0.0851,0.0838,300,300
-Mixed Cantonese–English,cantocaptions-v3,strict,0.0851,0.0838,300,300
-Mixed Cantonese–English,cantocaptions,equivNum,0.0796,0.077,300,300
-Mixed Cantonese–English,cantocaptions,equiv,0.0796,0.077,300,300
-Mixed Cantonese–English,cantocaptions,num,0.0819,0.0792,300,300
-Mixed Cantonese–English,cantocaptions,strict,0.0819,0.0792,300,300
-Mixed Cantonese–English,qwen3-asr-stock,equivNum,0.1081,0.1068,300,300
-Mixed Cantonese–English,qwen3-asr-stock,equiv,0.1084,0.1071,300,300
-Mixed Cantonese–English,qwen3-asr-stock,num,0.1089,0.1074,300,300
-Mixed Cantonese–English,qwen3-asr-stock,strict,0.1093,0.1077,300,300
-Mixed Cantonese–English,qwen3-asr-stock+hk,equivNum,0.1081,0.1068,300,300
-Mixed Cantonese–English,qwen3-asr-stock+hk,equiv,0.1085,0.1071,300,300
-Mixed Cantonese–English,qwen3-asr-stock+hk,num,0.1089,0.1074,300,300
-Mixed Cantonese–English,qwen3-asr-stock+hk,strict,0.1093,0.1077,300,300
-Mixed Cantonese–English,qwen3-asr-trad,equivNum,0.0945,0.0931,300,300
-Mixed Cantonese–English,qwen3-asr-trad,equiv,0.0948,0.0934,300,300
-Mixed Cantonese–English,qwen3-asr-trad,num,0.0952,0.0937,300,300
-Mixed Cantonese–English,qwen3-asr-trad,strict,0.0955,0.094,300,300
-Mixed Cantonese–English,qwen3-asr-trad+hk,equivNum,0.0945,0.0931,300,300
-Mixed Cantonese–English,qwen3-asr-trad+hk,equiv,0.0948,0.0934,300,300
-Mixed Cantonese–English,qwen3-asr-trad+hk,num,0.0952,0.0937,300,300
-Mixed Cantonese–English,qwen3-asr-trad+hk,strict,0.0955,0.094,300,300
-Mixed Cantonese–English,sensevoice,equivNum,0.1752,0.1738,300,300
-Mixed Cantonese–English,sensevoice,equiv,0.1756,0.174,300,300
-Mixed Cantonese–English,sensevoice,num,0.1761,0.1743,300,300
-Mixed Cantonese–English,sensevoice,strict,0.1764,0.1746,300,300
-Mixed Cantonese–English,sensevoice+hk,equivNum,0.1752,0.1737,300,300
-Mixed Cantonese–English,sensevoice+hk,equiv,0.1755,0.174,300,300
-Mixed Cantonese–English,sensevoice+hk,num,0.176,0.1743,300,300
-Mixed Cantonese–English,sensevoice+hk,strict,0.1764,0.1745,300,300
-Mixed Cantonese–English,whisper-yue,equivNum,0.0221,0.0219,300,300
-Mixed Cantonese–English,whisper-yue,equiv,0.0221,0.0219,300,300
-Mixed Cantonese–English,whisper-yue,num,0.0224,0.0221,300,300
-Mixed Cantonese–English,whisper-yue,strict,0.0224,0.0221,300,300
-Mixed Cantonese–English,glm-asr,equivNum,0.1702,0.1641,300,300
-Mixed Cantonese–English,glm-asr,equiv,0.1705,0.1644,300,300
-Mixed Cantonese–English,glm-asr,num,0.171,0.1646,300,300
-Mixed Cantonese–English,glm-asr,strict,0.1713,0.1649,300,300
-Mixed Cantonese–English,glm-asr-yue,equivNum,0.1778,0.1749,300,300
-Mixed Cantonese–English,glm-asr-yue,equiv,0.1781,0.1752,300,300
-Mixed Cantonese–English,glm-asr-yue,num,0.1788,0.1755,300,300
-Mixed Cantonese–English,glm-asr-yue,strict,0.1791,0.1758,300,300
-Mixed Cantonese–English,azure-standard,equivNum,0.1654,0.1665,300,300
-Mixed Cantonese–English,azure-standard,equiv,0.1656,0.1667,300,300
-Mixed Cantonese–English,azure-standard,num,0.1659,0.1669,300,300
-Mixed Cantonese–English,azure-standard,strict,0.1661,0.1671,300,300
-Mixed Cantonese–English,gemini,equivNum,0.1515,0.1446,300,300
-Mixed Cantonese–English,gemini,equiv,0.1515,0.1446,300,300
-Mixed Cantonese–English,gemini,num,0.152,0.145,300,300
-Mixed Cantonese–English,gemini,strict,0.152,0.145,300,300
-Mixed Cantonese–English,mai,equivNum,0.145,0.1375,300,300
-Mixed Cantonese–English,mai,equiv,0.145,0.1375,300,300
-Mixed Cantonese–English,mai,num,0.1457,0.1382,300,300
-Mixed Cantonese–English,mai,strict,0.1457,0.1382,300,300
-Mixed Cantonese–English,cantonese-ai,equivNum,0.1086,0.107,300,300
-Mixed Cantonese–English,cantonese-ai,equiv,0.109,0.1073,300,300
-Mixed Cantonese–English,cantonese-ai,num,0.111,0.1091,300,300
-Mixed Cantonese–English,cantonese-ai,strict,0.1113,0.1094,300,300
-words.hk sentences,cantocaptions-v3,equivNum,0.0658,0.038,300,300
-words.hk sentences,cantocaptions-v3,equiv,0.0692,0.0411,300,300
-words.hk sentences,cantocaptions-v3,num,0.07,0.0422,300,300
-words.hk sentences,cantocaptions-v3,strict,0.0734,0.0453,300,300
-words.hk sentences,cantocaptions,equivNum,0.0728,0.0399,300,300
-words.hk sentences,cantocaptions,equiv,0.0749,0.0422,300,300
-words.hk sentences,cantocaptions,num,0.0773,0.0448,300,300
-words.hk sentences,cantocaptions,strict,0.0794,0.047,300,300
-words.hk sentences,qwen3-asr-stock,equivNum,0.0643,0.0385,300,300
-words.hk sentences,qwen3-asr-stock,equiv,0.0648,0.0388,300,300
-words.hk sentences,qwen3-asr-stock,num,0.0695,0.0442,300,300
-words.hk sentences,qwen3-asr-stock,strict,0.07,0.0445,300,300
-words.hk sentences,qwen3-asr-stock+hk,equivNum,0.0639,0.038,300,300
-words.hk sentences,qwen3-asr-stock+hk,equiv,0.0644,0.0382,300,300
-words.hk sentences,qwen3-asr-stock+hk,num,0.0691,0.0436,300,300
-words.hk sentences,qwen3-asr-stock+hk,strict,0.0695,0.0439,300,300
-words.hk sentences,qwen3-asr-trad,equivNum,0.0732,0.0422,300,300
-words.hk sentences,qwen3-asr-trad,equiv,0.0736,0.0425,300,300
-words.hk sentences,qwen3-asr-trad,num,0.0783,0.0479,300,300
-words.hk sentences,qwen3-asr-trad,strict,0.0788,0.0482,300,300
-words.hk sentences,qwen3-asr-trad+hk,equivNum,0.0727,0.0416,300,300
-words.hk sentences,qwen3-asr-trad+hk,equiv,0.0732,0.0419,300,300
-words.hk sentences,qwen3-asr-trad+hk,num,0.0779,0.0473,300,300
-words.hk sentences,qwen3-asr-trad+hk,strict,0.0784,0.0476,300,300
-words.hk sentences,sensevoice,equivNum,0.0875,0.0572,300,300
-words.hk sentences,sensevoice,equiv,0.088,0.0575,300,300
-words.hk sentences,sensevoice,num,0.0926,0.0626,300,300
-words.hk sentences,sensevoice,strict,0.0931,0.0629,300,300
-words.hk sentences,sensevoice+hk,equivNum,0.087,0.0567,300,300
-words.hk sentences,sensevoice+hk,equiv,0.0875,0.0569,300,300
-words.hk sentences,sensevoice+hk,num,0.0921,0.062,300,300
-words.hk sentences,sensevoice+hk,strict,0.0926,0.0623,300,300
-words.hk sentences,whisper-yue,equivNum,0.136,0.0864,300,300
-words.hk sentences,whisper-yue,equiv,0.1365,0.0867,300,300
-words.hk sentences,whisper-yue,num,0.1397,0.0901,300,300
-words.hk sentences,whisper-yue,strict,0.1402,0.0904,300,300
-words.hk sentences,glm-asr,equivNum,0.2541,0.1235,300,300
-words.hk sentences,glm-asr,equiv,0.2554,0.1244,300,300
-words.hk sentences,glm-asr,num,0.2574,0.1275,300,300
-words.hk sentences,glm-asr,strict,0.2587,0.1283,300,300
-words.hk sentences,glm-asr-yue,equivNum,0.2175,0.1173,300,300
-words.hk sentences,glm-asr-yue,equiv,0.218,0.1176,300,300
-words.hk sentences,glm-asr-yue,num,0.2211,0.1212,300,300
-words.hk sentences,glm-asr-yue,strict,0.2216,0.1215,300,300
-words.hk sentences,azure-standard,equivNum,0.1054,0.0643,300,300
-words.hk sentences,azure-standard,equiv,0.1092,0.0683,300,300
-words.hk sentences,azure-standard,num,0.1099,0.0691,300,300
-words.hk sentences,azure-standard,strict,0.1137,0.0731,300,300
-words.hk sentences,gemini,equivNum,0.1899,0.134,300,300
-words.hk sentences,gemini,equiv,0.1922,0.1357,300,300
-words.hk sentences,gemini,num,0.1921,0.1365,300,300
-words.hk sentences,gemini,strict,0.1944,0.1382,300,300
-words.hk sentences,mai,equivNum,0.2699,0.1918,300,300
-words.hk sentences,mai,equiv,0.2709,0.1926,300,300
-words.hk sentences,mai,num,0.2716,0.1935,300,300
-words.hk sentences,mai,strict,0.2726,0.1943,300,300
-words.hk sentences,cantonese-ai,equivNum,0.1048,0.0465,300,300
-words.hk sentences,cantonese-ai,equiv,0.1053,0.0467,300,300
-words.hk sentences,cantonese-ai,num,0.1083,0.0496,300,300
-words.hk sentences,cantonese-ai,strict,0.1088,0.0499,300,300
+"CantoMap (conversation, noisy references)",cantocaptions-v3,equivNum,0.1885,0.185,300,300
+"CantoMap (conversation, noisy references)",cantocaptions-v3,equiv,0.1887,0.1854,300,300
+"CantoMap (conversation, noisy references)",cantocaptions-v3,num,0.2178,0.2137,300,300
+"CantoMap (conversation, noisy references)",cantocaptions-v3,strict,0.218,0.214,300,300
+"CantoMap (conversation, noisy references)",cantocaptions,equivNum,0.2043,0.1917,300,300
+"CantoMap (conversation, noisy references)",cantocaptions,equiv,0.2049,0.1922,300,300
+"CantoMap (conversation, noisy references)",cantocaptions,num,0.2339,0.2207,300,300
+"CantoMap (conversation, noisy references)",cantocaptions,strict,0.2345,0.2213,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-stock,equivNum,0.1705,0.167,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-stock,equiv,0.1705,0.167,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-stock,num,0.2017,0.1979,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-stock,strict,0.2017,0.1979,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-stock+hk,equivNum,0.1705,0.167,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-stock+hk,equiv,0.1705,0.167,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-stock+hk,num,0.2017,0.1979,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-stock+hk,strict,0.2017,0.1979,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-trad,equivNum,0.1723,0.1688,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-trad,equiv,0.1723,0.1688,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-trad,num,0.2035,0.1996,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-trad,strict,0.2035,0.1996,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-trad+hk,equivNum,0.1723,0.1688,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-trad+hk,equiv,0.1723,0.1688,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-trad+hk,num,0.2035,0.1996,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-trad+hk,strict,0.2035,0.1996,300,300
+"CantoMap (conversation, noisy references)",sensevoice,equivNum,0.202,0.1929,300,300
+"CantoMap (conversation, noisy references)",sensevoice,equiv,0.202,0.1929,300,300
+"CantoMap (conversation, noisy references)",sensevoice,num,0.2292,0.2195,300,300
+"CantoMap (conversation, noisy references)",sensevoice,strict,0.2292,0.2195,300,300
+"CantoMap (conversation, noisy references)",sensevoice+hk,equivNum,0.202,0.1929,300,300
+"CantoMap (conversation, noisy references)",sensevoice+hk,equiv,0.202,0.1929,300,300
+"CantoMap (conversation, noisy references)",sensevoice+hk,num,0.2292,0.2195,300,300
+"CantoMap (conversation, noisy references)",sensevoice+hk,strict,0.2292,0.2195,300,300
+"CantoMap (conversation, noisy references)",sensevoice-yue,equivNum,0.2013,0.1935,300,300
+"CantoMap (conversation, noisy references)",sensevoice-yue,equiv,0.2013,0.1935,300,300
+"CantoMap (conversation, noisy references)",sensevoice-yue,num,0.2207,0.21,300,300
+"CantoMap (conversation, noisy references)",sensevoice-yue,strict,0.2207,0.21,300,300
+"CantoMap (conversation, noisy references)",whisper-yue,equivNum,0.2606,0.2533,300,300
+"CantoMap (conversation, noisy references)",whisper-yue,equiv,0.2606,0.2533,300,300
+"CantoMap (conversation, noisy references)",whisper-yue,num,0.2793,0.2669,300,300
+"CantoMap (conversation, noisy references)",whisper-yue,strict,0.2793,0.2669,300,300
+"CantoMap (conversation, noisy references)",whisper-m-yue,equivNum,0.203,0.191,300,300
+"CantoMap (conversation, noisy references)",whisper-m-yue,equiv,0.203,0.191,300,300
+"CantoMap (conversation, noisy references)",whisper-m-yue,num,0.2263,0.2126,300,300
+"CantoMap (conversation, noisy references)",whisper-m-yue,strict,0.2263,0.2126,300,300
+"CantoMap (conversation, noisy references)",u2pp-yue,equivNum,0.2159,0.201,300,300
+"CantoMap (conversation, noisy references)",u2pp-yue,equiv,0.2159,0.201,300,300
+"CantoMap (conversation, noisy references)",u2pp-yue,num,0.2405,0.2241,300,300
+"CantoMap (conversation, noisy references)",u2pp-yue,strict,0.2405,0.2241,300,300
+"CantoMap (conversation, noisy references)",fireredasr2,equivNum,0.1758,0.1695,300,300
+"CantoMap (conversation, noisy references)",fireredasr2,equiv,0.1758,0.1695,300,300
+"CantoMap (conversation, noisy references)",fireredasr2,num,0.1981,0.1891,300,300
+"CantoMap (conversation, noisy references)",fireredasr2,strict,0.1981,0.1891,300,300
+"CantoMap (conversation, noisy references)",mimo-asr,equivNum,0.2467,0.2207,300,300
+"CantoMap (conversation, noisy references)",mimo-asr,equiv,0.2467,0.2207,300,300
+"CantoMap (conversation, noisy references)",mimo-asr,num,0.2733,0.2477,300,300
+"CantoMap (conversation, noisy references)",mimo-asr,strict,0.2733,0.2477,300,300
+"CantoMap (conversation, noisy references)",step-audio2,equivNum,0.1969,0.1848,300,300
+"CantoMap (conversation, noisy references)",step-audio2,equiv,0.1969,0.1848,300,300
+"CantoMap (conversation, noisy references)",step-audio2,num,0.223,0.2107,300,300
+"CantoMap (conversation, noisy references)",step-audio2,strict,0.223,0.2107,300,300
+"CantoMap (conversation, noisy references)",qwen3-omni,equivNum,0.1921,0.1859,300,300
+"CantoMap (conversation, noisy references)",qwen3-omni,equiv,0.1921,0.1859,300,300
+"CantoMap (conversation, noisy references)",qwen3-omni,num,0.2224,0.2158,300,300
+"CantoMap (conversation, noisy references)",qwen3-omni,strict,0.2224,0.2158,300,300
+"CantoMap (conversation, noisy references)",glm-asr,equivNum,0.2934,0.2484,300,300
+"CantoMap (conversation, noisy references)",glm-asr,equiv,0.2934,0.2484,300,300
+"CantoMap (conversation, noisy references)",glm-asr,num,0.3229,0.2779,300,300
+"CantoMap (conversation, noisy references)",glm-asr,strict,0.3229,0.2779,300,300
+"CantoMap (conversation, noisy references)",glm-asr-yue,equivNum,0.252,0.2369,300,300
+"CantoMap (conversation, noisy references)",glm-asr-yue,equiv,0.252,0.2369,300,300
+"CantoMap (conversation, noisy references)",glm-asr-yue,num,0.2815,0.2665,300,300
+"CantoMap (conversation, noisy references)",glm-asr-yue,strict,0.2815,0.2665,300,300
+"CantoMap (conversation, noisy references)",azure-standard,equivNum,0.1936,0.1743,300,300
+"CantoMap (conversation, noisy references)",azure-standard,equiv,0.1982,0.178,300,300
+"CantoMap (conversation, noisy references)",azure-standard,num,0.2222,0.2028,300,300
+"CantoMap (conversation, noisy references)",azure-standard,strict,0.2267,0.2065,300,300
+"CantoMap (conversation, noisy references)",gemini,equivNum,0.3008,0.2815,300,300
+"CantoMap (conversation, noisy references)",gemini,equiv,0.3021,0.2823,300,300
+"CantoMap (conversation, noisy references)",gemini,num,0.3226,0.2954,300,300
+"CantoMap (conversation, noisy references)",gemini,strict,0.3239,0.2963,300,300
+"CantoMap (conversation, noisy references)",gemini-3.8-flash,equivNum,0.3169,0.2987,300,300
+"CantoMap (conversation, noisy references)",gemini-3.8-flash,equiv,0.3171,0.2991,300,300
+"CantoMap (conversation, noisy references)",gemini-3.8-flash,num,0.3491,0.3237,300,300
+"CantoMap (conversation, noisy references)",gemini-3.8-flash,strict,0.3493,0.3241,300,300
+"CantoMap (conversation, noisy references)",gemini-argon,equivNum,0.3094,0.2478,300,300
+"CantoMap (conversation, noisy references)",gemini-argon,equiv,0.3097,0.248,300,300
+"CantoMap (conversation, noisy references)",gemini-argon,num,0.3351,0.2709,300,300
+"CantoMap (conversation, noisy references)",gemini-argon,strict,0.3354,0.2711,300,300
+"CantoMap (conversation, noisy references)",mai,equivNum,0.2208,0.1975,300,300
+"CantoMap (conversation, noisy references)",mai,equiv,0.2215,0.1979,300,300
+"CantoMap (conversation, noisy references)",mai,num,0.2244,0.2005,300,300
+"CantoMap (conversation, noisy references)",mai,strict,0.225,0.2008,300,300
+"CantoMap (conversation, noisy references)",cantonese-ai,equivNum,0.1792,0.1748,300,300
+"CantoMap (conversation, noisy references)",cantonese-ai,equiv,0.1792,0.1748,300,300
+"CantoMap (conversation, noisy references)",cantonese-ai,num,0.21,0.204,300,300
+"CantoMap (conversation, noisy references)",cantonese-ai,strict,0.21,0.204,300,300
+Mixed Cantonese–English,cantocaptions-v3,equivNum,0.0772,0.0765,300,300
+Mixed Cantonese–English,cantocaptions-v3,equiv,0.0772,0.0765,300,300
+Mixed Cantonese–English,cantocaptions-v3,num,0.0795,0.0787,300,300
+Mixed Cantonese–English,cantocaptions-v3,strict,0.0795,0.0787,300,300
+Mixed Cantonese–English,cantocaptions,equivNum,0.0742,0.0722,300,300
+Mixed Cantonese–English,cantocaptions,equiv,0.0742,0.0722,300,300
+Mixed Cantonese–English,cantocaptions,num,0.0764,0.0744,300,300
+Mixed Cantonese–English,cantocaptions,strict,0.0764,0.0744,300,300
+Mixed Cantonese–English,qwen3-asr-stock,equivNum,0.1018,0.1007,300,300
+Mixed Cantonese–English,qwen3-asr-stock,equiv,0.1022,0.101,300,300
+Mixed Cantonese–English,qwen3-asr-stock,num,0.1026,0.1012,300,300
+Mixed Cantonese–English,qwen3-asr-stock,strict,0.103,0.1015,300,300
+Mixed Cantonese–English,qwen3-asr-stock+hk,equivNum,0.1018,0.1007,300,300
+Mixed Cantonese–English,qwen3-asr-stock+hk,equiv,0.1022,0.101,300,300
+Mixed Cantonese–English,qwen3-asr-stock+hk,num,0.1026,0.1012,300,300
+Mixed Cantonese–English,qwen3-asr-stock+hk,strict,0.103,0.1015,300,300
+Mixed Cantonese–English,qwen3-asr-trad,equivNum,0.0901,0.0889,300,300
+Mixed Cantonese–English,qwen3-asr-trad,equiv,0.0905,0.0892,300,300
+Mixed Cantonese–English,qwen3-asr-trad,num,0.0908,0.0895,300,300
+Mixed Cantonese–English,qwen3-asr-trad,strict,0.0912,0.0898,300,300
+Mixed Cantonese–English,qwen3-asr-trad+hk,equivNum,0.0901,0.0889,300,300
+Mixed Cantonese–English,qwen3-asr-trad+hk,equiv,0.0905,0.0892,300,300
+Mixed Cantonese–English,qwen3-asr-trad+hk,num,0.0908,0.0895,300,300
+Mixed Cantonese–English,qwen3-asr-trad+hk,strict,0.0912,0.0898,300,300
+Mixed Cantonese–English,sensevoice,equivNum,0.1585,0.1571,300,300
+Mixed Cantonese–English,sensevoice,equiv,0.1588,0.1574,300,300
+Mixed Cantonese–English,sensevoice,num,0.1593,0.1577,300,300
+Mixed Cantonese–English,sensevoice,strict,0.1597,0.158,300,300
+Mixed Cantonese–English,sensevoice+hk,equivNum,0.1584,0.1571,300,300
+Mixed Cantonese–English,sensevoice+hk,equiv,0.1588,0.1574,300,300
+Mixed Cantonese–English,sensevoice+hk,num,0.1593,0.1576,300,300
+Mixed Cantonese–English,sensevoice+hk,strict,0.1596,0.1579,300,300
+Mixed Cantonese–English,sensevoice-yue,equivNum,0.1503,0.1516,300,300
+Mixed Cantonese–English,sensevoice-yue,equiv,0.1507,0.1519,300,300
+Mixed Cantonese–English,sensevoice-yue,num,0.1509,0.1521,300,300
+Mixed Cantonese–English,sensevoice-yue,strict,0.1513,0.1524,300,300
+Mixed Cantonese–English,whisper-yue,equivNum,0.0206,0.0204,300,300
+Mixed Cantonese–English,whisper-yue,equiv,0.0206,0.0204,300,300
+Mixed Cantonese–English,whisper-yue,num,0.021,0.0206,300,300
+Mixed Cantonese–English,whisper-yue,strict,0.021,0.0206,300,300
+Mixed Cantonese–English,whisper-m-yue,equivNum,0.1314,0.1303,300,300
+Mixed Cantonese–English,whisper-m-yue,equiv,0.1319,0.1307,300,300
+Mixed Cantonese–English,whisper-m-yue,num,0.1322,0.1309,300,300
+Mixed Cantonese–English,whisper-m-yue,strict,0.1327,0.1313,300,300
+Mixed Cantonese–English,u2pp-yue,equivNum,0.2394,0.2454,300,300
+Mixed Cantonese–English,u2pp-yue,equiv,0.2397,0.2456,300,300
+Mixed Cantonese–English,u2pp-yue,num,0.24,0.2459,300,300
+Mixed Cantonese–English,u2pp-yue,strict,0.2403,0.2461,300,300
+Mixed Cantonese–English,fireredasr2,equivNum,0.1122,0.1095,300,300
+Mixed Cantonese–English,fireredasr2,equiv,0.1126,0.1097,300,300
+Mixed Cantonese–English,fireredasr2,num,0.1128,0.11,300,300
+Mixed Cantonese–English,fireredasr2,strict,0.1132,0.1103,300,300
+Mixed Cantonese–English,mimo-asr,equivNum,0.1335,0.1257,300,300
+Mixed Cantonese–English,mimo-asr,equiv,0.1338,0.126,300,300
+Mixed Cantonese–English,mimo-asr,num,0.1342,0.1264,300,300
+Mixed Cantonese–English,mimo-asr,strict,0.1345,0.1267,300,300
+Mixed Cantonese–English,step-audio2,equivNum,0.1395,0.1365,300,300
+Mixed Cantonese–English,step-audio2,equiv,0.1398,0.1368,300,300
+Mixed Cantonese–English,step-audio2,num,0.1403,0.137,300,300
+Mixed Cantonese–English,step-audio2,strict,0.1406,0.1373,300,300
+Mixed Cantonese–English,qwen3-omni,equivNum,0.11,0.1134,300,300
+Mixed Cantonese–English,qwen3-omni,equiv,0.1103,0.1137,300,300
+Mixed Cantonese–English,qwen3-omni,num,0.111,0.1143,300,300
+Mixed Cantonese–English,qwen3-omni,strict,0.1113,0.1146,300,300
+Mixed Cantonese–English,glm-asr,equivNum,0.1616,0.1551,300,300
+Mixed Cantonese–English,glm-asr,equiv,0.1619,0.1554,300,300
+Mixed Cantonese–English,glm-asr,num,0.1624,0.1556,300,300
+Mixed Cantonese–English,glm-asr,strict,0.1627,0.1559,300,300
+Mixed Cantonese–English,glm-asr-yue,equivNum,0.1695,0.1663,300,300
+Mixed Cantonese–English,glm-asr-yue,equiv,0.1699,0.1665,300,300
+Mixed Cantonese–English,glm-asr-yue,num,0.1705,0.1669,300,300
+Mixed Cantonese–English,glm-asr-yue,strict,0.1708,0.1672,300,300
+Mixed Cantonese–English,azure-standard,equivNum,0.1543,0.1547,300,300
+Mixed Cantonese–English,azure-standard,equiv,0.1545,0.1549,300,300
+Mixed Cantonese–English,azure-standard,num,0.1547,0.1552,300,300
+Mixed Cantonese–English,azure-standard,strict,0.155,0.1554,300,300
+Mixed Cantonese–English,gemini,equivNum,0.148,0.1412,300,300
+Mixed Cantonese–English,gemini,equiv,0.148,0.1412,300,300
+Mixed Cantonese–English,gemini,num,0.1485,0.1416,300,300
+Mixed Cantonese–English,gemini,strict,0.1485,0.1416,300,300
+Mixed Cantonese–English,gemini-3.8-flash,equivNum,0.0905,0.0841,300,300
+Mixed Cantonese–English,gemini-3.8-flash,equiv,0.0905,0.0841,300,300
+Mixed Cantonese–English,gemini-3.8-flash,num,0.0921,0.0856,300,300
+Mixed Cantonese–English,gemini-3.8-flash,strict,0.0921,0.0856,300,300
+Mixed Cantonese–English,gemini-argon,equivNum,0.0754,0.0683,300,300
+Mixed Cantonese–English,gemini-argon,equiv,0.0755,0.0685,300,300
+Mixed Cantonese–English,gemini-argon,num,0.0766,0.0694,300,300
+Mixed Cantonese–English,gemini-argon,strict,0.0767,0.0695,300,300
+Mixed Cantonese–English,mai,equivNum,0.1402,0.1327,300,300
+Mixed Cantonese–English,mai,equiv,0.1402,0.1327,300,300
+Mixed Cantonese–English,mai,num,0.141,0.1335,300,300
+Mixed Cantonese–English,mai,strict,0.141,0.1335,300,300
+Mixed Cantonese–English,cantonese-ai,equivNum,0.1014,0.1,300,300
+Mixed Cantonese–English,cantonese-ai,equiv,0.1018,0.1003,300,300
+Mixed Cantonese–English,cantonese-ai,num,0.1038,0.1021,300,300
+Mixed Cantonese–English,cantonese-ai,strict,0.1042,0.1024,300,300
+words.hk sentences,cantocaptions-v3,equivNum,0.0654,0.0374,300,300
+words.hk sentences,cantocaptions-v3,equiv,0.0688,0.0405,300,300
+words.hk sentences,cantocaptions-v3,num,0.0696,0.0416,300,300
+words.hk sentences,cantocaptions-v3,strict,0.073,0.0448,300,300
+words.hk sentences,cantocaptions,equivNum,0.0725,0.0397,300,300
+words.hk sentences,cantocaptions,equiv,0.0747,0.0419,300,300
+words.hk sentences,cantocaptions,num,0.077,0.0445,300,300
+words.hk sentences,cantocaptions,strict,0.0792,0.0467,300,300
+words.hk sentences,qwen3-asr-stock,equivNum,0.0641,0.0382,300,300
+words.hk sentences,qwen3-asr-stock,equiv,0.0646,0.0385,300,300
+words.hk sentences,qwen3-asr-stock,num,0.0693,0.0439,300,300
+words.hk sentences,qwen3-asr-stock,strict,0.0697,0.0442,300,300
+words.hk sentences,qwen3-asr-stock+hk,equivNum,0.0636,0.0377,300,300
+words.hk sentences,qwen3-asr-stock+hk,equiv,0.0641,0.038,300,300
+words.hk sentences,qwen3-asr-stock+hk,num,0.0688,0.0433,300,300
+words.hk sentences,qwen3-asr-stock+hk,strict,0.0693,0.0436,300,300
+words.hk sentences,qwen3-asr-trad,equivNum,0.0728,0.0416,300,300
+words.hk sentences,qwen3-asr-trad,equiv,0.0733,0.0419,300,300
+words.hk sentences,qwen3-asr-trad,num,0.078,0.0473,300,300
+words.hk sentences,qwen3-asr-trad,strict,0.0785,0.0476,300,300
+words.hk sentences,qwen3-asr-trad+hk,equivNum,0.0724,0.0411,300,300
+words.hk sentences,qwen3-asr-trad+hk,equiv,0.0729,0.0414,300,300
+words.hk sentences,qwen3-asr-trad+hk,num,0.0775,0.0467,300,300
+words.hk sentences,qwen3-asr-trad+hk,strict,0.078,0.047,300,300
+words.hk sentences,sensevoice,equivNum,0.0861,0.0558,300,300
+words.hk sentences,sensevoice,equiv,0.0866,0.0561,300,300
+words.hk sentences,sensevoice,num,0.0913,0.0612,300,300
+words.hk sentences,sensevoice,strict,0.0917,0.0615,300,300
+words.hk sentences,sensevoice+hk,equivNum,0.0857,0.0552,300,300
+words.hk sentences,sensevoice+hk,equiv,0.0862,0.0555,300,300
+words.hk sentences,sensevoice+hk,num,0.0908,0.0606,300,300
+words.hk sentences,sensevoice+hk,strict,0.0913,0.0609,300,300
+words.hk sentences,sensevoice-yue,equivNum,0.0803,0.0541,300,300
+words.hk sentences,sensevoice-yue,equiv,0.0808,0.0544,300,300
+words.hk sentences,sensevoice-yue,num,0.0848,0.0592,300,300
+words.hk sentences,sensevoice-yue,strict,0.0853,0.0595,300,300
+words.hk sentences,whisper-yue,equivNum,0.1354,0.0856,300,300
+words.hk sentences,whisper-yue,equiv,0.1359,0.0858,300,300
+words.hk sentences,whisper-yue,num,0.1392,0.0892,300,300
+words.hk sentences,whisper-yue,strict,0.1397,0.0895,300,300
+words.hk sentences,whisper-m-yue,equivNum,0.0822,0.0527,300,300
+words.hk sentences,whisper-m-yue,equiv,0.0827,0.053,300,300
+words.hk sentences,whisper-m-yue,num,0.0874,0.0584,300,300
+words.hk sentences,whisper-m-yue,strict,0.0878,0.0586,300,300
+words.hk sentences,u2pp-yue,equivNum,0.0915,0.0637,300,300
+words.hk sentences,u2pp-yue,equiv,0.0919,0.064,300,300
+words.hk sentences,u2pp-yue,num,0.0966,0.0694,300,300
+words.hk sentences,u2pp-yue,strict,0.0971,0.0697,300,300
+words.hk sentences,fireredasr2,equivNum,0.0818,0.0654,300,300
+words.hk sentences,fireredasr2,equiv,0.0822,0.0657,300,300
+words.hk sentences,fireredasr2,num,0.0858,0.07,300,300
+words.hk sentences,fireredasr2,strict,0.0863,0.0703,300,300
+words.hk sentences,mimo-asr,equivNum,0.1323,0.0456,300,300
+words.hk sentences,mimo-asr,equiv,0.1328,0.0459,300,300
+words.hk sentences,mimo-asr,num,0.1353,0.0493,300,300
+words.hk sentences,mimo-asr,strict,0.1358,0.0496,300,300
+words.hk sentences,step-audio2,equivNum,0.1216,0.051,300,300
+words.hk sentences,step-audio2,equiv,0.122,0.0513,300,300
+words.hk sentences,step-audio2,num,0.1254,0.0555,300,300
+words.hk sentences,step-audio2,strict,0.1259,0.0558,300,300
+words.hk sentences,qwen3-omni,equivNum,0.0755,0.0377,300,300
+words.hk sentences,qwen3-omni,equiv,0.076,0.038,300,300
+words.hk sentences,qwen3-omni,num,0.0779,0.0408,300,300
+words.hk sentences,qwen3-omni,strict,0.0784,0.0411,300,300
+words.hk sentences,glm-asr,equivNum,0.2536,0.1227,300,300
+words.hk sentences,glm-asr,equiv,0.2549,0.1235,300,300
+words.hk sentences,glm-asr,num,0.2569,0.1266,300,300
+words.hk sentences,glm-asr,strict,0.2582,0.1275,300,300
+words.hk sentences,glm-asr-yue,equivNum,0.217,0.1164,300,300
+words.hk sentences,glm-asr-yue,equiv,0.2175,0.1167,300,300
+words.hk sentences,glm-asr-yue,num,0.2206,0.1204,300,300
+words.hk sentences,glm-asr-yue,strict,0.2211,0.1207,300,300
+words.hk sentences,azure-standard,equivNum,0.1049,0.0635,300,300
+words.hk sentences,azure-standard,equiv,0.1087,0.0674,300,300
+words.hk sentences,azure-standard,num,0.1095,0.0683,300,300
+words.hk sentences,azure-standard,strict,0.1133,0.0722,300,300
+words.hk sentences,gemini,equivNum,0.1897,0.1337,300,300
+words.hk sentences,gemini,equiv,0.192,0.1354,300,300
+words.hk sentences,gemini,num,0.1918,0.1363,300,300
+words.hk sentences,gemini,strict,0.1941,0.138,300,300
+words.hk sentences,gemini-3.8-flash,equivNum,0.1246,0.0584,300,300
+words.hk sentences,gemini-3.8-flash,equiv,0.1251,0.0586,300,300
+words.hk sentences,gemini-3.8-flash,num,0.1274,0.0618,300,300
+words.hk sentences,gemini-3.8-flash,strict,0.1279,0.062,300,300
+words.hk sentences,gemini-argon,equivNum,0.1775,0.0788,300,300
+words.hk sentences,gemini-argon,equiv,0.1791,0.0802,300,300
+words.hk sentences,gemini-argon,num,0.1797,0.0816,300,300
+words.hk sentences,gemini-argon,strict,0.1813,0.083,300,300
+words.hk sentences,mai,equivNum,0.2695,0.1909,300,300
+words.hk sentences,mai,equiv,0.2705,0.1918,300,300
+words.hk sentences,mai,num,0.2711,0.1926,300,300
+words.hk sentences,mai,strict,0.2721,0.1935,300,300
+words.hk sentences,cantonese-ai,equivNum,0.1046,0.0462,300,300
+words.hk sentences,cantonese-ai,equiv,0.1051,0.0465,300,300
+words.hk sentences,cantonese-ai,num,0.1081,0.0493,300,300
+words.hk sentences,cantonese-ai,strict,0.1086,0.0496,300,300
 Guangzhou daily use,cantocaptions-v3,equivNum,0.0291,0.0288,300,300
 Guangzhou daily use,cantocaptions-v3,equiv,0.0291,0.0288,300,300
 Guangzhou daily use,cantocaptions-v3,num,0.0889,0.0885,300,300
@@ -323,18 +503,46 @@ Guangzhou daily use,qwen3-asr-trad+hk,equivNum,0.0281,0.0282,300,300
 Guangzhou daily use,qwen3-asr-trad+hk,equiv,0.0281,0.0282,300,300
 Guangzhou daily use,qwen3-asr-trad+hk,num,0.0368,0.0371,300,300
 Guangzhou daily use,qwen3-asr-trad+hk,strict,0.0368,0.0371,300,300
-Guangzhou daily use,sensevoice,equivNum,0.035,0.0362,300,300
-Guangzhou daily use,sensevoice,equiv,0.035,0.0362,300,300
-Guangzhou daily use,sensevoice,num,0.057,0.0579,300,300
-Guangzhou daily use,sensevoice,strict,0.057,0.0579,300,300
-Guangzhou daily use,sensevoice+hk,equivNum,0.035,0.0362,300,300
-Guangzhou daily use,sensevoice+hk,equiv,0.035,0.0362,300,300
-Guangzhou daily use,sensevoice+hk,num,0.057,0.0579,300,300
-Guangzhou daily use,sensevoice+hk,strict,0.057,0.0579,300,300
+Guangzhou daily use,sensevoice,equivNum,0.0344,0.0356,300,300
+Guangzhou daily use,sensevoice,equiv,0.0344,0.0356,300,300
+Guangzhou daily use,sensevoice,num,0.0565,0.0572,300,300
+Guangzhou daily use,sensevoice,strict,0.0565,0.0572,300,300
+Guangzhou daily use,sensevoice+hk,equivNum,0.0344,0.0356,300,300
+Guangzhou daily use,sensevoice+hk,equiv,0.0344,0.0356,300,300
+Guangzhou daily use,sensevoice+hk,num,0.0565,0.0572,300,300
+Guangzhou daily use,sensevoice+hk,strict,0.0565,0.0572,300,300
+Guangzhou daily use,sensevoice-yue,equivNum,0.0295,0.0303,300,300
+Guangzhou daily use,sensevoice-yue,equiv,0.0295,0.0303,300,300
+Guangzhou daily use,sensevoice-yue,num,0.0476,0.0483,300,300
+Guangzhou daily use,sensevoice-yue,strict,0.0476,0.0483,300,300
 Guangzhou daily use,whisper-yue,equivNum,0.0546,0.0557,300,300
 Guangzhou daily use,whisper-yue,equiv,0.0549,0.056,300,300
 Guangzhou daily use,whisper-yue,num,0.1201,0.1194,300,300
 Guangzhou daily use,whisper-yue,strict,0.1204,0.1197,300,300
+Guangzhou daily use,whisper-m-yue,equivNum,0.0371,0.0374,300,300
+Guangzhou daily use,whisper-m-yue,equiv,0.0371,0.0374,300,300
+Guangzhou daily use,whisper-m-yue,num,0.052,0.0523,300,300
+Guangzhou daily use,whisper-m-yue,strict,0.052,0.0523,300,300
+Guangzhou daily use,u2pp-yue,equivNum,0.0463,0.0467,300,300
+Guangzhou daily use,u2pp-yue,equiv,0.0463,0.0467,300,300
+Guangzhou daily use,u2pp-yue,num,0.0657,0.0653,300,300
+Guangzhou daily use,u2pp-yue,strict,0.0657,0.0653,300,300
+Guangzhou daily use,fireredasr2,equivNum,0.0272,0.0269,300,300
+Guangzhou daily use,fireredasr2,equiv,0.0272,0.0269,300,300
+Guangzhou daily use,fireredasr2,num,0.0338,0.0334,300,300
+Guangzhou daily use,fireredasr2,strict,0.0338,0.0334,300,300
+Guangzhou daily use,mimo-asr,equivNum,0.0506,0.0467,300,300
+Guangzhou daily use,mimo-asr,equiv,0.0506,0.0467,300,300
+Guangzhou daily use,mimo-asr,num,0.064,0.0613,300,300
+Guangzhou daily use,mimo-asr,strict,0.064,0.0613,300,300
+Guangzhou daily use,step-audio2,equivNum,0.0266,0.0269,300,300
+Guangzhou daily use,step-audio2,equiv,0.0266,0.0269,300,300
+Guangzhou daily use,step-audio2,num,0.032,0.0325,300,300
+Guangzhou daily use,step-audio2,strict,0.032,0.0325,300,300
+Guangzhou daily use,qwen3-omni,equivNum,0.0267,0.0272,300,300
+Guangzhou daily use,qwen3-omni,equiv,0.0267,0.0272,300,300
+Guangzhou daily use,qwen3-omni,num,0.0435,0.0436,300,300
+Guangzhou daily use,qwen3-omni,strict,0.0435,0.0436,300,300
 Guangzhou daily use,glm-asr,equivNum,0.0776,0.0774,300,300
 Guangzhou daily use,glm-asr,equiv,0.0776,0.0774,300,300
 Guangzhou daily use,glm-asr,num,0.0862,0.086,300,300
@@ -351,6 +559,14 @@ Guangzhou daily use,gemini,equivNum,0.1591,0.1559,300,300
 Guangzhou daily use,gemini,equiv,0.1611,0.1581,300,300
 Guangzhou daily use,gemini,num,0.1995,0.1959,300,300
 Guangzhou daily use,gemini,strict,0.2015,0.198,300,300
+Guangzhou daily use,gemini-3.8-flash,equivNum,0.0931,0.0934,300,300
+Guangzhou daily use,gemini-3.8-flash,equiv,0.0931,0.0934,300,300
+Guangzhou daily use,gemini-3.8-flash,num,0.1519,0.1516,300,300
+Guangzhou daily use,gemini-3.8-flash,strict,0.1519,0.1516,300,300
+Guangzhou daily use,gemini-argon,equivNum,0.0728,0.0678,300,300
+Guangzhou daily use,gemini-argon,equiv,0.0744,0.0696,300,300
+Guangzhou daily use,gemini-argon,num,0.1374,0.1315,300,300
+Guangzhou daily use,gemini-argon,strict,0.139,0.1334,300,300
 Guangzhou daily use,mai,equivNum,0.1791,0.1705,300,300
 Guangzhou daily use,mai,equiv,0.1801,0.1717,300,300
 Guangzhou daily use,mai,num,0.204,0.1962,300,300
@@ -359,14 +575,14 @@ Guangzhou daily use,cantonese-ai,equivNum,0.0345,0.0337,300,300
 Guangzhou daily use,cantonese-ai,equiv,0.0351,0.0343,300,300
 Guangzhou daily use,cantonese-ai,num,0.0817,0.0811,300,300
 Guangzhou daily use,cantonese-ai,strict,0.0823,0.0817,300,300
-Guangzhou in-car,cantocaptions-v3,equivNum,0.0534,0.044,300,300
-Guangzhou in-car,cantocaptions-v3,equiv,0.0647,0.0548,300,300
-Guangzhou in-car,cantocaptions-v3,num,0.0794,0.0707,300,300
-Guangzhou in-car,cantocaptions-v3,strict,0.0907,0.0814,300,300
-Guangzhou in-car,cantocaptions,equivNum,0.0565,0.0481,300,300
-Guangzhou in-car,cantocaptions,equiv,0.0663,0.057,300,300
-Guangzhou in-car,cantocaptions,num,0.0832,0.0755,300,300
-Guangzhou in-car,cantocaptions,strict,0.093,0.0844,300,300
+Guangzhou in-car,cantocaptions-v3,equivNum,0.0533,0.0437,300,300
+Guangzhou in-car,cantocaptions-v3,equiv,0.0646,0.0544,300,300
+Guangzhou in-car,cantocaptions-v3,num,0.0793,0.0703,300,300
+Guangzhou in-car,cantocaptions-v3,strict,0.0906,0.0811,300,300
+Guangzhou in-car,cantocaptions,equivNum,0.0564,0.0477,300,300
+Guangzhou in-car,cantocaptions,equiv,0.0662,0.0566,300,300
+Guangzhou in-car,cantocaptions,num,0.0831,0.0751,300,300
+Guangzhou in-car,cantocaptions,strict,0.0929,0.084,300,300
 Guangzhou in-car,qwen3-asr-stock,equivNum,0.0474,0.037,300,300
 Guangzhou in-car,qwen3-asr-stock,equiv,0.0474,0.037,300,300
 Guangzhou in-car,qwen3-asr-stock,num,0.0494,0.0392,300,300
@@ -383,42 +599,78 @@ Guangzhou in-car,qwen3-asr-trad+hk,equivNum,0.045,0.0363,300,300
 Guangzhou in-car,qwen3-asr-trad+hk,equiv,0.045,0.0363,300,300
 Guangzhou in-car,qwen3-asr-trad+hk,num,0.0493,0.0411,300,300
 Guangzhou in-car,qwen3-asr-trad+hk,strict,0.0493,0.0411,300,300
-Guangzhou in-car,sensevoice,equivNum,0.0602,0.0555,300,300
-Guangzhou in-car,sensevoice,equiv,0.0602,0.0555,300,300
-Guangzhou in-car,sensevoice,num,0.0673,0.0629,300,300
-Guangzhou in-car,sensevoice,strict,0.0673,0.0629,300,300
-Guangzhou in-car,sensevoice+hk,equivNum,0.0602,0.0555,300,300
-Guangzhou in-car,sensevoice+hk,equiv,0.0602,0.0555,300,300
-Guangzhou in-car,sensevoice+hk,num,0.0673,0.0629,300,300
-Guangzhou in-car,sensevoice+hk,strict,0.0673,0.0629,300,300
-Guangzhou in-car,whisper-yue,equivNum,0.1061,0.0873,300,300
-Guangzhou in-car,whisper-yue,equiv,0.1113,0.091,300,300
-Guangzhou in-car,whisper-yue,num,0.1333,0.1129,300,300
-Guangzhou in-car,whisper-yue,strict,0.1384,0.1166,300,300
-Guangzhou in-car,glm-asr,equivNum,0.1489,0.1147,300,300
-Guangzhou in-car,glm-asr,equiv,0.151,0.1166,300,300
-Guangzhou in-car,glm-asr,num,0.1547,0.1203,300,300
-Guangzhou in-car,glm-asr,strict,0.1568,0.1221,300,300
-Guangzhou in-car,glm-asr-yue,equivNum,0.1332,0.1066,300,300
-Guangzhou in-car,glm-asr-yue,equiv,0.1332,0.1066,300,300
-Guangzhou in-car,glm-asr-yue,num,0.1387,0.1114,300,300
-Guangzhou in-car,glm-asr-yue,strict,0.1387,0.1114,300,300
-Guangzhou in-car,azure-standard,equivNum,0.1054,0.0922,300,300
-Guangzhou in-car,azure-standard,equiv,0.1377,0.1221,300,300
-Guangzhou in-car,azure-standard,num,0.1223,0.1092,300,300
-Guangzhou in-car,azure-standard,strict,0.1546,0.1392,300,300
-Guangzhou in-car,gemini,equivNum,0.2002,0.178,300,300
-Guangzhou in-car,gemini,equiv,0.2267,0.2021,300,300
-Guangzhou in-car,gemini,num,0.2159,0.1939,300,300
-Guangzhou in-car,gemini,strict,0.2424,0.218,300,300
-Guangzhou in-car,mai,equivNum,0.1792,0.1432,300,300
-Guangzhou in-car,mai,equiv,0.1958,0.1599,300,300
-Guangzhou in-car,mai,num,0.1964,0.1606,300,300
-Guangzhou in-car,mai,strict,0.213,0.1773,300,300
-Guangzhou in-car,cantonese-ai,equivNum,0.0409,0.0389,300,300
-Guangzhou in-car,cantonese-ai,equiv,0.0414,0.0396,300,300
-Guangzhou in-car,cantonese-ai,num,0.0571,0.057,300,300
-Guangzhou in-car,cantonese-ai,strict,0.0576,0.0577,300,300
+Guangzhou in-car,sensevoice,equivNum,0.051,0.047,300,300
+Guangzhou in-car,sensevoice,equiv,0.051,0.047,300,300
+Guangzhou in-car,sensevoice,num,0.0581,0.0544,300,300
+Guangzhou in-car,sensevoice,strict,0.0581,0.0544,300,300
+Guangzhou in-car,sensevoice+hk,equivNum,0.051,0.047,300,300
+Guangzhou in-car,sensevoice+hk,equiv,0.051,0.047,300,300
+Guangzhou in-car,sensevoice+hk,num,0.0581,0.0544,300,300
+Guangzhou in-car,sensevoice+hk,strict,0.0581,0.0544,300,300
+Guangzhou in-car,sensevoice-yue,equivNum,0.053,0.0507,300,300
+Guangzhou in-car,sensevoice-yue,equiv,0.053,0.0507,300,300
+Guangzhou in-car,sensevoice-yue,num,0.0615,0.0596,300,300
+Guangzhou in-car,sensevoice-yue,strict,0.0615,0.0596,300,300
+Guangzhou in-car,whisper-yue,equivNum,0.1054,0.0862,300,300
+Guangzhou in-car,whisper-yue,equiv,0.1105,0.0899,300,300
+Guangzhou in-car,whisper-yue,num,0.1325,0.1118,300,300
+Guangzhou in-car,whisper-yue,strict,0.1377,0.1155,300,300
+Guangzhou in-car,whisper-m-yue,equivNum,0.0795,0.0736,300,300
+Guangzhou in-car,whisper-m-yue,equiv,0.0795,0.0736,300,300
+Guangzhou in-car,whisper-m-yue,num,0.0863,0.0803,300,300
+Guangzhou in-car,whisper-m-yue,strict,0.0863,0.0803,300,300
+Guangzhou in-car,u2pp-yue,equivNum,0.0705,0.0699,300,300
+Guangzhou in-car,u2pp-yue,equiv,0.0705,0.0699,300,300
+Guangzhou in-car,u2pp-yue,num,0.081,0.0796,300,300
+Guangzhou in-car,u2pp-yue,strict,0.081,0.0796,300,300
+Guangzhou in-car,fireredasr2,equivNum,0.0586,0.0496,300,300
+Guangzhou in-car,fireredasr2,equiv,0.0586,0.0496,300,300
+Guangzhou in-car,fireredasr2,num,0.0624,0.0537,300,300
+Guangzhou in-car,fireredasr2,strict,0.0624,0.0537,300,300
+Guangzhou in-car,mimo-asr,equivNum,0.0864,0.0637,300,300
+Guangzhou in-car,mimo-asr,equiv,0.0864,0.0637,300,300
+Guangzhou in-car,mimo-asr,num,0.0952,0.0736,300,300
+Guangzhou in-car,mimo-asr,strict,0.0952,0.0736,300,300
+Guangzhou in-car,step-audio2,equivNum,0.0504,0.0444,300,300
+Guangzhou in-car,step-audio2,equiv,0.0504,0.0444,300,300
+Guangzhou in-car,step-audio2,num,0.0531,0.0474,300,300
+Guangzhou in-car,step-audio2,strict,0.0531,0.0474,300,300
+Guangzhou in-car,qwen3-omni,equivNum,0.0533,0.0429,300,300
+Guangzhou in-car,qwen3-omni,equiv,0.0533,0.0429,300,300
+Guangzhou in-car,qwen3-omni,num,0.0586,0.0485,300,300
+Guangzhou in-car,qwen3-omni,strict,0.0586,0.0485,300,300
+Guangzhou in-car,glm-asr,equivNum,0.1483,0.114,300,300
+Guangzhou in-car,glm-asr,equiv,0.1503,0.1158,300,300
+Guangzhou in-car,glm-asr,num,0.1541,0.1195,300,300
+Guangzhou in-car,glm-asr,strict,0.1561,0.1214,300,300
+Guangzhou in-car,glm-asr-yue,equivNum,0.1326,0.1058,300,300
+Guangzhou in-car,glm-asr-yue,equiv,0.1326,0.1058,300,300
+Guangzhou in-car,glm-asr-yue,num,0.1381,0.1107,300,300
+Guangzhou in-car,glm-asr-yue,strict,0.1381,0.1107,300,300
+Guangzhou in-car,azure-standard,equivNum,0.1051,0.0918,300,300
+Guangzhou in-car,azure-standard,equiv,0.1374,0.1218,300,300
+Guangzhou in-car,azure-standard,num,0.122,0.1088,300,300
+Guangzhou in-car,azure-standard,strict,0.1543,0.1388,300,300
+Guangzhou in-car,gemini,equivNum,0.1995,0.1773,300,300
+Guangzhou in-car,gemini,equiv,0.226,0.2013,300,300
+Guangzhou in-car,gemini,num,0.2152,0.1932,300,300
+Guangzhou in-car,gemini,strict,0.2418,0.2172,300,300
+Guangzhou in-car,gemini-3.8-flash,equivNum,0.1332,0.1136,300,300
+Guangzhou in-car,gemini-3.8-flash,equiv,0.1354,0.1158,300,300
+Guangzhou in-car,gemini-3.8-flash,num,0.1586,0.138,300,300
+Guangzhou in-car,gemini-3.8-flash,strict,0.1608,0.1403,300,300
+Guangzhou in-car,gemini-argon,equivNum,0.1478,0.1162,300,300
+Guangzhou in-car,gemini-argon,equiv,0.1694,0.1358,300,300
+Guangzhou in-car,gemini-argon,num,0.167,0.1358,300,300
+Guangzhou in-car,gemini-argon,strict,0.1886,0.1554,300,300
+Guangzhou in-car,mai,equivNum,0.1786,0.1425,300,300
+Guangzhou in-car,mai,equiv,0.1953,0.1591,300,300
+Guangzhou in-car,mai,num,0.1959,0.1599,300,300
+Guangzhou in-car,mai,strict,0.2125,0.1765,300,300
+Guangzhou in-car,cantonese-ai,equivNum,0.0406,0.0385,300,300
+Guangzhou in-car,cantonese-ai,equiv,0.0411,0.0392,300,300
+Guangzhou in-car,cantonese-ai,num,0.0568,0.0566,300,300
+Guangzhou in-car,cantonese-ai,strict,0.0573,0.0574,300,300
 LIDA stories,cantocaptions-v3,equivNum,0.0318,0.0223,183,183
 LIDA stories,cantocaptions-v3,equiv,0.0341,0.0276,183,183
 LIDA stories,cantocaptions-v3,num,0.0377,0.0298,183,183
@@ -451,10 +703,38 @@ LIDA stories,sensevoice+hk,equivNum,0.0709,0.047,183,183
 LIDA stories,sensevoice+hk,equiv,0.0709,0.047,183,183
 LIDA stories,sensevoice+hk,num,0.0768,0.0528,183,183
 LIDA stories,sensevoice+hk,strict,0.0768,0.0528,183,183
+LIDA stories,sensevoice-yue,equivNum,0.0681,0.0481,183,183
+LIDA stories,sensevoice-yue,equiv,0.0681,0.0481,183,183
+LIDA stories,sensevoice-yue,num,0.0715,0.0514,183,183
+LIDA stories,sensevoice-yue,strict,0.0715,0.0514,183,183
 LIDA stories,whisper-yue,equivNum,0.0912,0.0653,183,183
 LIDA stories,whisper-yue,equiv,0.0924,0.068,183,183
 LIDA stories,whisper-yue,num,0.0927,0.0689,183,183
 LIDA stories,whisper-yue,strict,0.0939,0.0715,183,183
+LIDA stories,whisper-m-yue,equivNum,0.0503,0.04,183,183
+LIDA stories,whisper-m-yue,equiv,0.0503,0.04,183,183
+LIDA stories,whisper-m-yue,num,0.0518,0.0424,183,183
+LIDA stories,whisper-m-yue,strict,0.0518,0.0424,183,183
+LIDA stories,u2pp-yue,equivNum,0.0671,0.0466,183,183
+LIDA stories,u2pp-yue,equiv,0.0671,0.0466,183,183
+LIDA stories,u2pp-yue,num,0.0714,0.0497,183,183
+LIDA stories,u2pp-yue,strict,0.0714,0.0497,183,183
+LIDA stories,fireredasr2,equivNum,0.0606,0.0382,183,183
+LIDA stories,fireredasr2,equiv,0.0606,0.0382,183,183
+LIDA stories,fireredasr2,num,0.0658,0.0448,183,183
+LIDA stories,fireredasr2,strict,0.0658,0.0448,183,183
+LIDA stories,mimo-asr,equivNum,0.1056,0.0453,183,183
+LIDA stories,mimo-asr,equiv,0.1059,0.0459,183,183
+LIDA stories,mimo-asr,num,0.1099,0.0514,183,183
+LIDA stories,mimo-asr,strict,0.1102,0.0521,183,183
+LIDA stories,step-audio2,equivNum,0.064,0.0397,183,183
+LIDA stories,step-audio2,equiv,0.064,0.0397,183,183
+LIDA stories,step-audio2,num,0.0696,0.0453,183,183
+LIDA stories,step-audio2,strict,0.0696,0.0453,183,183
+LIDA stories,qwen3-omni,equivNum,0.0509,0.0382,183,183
+LIDA stories,qwen3-omni,equiv,0.0509,0.0382,183,183
+LIDA stories,qwen3-omni,num,0.055,0.0428,183,183
+LIDA stories,qwen3-omni,strict,0.055,0.0428,183,183
 LIDA stories,glm-asr,equivNum,0.1288,0.0784,183,183
 LIDA stories,glm-asr,equiv,0.1288,0.0784,183,183
 LIDA stories,glm-asr,num,0.1329,0.0826,183,183
@@ -471,6 +751,14 @@ LIDA stories,gemini,equivNum,0.1348,0.0819,183,183
 LIDA stories,gemini,equiv,0.1376,0.0865,183,183
 LIDA stories,gemini,num,0.1372,0.0872,183,183
 LIDA stories,gemini,strict,0.14,0.0918,183,183
+LIDA stories,gemini-3.8-flash,equivNum,0.1025,0.0543,183,183
+LIDA stories,gemini-3.8-flash,equiv,0.1035,0.057,183,183
+LIDA stories,gemini-3.8-flash,num,0.1043,0.0585,183,183
+LIDA stories,gemini-3.8-flash,strict,0.1053,0.0611,183,183
+LIDA stories,gemini-argon,equivNum,0.1422,0.0508,183,183
+LIDA stories,gemini-argon,equiv,0.1443,0.0556,183,183
+LIDA stories,gemini-argon,num,0.1448,0.0554,183,183
+LIDA stories,gemini-argon,strict,0.147,0.0603,183,183
 LIDA stories,mai,equivNum,0.2655,0.1605,183,183
 LIDA stories,mai,equiv,0.2673,0.1642,183,183
 LIDA stories,mai,num,0.2659,0.1616,183,183
@@ -511,10 +799,38 @@ level 1,sensevoice+hk,equivNum,0.0675,0.0488,39,39
 level 1,sensevoice+hk,equiv,0.0675,0.0488,39,39
 level 1,sensevoice+hk,num,0.0699,0.0537,39,39
 level 1,sensevoice+hk,strict,0.0699,0.0537,39,39
+level 1,sensevoice-yue,equivNum,0.0503,0.039,39,39
+level 1,sensevoice-yue,equiv,0.0503,0.039,39,39
+level 1,sensevoice-yue,num,0.0526,0.0439,39,39
+level 1,sensevoice-yue,strict,0.0526,0.0439,39,39
 level 1,whisper-yue,equivNum,0.0967,0.078,39,39
 level 1,whisper-yue,equiv,0.0967,0.078,39,39
 level 1,whisper-yue,num,0.0967,0.078,39,39
 level 1,whisper-yue,strict,0.0967,0.078,39,39
+level 1,whisper-m-yue,equivNum,0.0259,0.0195,39,39
+level 1,whisper-m-yue,equiv,0.0259,0.0195,39,39
+level 1,whisper-m-yue,num,0.0282,0.0244,39,39
+level 1,whisper-m-yue,strict,0.0282,0.0244,39,39
+level 1,u2pp-yue,equivNum,0.0593,0.0439,39,39
+level 1,u2pp-yue,equiv,0.0593,0.0439,39,39
+level 1,u2pp-yue,num,0.0616,0.0488,39,39
+level 1,u2pp-yue,strict,0.0616,0.0488,39,39
+level 1,fireredasr2,equivNum,0.0722,0.0488,39,39
+level 1,fireredasr2,equiv,0.0722,0.0488,39,39
+level 1,fireredasr2,num,0.0746,0.0537,39,39
+level 1,fireredasr2,strict,0.0746,0.0537,39,39
+level 1,mimo-asr,equivNum,0.1581,0.1024,39,39
+level 1,mimo-asr,equiv,0.1581,0.1024,39,39
+level 1,mimo-asr,num,0.1605,0.1073,39,39
+level 1,mimo-asr,strict,0.1605,0.1073,39,39
+level 1,step-audio2,equivNum,0.0618,0.0488,39,39
+level 1,step-audio2,equiv,0.0618,0.0488,39,39
+level 1,step-audio2,num,0.0641,0.0537,39,39
+level 1,step-audio2,strict,0.0641,0.0537,39,39
+level 1,qwen3-omni,equivNum,0.0286,0.0195,39,39
+level 1,qwen3-omni,equiv,0.0286,0.0195,39,39
+level 1,qwen3-omni,num,0.031,0.0244,39,39
+level 1,qwen3-omni,strict,0.031,0.0244,39,39
 level 1,glm-asr,equivNum,0.1482,0.1122,39,39
 level 1,glm-asr,equiv,0.1482,0.1122,39,39
 level 1,glm-asr,num,0.1505,0.1171,39,39
@@ -531,6 +847,14 @@ level 1,gemini,equivNum,0.1226,0.0878,39,39
 level 1,gemini,equiv,0.1263,0.0927,39,39
 level 1,gemini,num,0.1226,0.0878,39,39
 level 1,gemini,strict,0.1263,0.0927,39,39
+level 1,gemini-3.8-flash,equivNum,0.1081,0.0829,39,39
+level 1,gemini-3.8-flash,equiv,0.1081,0.0829,39,39
+level 1,gemini-3.8-flash,num,0.1081,0.0829,39,39
+level 1,gemini-3.8-flash,strict,0.1081,0.0829,39,39
+level 1,gemini-argon,equivNum,0.209,0.1805,39,39
+level 1,gemini-argon,equiv,0.209,0.1805,39,39
+level 1,gemini-argon,num,0.209,0.1805,39,39
+level 1,gemini-argon,strict,0.209,0.1805,39,39
 level 1,mai,equivNum,0.3079,0.2829,39,39
 level 1,mai,equiv,0.3079,0.2829,39,39
 level 1,mai,num,0.3079,0.2829,39,39
@@ -571,10 +895,38 @@ level 2,sensevoice+hk,equivNum,0.0931,0.0843,62,62
 level 2,sensevoice+hk,equiv,0.0931,0.0843,62,62
 level 2,sensevoice+hk,num,0.1027,0.0944,62,62
 level 2,sensevoice+hk,strict,0.1027,0.0944,62,62
+level 2,sensevoice-yue,equivNum,0.0945,0.0803,62,62
+level 2,sensevoice-yue,equiv,0.0945,0.0803,62,62
+level 2,sensevoice-yue,num,0.0987,0.0843,62,62
+level 2,sensevoice-yue,strict,0.0987,0.0843,62,62
 level 2,whisper-yue,equivNum,0.1167,0.1044,62,62
 level 2,whisper-yue,equiv,0.1167,0.1044,62,62
 level 2,whisper-yue,num,0.1167,0.1044,62,62
 level 2,whisper-yue,strict,0.1167,0.1044,62,62
+level 2,whisper-m-yue,equivNum,0.0703,0.0643,62,62
+level 2,whisper-m-yue,equiv,0.0703,0.0643,62,62
+level 2,whisper-m-yue,num,0.0703,0.0643,62,62
+level 2,whisper-m-yue,strict,0.0703,0.0643,62,62
+level 2,u2pp-yue,equivNum,0.0897,0.0763,62,62
+level 2,u2pp-yue,equiv,0.0897,0.0763,62,62
+level 2,u2pp-yue,num,0.0962,0.0803,62,62
+level 2,u2pp-yue,strict,0.0962,0.0803,62,62
+level 2,fireredasr2,equivNum,0.0764,0.0602,62,62
+level 2,fireredasr2,equiv,0.0764,0.0602,62,62
+level 2,fireredasr2,num,0.0814,0.0663,62,62
+level 2,fireredasr2,strict,0.0814,0.0663,62,62
+level 2,mimo-asr,equivNum,0.1623,0.1265,62,62
+level 2,mimo-asr,equiv,0.1623,0.1265,62,62
+level 2,mimo-asr,num,0.1656,0.1285,62,62
+level 2,mimo-asr,strict,0.1656,0.1285,62,62
+level 2,step-audio2,equivNum,0.0919,0.0683,62,62
+level 2,step-audio2,equiv,0.0919,0.0683,62,62
+level 2,step-audio2,num,0.1016,0.0783,62,62
+level 2,step-audio2,strict,0.1016,0.0783,62,62
+level 2,qwen3-omni,equivNum,0.074,0.0663,62,62
+level 2,qwen3-omni,equiv,0.074,0.0663,62,62
+level 2,qwen3-omni,num,0.0795,0.0723,62,62
+level 2,qwen3-omni,strict,0.0795,0.0723,62,62
 level 2,glm-asr,equivNum,0.1749,0.1325,62,62
 level 2,glm-asr,equiv,0.1749,0.1325,62,62
 level 2,glm-asr,num,0.1804,0.1386,62,62
@@ -591,6 +943,14 @@ level 2,gemini,equivNum,0.2027,0.1627,62,62
 level 2,gemini,equiv,0.2027,0.1627,62,62
 level 2,gemini,num,0.2027,0.1627,62,62
 level 2,gemini,strict,0.2027,0.1627,62,62
+level 2,gemini-3.8-flash,equivNum,0.1678,0.1165,62,62
+level 2,gemini-3.8-flash,equiv,0.1678,0.1165,62,62
+level 2,gemini-3.8-flash,num,0.1678,0.1165,62,62
+level 2,gemini-3.8-flash,strict,0.1678,0.1165,62,62
+level 2,gemini-argon,equivNum,0.2367,0.1727,62,62
+level 2,gemini-argon,equiv,0.2367,0.1727,62,62
+level 2,gemini-argon,num,0.2394,0.1747,62,62
+level 2,gemini-argon,strict,0.2394,0.1747,62,62
 level 2,mai,equivNum,0.3829,0.2932,62,62
 level 2,mai,equiv,0.3829,0.2932,62,62
 level 2,mai,num,0.3829,0.2932,62,62
@@ -631,10 +991,38 @@ level 3,sensevoice+hk,equivNum,0.1142,0.1046,18,18
 level 3,sensevoice+hk,equiv,0.1142,0.1046,18,18
 level 3,sensevoice+hk,num,0.1214,0.1111,18,18
 level 3,sensevoice+hk,strict,0.1214,0.1111,18,18
+level 3,sensevoice-yue,equivNum,0.1078,0.1046,18,18
+level 3,sensevoice-yue,equiv,0.1078,0.1046,18,18
+level 3,sensevoice-yue,num,0.1113,0.1078,18,18
+level 3,sensevoice-yue,strict,0.1113,0.1078,18,18
 level 3,whisper-yue,equivNum,0.1238,0.1209,18,18
 level 3,whisper-yue,equiv,0.1238,0.1209,18,18
 level 3,whisper-yue,num,0.126,0.1242,18,18
 level 3,whisper-yue,strict,0.126,0.1242,18,18
+level 3,whisper-m-yue,equivNum,0.0837,0.0784,18,18
+level 3,whisper-m-yue,equiv,0.0837,0.0784,18,18
+level 3,whisper-m-yue,num,0.0872,0.0817,18,18
+level 3,whisper-m-yue,strict,0.0872,0.0817,18,18
+level 3,u2pp-yue,equivNum,0.0982,0.0948,18,18
+level 3,u2pp-yue,equiv,0.0982,0.0948,18,18
+level 3,u2pp-yue,num,0.1054,0.1013,18,18
+level 3,u2pp-yue,strict,0.1054,0.1013,18,18
+level 3,fireredasr2,equivNum,0.0851,0.0752,18,18
+level 3,fireredasr2,equiv,0.0851,0.0752,18,18
+level 3,fireredasr2,num,0.0923,0.0817,18,18
+level 3,fireredasr2,strict,0.0923,0.0817,18,18
+level 3,mimo-asr,equivNum,0.0679,0.0686,18,18
+level 3,mimo-asr,equiv,0.0679,0.0686,18,18
+level 3,mimo-asr,num,0.0714,0.0719,18,18
+level 3,mimo-asr,strict,0.0714,0.0719,18,18
+level 3,step-audio2,equivNum,0.0833,0.0817,18,18
+level 3,step-audio2,equiv,0.0833,0.0817,18,18
+level 3,step-audio2,num,0.0868,0.085,18,18
+level 3,step-audio2,strict,0.0868,0.085,18,18
+level 3,qwen3-omni,equivNum,0.0886,0.085,18,18
+level 3,qwen3-omni,equiv,0.0886,0.085,18,18
+level 3,qwen3-omni,num,0.0921,0.0882,18,18
+level 3,qwen3-omni,strict,0.0921,0.0882,18,18
 level 3,glm-asr,equivNum,0.1549,0.1503,18,18
 level 3,glm-asr,equiv,0.1549,0.1503,18,18
 level 3,glm-asr,num,0.1584,0.1536,18,18
@@ -651,6 +1039,14 @@ level 3,gemini,equivNum,0.1493,0.1438,18,18
 level 3,gemini,equiv,0.1493,0.1438,18,18
 level 3,gemini,num,0.1528,0.1471,18,18
 level 3,gemini,strict,0.1528,0.1471,18,18
+level 3,gemini-3.8-flash,equivNum,0.0597,0.0654,18,18
+level 3,gemini-3.8-flash,equiv,0.0597,0.0654,18,18
+level 3,gemini-3.8-flash,num,0.0597,0.0654,18,18
+level 3,gemini-3.8-flash,strict,0.0597,0.0654,18,18
+level 3,gemini-argon,equivNum,0.0931,0.0719,18,18
+level 3,gemini-argon,equiv,0.0931,0.0719,18,18
+level 3,gemini-argon,num,0.0953,0.0752,18,18
+level 3,gemini-argon,strict,0.0953,0.0752,18,18
 level 3,mai,equivNum,0.264,0.2484,18,18
 level 3,mai,equiv,0.264,0.2484,18,18
 level 3,mai,num,0.264,0.2484,18,18
@@ -691,10 +1087,38 @@ level 4,sensevoice+hk,equivNum,0.0482,0.0455,34,34
 level 4,sensevoice+hk,equiv,0.0482,0.0455,34,34
 level 4,sensevoice+hk,num,0.0512,0.0489,34,34
 level 4,sensevoice+hk,strict,0.0512,0.0489,34,34
+level 4,sensevoice-yue,equivNum,0.0522,0.0496,34,34
+level 4,sensevoice-yue,equiv,0.0522,0.0496,34,34
+level 4,sensevoice-yue,num,0.0552,0.0531,34,34
+level 4,sensevoice-yue,strict,0.0552,0.0531,34,34
 level 4,whisper-yue,equivNum,0.0578,0.0613,34,34
 level 4,whisper-yue,equiv,0.0617,0.0648,34,34
 level 4,whisper-yue,num,0.0596,0.0641,34,34
 level 4,whisper-yue,strict,0.0635,0.0675,34,34
+level 4,whisper-m-yue,equivNum,0.0418,0.0414,34,34
+level 4,whisper-m-yue,equiv,0.0418,0.0414,34,34
+level 4,whisper-m-yue,num,0.0431,0.0434,34,34
+level 4,whisper-m-yue,strict,0.0431,0.0434,34,34
+level 4,u2pp-yue,equivNum,0.0521,0.0503,34,34
+level 4,u2pp-yue,equiv,0.0521,0.0503,34,34
+level 4,u2pp-yue,num,0.0544,0.0531,34,34
+level 4,u2pp-yue,strict,0.0544,0.0531,34,34
+level 4,fireredasr2,equivNum,0.0342,0.0351,34,34
+level 4,fireredasr2,equiv,0.0342,0.0351,34,34
+level 4,fireredasr2,num,0.0385,0.04,34,34
+level 4,fireredasr2,strict,0.0385,0.04,34,34
+level 4,mimo-asr,equivNum,0.0398,0.0407,34,34
+level 4,mimo-asr,equiv,0.0398,0.0407,34,34
+level 4,mimo-asr,num,0.0442,0.0462,34,34
+level 4,mimo-asr,strict,0.0442,0.0462,34,34
+level 4,step-audio2,equivNum,0.0409,0.0427,34,34
+level 4,step-audio2,equiv,0.0409,0.0427,34,34
+level 4,step-audio2,num,0.0442,0.0462,34,34
+level 4,step-audio2,strict,0.0442,0.0462,34,34
+level 4,qwen3-omni,equivNum,0.0394,0.0414,34,34
+level 4,qwen3-omni,equiv,0.0394,0.0414,34,34
+level 4,qwen3-omni,num,0.0421,0.0448,34,34
+level 4,qwen3-omni,strict,0.0421,0.0448,34,34
 level 4,glm-asr,equivNum,0.0778,0.0813,34,34
 level 4,glm-asr,equiv,0.0778,0.0813,34,34
 level 4,glm-asr,num,0.0818,0.0855,34,34
@@ -711,6 +1135,14 @@ level 4,gemini,equivNum,0.0913,0.0848,34,34
 level 4,gemini,equiv,0.0975,0.0903,34,34
 level 4,gemini,num,0.0951,0.0896,34,34
 level 4,gemini,strict,0.1013,0.0951,34,34
+level 4,gemini-3.8-flash,equivNum,0.0689,0.0675,34,34
+level 4,gemini-3.8-flash,equiv,0.0707,0.0696,34,34
+level 4,gemini-3.8-flash,num,0.0721,0.0717,34,34
+level 4,gemini-3.8-flash,strict,0.074,0.0737,34,34
+level 4,gemini-argon,equivNum,0.0317,0.0365,34,34
+level 4,gemini-argon,equiv,0.0379,0.042,34,34
+level 4,gemini-argon,num,0.0342,0.04,34,34
+level 4,gemini-argon,strict,0.0404,0.0455,34,34
 level 4,mai,equivNum,0.1286,0.1275,34,34
 level 4,mai,equiv,0.1348,0.133,34,34
 level 4,mai,num,0.1298,0.1289,34,34
@@ -751,10 +1183,38 @@ level 5,sensevoice+hk,equivNum,0.0289,0.0304,30,30
 level 5,sensevoice+hk,equiv,0.0289,0.0304,30,30
 level 5,sensevoice+hk,num,0.0344,0.0367,30,30
 level 5,sensevoice+hk,strict,0.0344,0.0367,30,30
+level 5,sensevoice-yue,equivNum,0.0313,0.0319,30,30
+level 5,sensevoice-yue,equiv,0.0313,0.0319,30,30
+level 5,sensevoice-yue,num,0.0342,0.0348,30,30
+level 5,sensevoice-yue,strict,0.0342,0.0348,30,30
 level 5,whisper-yue,equivNum,0.0495,0.0493,30,30
 level 5,whisper-yue,equiv,0.0527,0.0527,30,30
 level 5,whisper-yue,num,0.0552,0.0546,30,30
 level 5,whisper-yue,strict,0.0584,0.058,30,30
+level 5,whisper-m-yue,equivNum,0.0299,0.0295,30,30
+level 5,whisper-m-yue,equiv,0.0299,0.0295,30,30
+level 5,whisper-m-yue,num,0.033,0.0324,30,30
+level 5,whisper-m-yue,strict,0.033,0.0324,30,30
+level 5,u2pp-yue,equivNum,0.0291,0.03,30,30
+level 5,u2pp-yue,equiv,0.0291,0.03,30,30
+level 5,u2pp-yue,num,0.0317,0.0324,30,30
+level 5,u2pp-yue,strict,0.0317,0.0324,30,30
+level 5,fireredasr2,equivNum,0.0281,0.0285,30,30
+level 5,fireredasr2,equiv,0.0281,0.0285,30,30
+level 5,fireredasr2,num,0.0375,0.0367,30,30
+level 5,fireredasr2,strict,0.0375,0.0367,30,30
+level 5,mimo-asr,equivNum,0.0175,0.0198,30,30
+level 5,mimo-asr,equiv,0.0193,0.0213,30,30
+level 5,mimo-asr,num,0.0268,0.028,30,30
+level 5,mimo-asr,strict,0.0285,0.0295,30,30
+level 5,step-audio2,equivNum,0.0237,0.0237,30,30
+level 5,step-audio2,equiv,0.0237,0.0237,30,30
+level 5,step-audio2,num,0.0291,0.03,30,30
+level 5,step-audio2,strict,0.0291,0.03,30,30
+level 5,qwen3-omni,equivNum,0.0224,0.0242,30,30
+level 5,qwen3-omni,equiv,0.0224,0.0242,30,30
+level 5,qwen3-omni,num,0.0279,0.0295,30,30
+level 5,qwen3-omni,strict,0.0279,0.0295,30,30
 level 5,glm-asr,equivNum,0.0506,0.0493,30,30
 level 5,glm-asr,equiv,0.0506,0.0493,30,30
 level 5,glm-asr,num,0.0543,0.0531,30,30
@@ -771,6 +1231,14 @@ level 5,gemini,equivNum,0.0507,0.0507,30,30
 level 5,gemini,equiv,0.0561,0.0565,30,30
 level 5,gemini,num,0.0591,0.0585,30,30
 level 5,gemini,strict,0.0645,0.0643,30,30
+level 5,gemini-3.8-flash,equivNum,0.0241,0.0256,30,30
+level 5,gemini-3.8-flash,equiv,0.0278,0.03,30,30
+level 5,gemini-3.8-flash,num,0.0313,0.0319,30,30
+level 5,gemini-3.8-flash,strict,0.035,0.0362,30,30
+level 5,gemini-argon,equivNum,0.0146,0.0155,30,30
+level 5,gemini-argon,equiv,0.0206,0.0222,30,30
+level 5,gemini-argon,num,0.0209,0.0222,30,30
+level 5,gemini-argon,strict,0.027,0.029,30,30
 level 5,mai,equivNum,0.1239,0.1266,30,30
 level 5,mai,equiv,0.1278,0.1309,30,30
 level 5,mai,num,0.1249,0.128,30,30
@@ -811,10 +1279,38 @@ Common Voice,sensevoice+hk,tEquivNum,0.0688,0.0649,300,300
 Common Voice,sensevoice+hk,tEquiv,0.0688,0.0649,300,300
 Common Voice,sensevoice+hk,tNum,0.0867,0.0799,300,300
 Common Voice,sensevoice+hk,tStrict,0.0867,0.0799,300,300
+Common Voice,sensevoice-yue,tEquivNum,0.3172,0.3167,300,300
+Common Voice,sensevoice-yue,tEquiv,0.3172,0.3167,300,300
+Common Voice,sensevoice-yue,tNum,0.3361,0.3327,300,300
+Common Voice,sensevoice-yue,tStrict,0.3361,0.3327,300,300
 Common Voice,whisper-yue,tEquivNum,0.0088,0.0087,300,300
 Common Voice,whisper-yue,tEquiv,0.0088,0.0087,300,300
 Common Voice,whisper-yue,tNum,0.0103,0.0097,300,300
 Common Voice,whisper-yue,tStrict,0.0103,0.0097,300,300
+Common Voice,whisper-m-yue,tEquivNum,0.3181,0.3183,300,300
+Common Voice,whisper-m-yue,tEquiv,0.3181,0.3183,300,300
+Common Voice,whisper-m-yue,tNum,0.3356,0.334,300,300
+Common Voice,whisper-m-yue,tStrict,0.3356,0.334,300,300
+Common Voice,u2pp-yue,tEquivNum,0.329,0.327,300,300
+Common Voice,u2pp-yue,tEquiv,0.329,0.327,300,300
+Common Voice,u2pp-yue,tNum,0.3461,0.342,300,300
+Common Voice,u2pp-yue,tStrict,0.3461,0.342,300,300
+Common Voice,fireredasr2,tEquivNum,0.3085,0.308,300,300
+Common Voice,fireredasr2,tEquiv,0.3085,0.308,300,300
+Common Voice,fireredasr2,tNum,0.328,0.3243,300,300
+Common Voice,fireredasr2,tStrict,0.328,0.3243,300,300
+Common Voice,mimo-asr,tEquivNum,0.3312,0.3243,300,300
+Common Voice,mimo-asr,tEquiv,0.3312,0.3243,300,300
+Common Voice,mimo-asr,tNum,0.3438,0.3353,300,300
+Common Voice,mimo-asr,tStrict,0.3438,0.3353,300,300
+Common Voice,step-audio2,tEquivNum,0.3044,0.3067,300,300
+Common Voice,step-audio2,tEquiv,0.3044,0.3067,300,300
+Common Voice,step-audio2,tNum,0.3243,0.324,300,300
+Common Voice,step-audio2,tStrict,0.3243,0.324,300,300
+Common Voice,qwen3-omni,tEquivNum,0.049,0.0446,300,300
+Common Voice,qwen3-omni,tEquiv,0.049,0.0446,300,300
+Common Voice,qwen3-omni,tNum,0.0557,0.0506,300,300
+Common Voice,qwen3-omni,tStrict,0.0557,0.0506,300,300
 Common Voice,glm-asr,tEquivNum,0.1513,0.1342,300,300
 Common Voice,glm-asr,tEquiv,0.1513,0.1342,300,300
 Common Voice,glm-asr,tNum,0.1708,0.1515,300,300
@@ -831,6 +1327,14 @@ Common Voice,gemini,tEquivNum,0.1561,0.1512,300,300
 Common Voice,gemini,tEquiv,0.1572,0.1532,300,300
 Common Voice,gemini,tNum,0.169,0.1622,300,300
 Common Voice,gemini,tStrict,0.1701,0.1642,300,300
+Common Voice,gemini-3.8-flash,tEquivNum,0.1122,0.1039,300,300
+Common Voice,gemini-3.8-flash,tEquiv,0.1122,0.1039,300,300
+Common Voice,gemini-3.8-flash,tNum,0.1228,0.1126,300,300
+Common Voice,gemini-3.8-flash,tStrict,0.1228,0.1126,300,300
+Common Voice,gemini-argon,tEquivNum,0.0535,0.0483,300,300
+Common Voice,gemini-argon,tEquiv,0.0546,0.0503,300,300
+Common Voice,gemini-argon,tNum,0.0642,0.0583,300,300
+Common Voice,gemini-argon,tStrict,0.0653,0.0603,300,300
 Common Voice,mai,tEquivNum,0.1287,0.1265,300,300
 Common Voice,mai,tEquiv,0.1287,0.1265,300,300
 Common Voice,mai,tNum,0.1374,0.1339,300,300
@@ -871,10 +1375,38 @@ Narration,sensevoice+hk,tEquivNum,0.1152,0.1125,299,299
 Narration,sensevoice+hk,tEquiv,0.117,0.1141,299,299
 Narration,sensevoice+hk,tNum,0.1456,0.1387,299,299
 Narration,sensevoice+hk,tStrict,0.1474,0.1403,299,299
+Narration,sensevoice-yue,tEquivNum,0.3552,0.3543,299,299
+Narration,sensevoice-yue,tEquiv,0.3571,0.356,299,299
+Narration,sensevoice-yue,tNum,0.3861,0.3807,299,299
+Narration,sensevoice-yue,tStrict,0.388,0.3824,299,299
 Narration,whisper-yue,tEquivNum,0.1979,0.1923,299,299
 Narration,whisper-yue,tEquiv,0.1997,0.1938,299,299
 Narration,whisper-yue,tNum,0.218,0.2097,299,299
 Narration,whisper-yue,tStrict,0.2198,0.2113,299,299
+Narration,whisper-m-yue,tEquivNum,0.3515,0.3492,299,299
+Narration,whisper-m-yue,tEquiv,0.3534,0.3508,299,299
+Narration,whisper-m-yue,tNum,0.3821,0.3754,299,299
+Narration,whisper-m-yue,tStrict,0.384,0.377,299,299
+Narration,u2pp-yue,tEquivNum,0.3569,0.3556,299,299
+Narration,u2pp-yue,tEquiv,0.3588,0.3572,299,299
+Narration,u2pp-yue,tNum,0.3889,0.3821,299,299
+Narration,u2pp-yue,tStrict,0.3908,0.3838,299,299
+Narration,fireredasr2,tEquivNum,0.352,0.3499,299,299
+Narration,fireredasr2,tEquiv,0.3539,0.3515,299,299
+Narration,fireredasr2,tNum,0.3836,0.3768,299,299
+Narration,fireredasr2,tStrict,0.3855,0.3785,299,299
+Narration,mimo-asr,tEquivNum,0.334,0.3283,299,299
+Narration,mimo-asr,tEquiv,0.3359,0.3299,299,299
+Narration,mimo-asr,tNum,0.3671,0.3559,299,299
+Narration,mimo-asr,tStrict,0.3691,0.3576,299,299
+Narration,step-audio2,tEquivNum,0.3596,0.3578,299,299
+Narration,step-audio2,tEquiv,0.3615,0.3594,299,299
+Narration,step-audio2,tNum,0.3905,0.3853,299,299
+Narration,step-audio2,tStrict,0.3924,0.3869,299,299
+Narration,qwen3-omni,tEquivNum,0.0863,0.0794,299,299
+Narration,qwen3-omni,tEquiv,0.0881,0.0809,299,299
+Narration,qwen3-omni,tNum,0.1135,0.1025,299,299
+Narration,qwen3-omni,tStrict,0.1153,0.104,299,299
 Narration,glm-asr,tEquivNum,0.2207,0.204,299,299
 Narration,glm-asr,tEquiv,0.2226,0.2056,299,299
 Narration,glm-asr,tNum,0.2516,0.2311,299,299
@@ -891,6 +1423,14 @@ Narration,gemini,tEquivNum,0.2485,0.2322,299,299
 Narration,gemini,tEquiv,0.252,0.2353,299,299
 Narration,gemini,tNum,0.2668,0.2471,299,299
 Narration,gemini,tStrict,0.2702,0.2501,299,299
+Narration,gemini-3.8-flash,tEquivNum,0.1193,0.103,299,299
+Narration,gemini-3.8-flash,tEquiv,0.1215,0.1045,299,299
+Narration,gemini-3.8-flash,tNum,0.1355,0.1182,299,299
+Narration,gemini-3.8-flash,tStrict,0.1378,0.1198,299,299
+Narration,gemini-argon,tEquivNum,0.1211,0.0935,299,299
+Narration,gemini-argon,tEquiv,0.1226,0.0941,299,299
+Narration,gemini-argon,tNum,0.1393,0.1092,299,299
+Narration,gemini-argon,tStrict,0.1407,0.1098,299,299
 Narration,mai,tEquivNum,0.2967,0.2867,299,299
 Narration,mai,tEquiv,0.2976,0.2877,299,299
 Narration,mai,tNum,0.3104,0.2978,299,299
@@ -899,186 +1439,294 @@ Narration,cantonese-ai,tEquivNum,0.0461,0.0429,299,299
 Narration,cantonese-ai,tEquiv,0.0479,0.0444,299,299
 Narration,cantonese-ai,tNum,0.0521,0.0478,299,299
 Narration,cantonese-ai,tStrict,0.0539,0.0493,299,299
-"CantoMap (conversation, noisy references)",cantocaptions-v3,tEquivNum,0.191,0.1869,300,300
-"CantoMap (conversation, noisy references)",cantocaptions-v3,tEquiv,0.1912,0.1873,300,300
-"CantoMap (conversation, noisy references)",cantocaptions-v3,tNum,0.2203,0.2156,300,300
-"CantoMap (conversation, noisy references)",cantocaptions-v3,tStrict,0.2205,0.216,300,300
-"CantoMap (conversation, noisy references)",cantocaptions,tEquivNum,0.2065,0.1935,300,300
-"CantoMap (conversation, noisy references)",cantocaptions,tEquiv,0.2071,0.194,300,300
-"CantoMap (conversation, noisy references)",cantocaptions,tNum,0.2361,0.2225,300,300
-"CantoMap (conversation, noisy references)",cantocaptions,tStrict,0.2367,0.223,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-stock,tEquivNum,0.2632,0.2617,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-stock,tEquiv,0.2632,0.2617,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-stock,tNum,0.2945,0.2926,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-stock,tStrict,0.2945,0.2926,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-stock+hk,tEquivNum,0.1728,0.1692,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-stock+hk,tEquiv,0.1728,0.1692,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-stock+hk,tNum,0.2041,0.2,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-stock+hk,tStrict,0.2041,0.2,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-trad,tEquivNum,0.1977,0.2031,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-trad,tEquiv,0.1977,0.2031,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-trad,tNum,0.2289,0.2339,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-trad,tStrict,0.2289,0.2339,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-trad+hk,tEquivNum,0.1748,0.1711,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-trad+hk,tEquiv,0.1748,0.1711,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-trad+hk,tNum,0.2061,0.2019,300,300
-"CantoMap (conversation, noisy references)",qwen3-asr-trad+hk,tStrict,0.2061,0.2019,300,300
-"CantoMap (conversation, noisy references)",sensevoice,tEquivNum,0.4383,0.4228,300,300
-"CantoMap (conversation, noisy references)",sensevoice,tEquiv,0.4383,0.4228,300,300
-"CantoMap (conversation, noisy references)",sensevoice,tNum,0.4654,0.4494,300,300
-"CantoMap (conversation, noisy references)",sensevoice,tStrict,0.4654,0.4494,300,300
-"CantoMap (conversation, noisy references)",sensevoice+hk,tEquivNum,0.205,0.1959,300,300
-"CantoMap (conversation, noisy references)",sensevoice+hk,tEquiv,0.205,0.1959,300,300
-"CantoMap (conversation, noisy references)",sensevoice+hk,tNum,0.2321,0.2225,300,300
-"CantoMap (conversation, noisy references)",sensevoice+hk,tStrict,0.2321,0.2225,300,300
-"CantoMap (conversation, noisy references)",whisper-yue,tEquivNum,0.2633,0.2556,300,300
-"CantoMap (conversation, noisy references)",whisper-yue,tEquiv,0.2633,0.2556,300,300
-"CantoMap (conversation, noisy references)",whisper-yue,tNum,0.282,0.2691,300,300
-"CantoMap (conversation, noisy references)",whisper-yue,tStrict,0.282,0.2691,300,300
-"CantoMap (conversation, noisy references)",glm-asr,tEquivNum,0.3323,0.286,300,300
-"CantoMap (conversation, noisy references)",glm-asr,tEquiv,0.3323,0.286,300,300
-"CantoMap (conversation, noisy references)",glm-asr,tNum,0.3617,0.3156,300,300
-"CantoMap (conversation, noisy references)",glm-asr,tStrict,0.3617,0.3156,300,300
-"CantoMap (conversation, noisy references)",glm-asr-yue,tEquivNum,0.2854,0.2679,300,300
-"CantoMap (conversation, noisy references)",glm-asr-yue,tEquiv,0.2854,0.2679,300,300
-"CantoMap (conversation, noisy references)",glm-asr-yue,tNum,0.315,0.2975,300,300
-"CantoMap (conversation, noisy references)",glm-asr-yue,tStrict,0.315,0.2975,300,300
-"CantoMap (conversation, noisy references)",azure-standard,tEquivNum,0.2282,0.2049,300,300
-"CantoMap (conversation, noisy references)",azure-standard,tEquiv,0.2327,0.2086,300,300
-"CantoMap (conversation, noisy references)",azure-standard,tNum,0.2567,0.2334,300,300
-"CantoMap (conversation, noisy references)",azure-standard,tStrict,0.2613,0.2371,300,300
-"CantoMap (conversation, noisy references)",gemini,tEquivNum,0.3035,0.2834,300,300
-"CantoMap (conversation, noisy references)",gemini,tEquiv,0.3048,0.2843,300,300
-"CantoMap (conversation, noisy references)",gemini,tNum,0.3253,0.2973,300,300
-"CantoMap (conversation, noisy references)",gemini,tStrict,0.3266,0.2982,300,300
-"CantoMap (conversation, noisy references)",mai,tEquivNum,0.2222,0.1989,300,300
-"CantoMap (conversation, noisy references)",mai,tEquiv,0.2228,0.1993,300,300
-"CantoMap (conversation, noisy references)",mai,tNum,0.2257,0.2019,300,300
-"CantoMap (conversation, noisy references)",mai,tStrict,0.2264,0.2023,300,300
-"CantoMap (conversation, noisy references)",cantonese-ai,tEquivNum,0.181,0.1766,300,300
-"CantoMap (conversation, noisy references)",cantonese-ai,tEquiv,0.181,0.1766,300,300
-"CantoMap (conversation, noisy references)",cantonese-ai,tNum,0.2118,0.2058,300,300
-"CantoMap (conversation, noisy references)",cantonese-ai,tStrict,0.2118,0.2058,300,300
-Mixed Cantonese–English,cantocaptions-v3,tEquivNum,0.0797,0.0772,243,243
-Mixed Cantonese–English,cantocaptions-v3,tEquiv,0.0797,0.0772,243,243
-Mixed Cantonese–English,cantocaptions-v3,tNum,0.0823,0.0797,243,243
-Mixed Cantonese–English,cantocaptions-v3,tStrict,0.0823,0.0797,243,243
-Mixed Cantonese–English,cantocaptions,tEquivNum,0.0788,0.0756,243,243
-Mixed Cantonese–English,cantocaptions,tEquiv,0.0788,0.0756,243,243
-Mixed Cantonese–English,cantocaptions,tNum,0.0814,0.0782,243,243
-Mixed Cantonese–English,cantocaptions,tStrict,0.0814,0.0782,243,243
-Mixed Cantonese–English,qwen3-asr-stock,tEquivNum,0.1634,0.1552,243,243
-Mixed Cantonese–English,qwen3-asr-stock,tEquiv,0.1639,0.1556,243,243
-Mixed Cantonese–English,qwen3-asr-stock,tNum,0.1642,0.1558,243,243
-Mixed Cantonese–English,qwen3-asr-stock,tStrict,0.1647,0.1561,243,243
-Mixed Cantonese–English,qwen3-asr-stock+hk,tEquivNum,0.107,0.1057,243,243
-Mixed Cantonese–English,qwen3-asr-stock+hk,tEquiv,0.1074,0.106,243,243
-Mixed Cantonese–English,qwen3-asr-stock+hk,tNum,0.1078,0.1062,243,243
-Mixed Cantonese–English,qwen3-asr-stock+hk,tStrict,0.1082,0.1065,243,243
-Mixed Cantonese–English,qwen3-asr-trad,tEquivNum,0.1175,0.1116,243,243
-Mixed Cantonese–English,qwen3-asr-trad,tEquiv,0.1179,0.1119,243,243
-Mixed Cantonese–English,qwen3-asr-trad,tNum,0.1183,0.1122,243,243
-Mixed Cantonese–English,qwen3-asr-trad,tStrict,0.1188,0.1125,243,243
-Mixed Cantonese–English,qwen3-asr-trad+hk,tEquivNum,0.0911,0.0899,243,243
-Mixed Cantonese–English,qwen3-asr-trad+hk,tEquiv,0.0915,0.0902,243,243
-Mixed Cantonese–English,qwen3-asr-trad+hk,tNum,0.0917,0.0904,243,243
-Mixed Cantonese–English,qwen3-asr-trad+hk,tStrict,0.0921,0.0907,243,243
-Mixed Cantonese–English,sensevoice,tEquivNum,0.2893,0.2794,243,243
-Mixed Cantonese–English,sensevoice,tEquiv,0.2898,0.2797,243,243
-Mixed Cantonese–English,sensevoice,tNum,0.2902,0.28,243,243
-Mixed Cantonese–English,sensevoice,tStrict,0.2907,0.2803,243,243
-Mixed Cantonese–English,sensevoice+hk,tEquivNum,0.1706,0.1698,243,243
-Mixed Cantonese–English,sensevoice+hk,tEquiv,0.171,0.1701,243,243
-Mixed Cantonese–English,sensevoice+hk,tNum,0.1715,0.1704,243,243
-Mixed Cantonese–English,sensevoice+hk,tStrict,0.1719,0.1707,243,243
-Mixed Cantonese–English,whisper-yue,tEquivNum,0.0207,0.02,243,243
-Mixed Cantonese–English,whisper-yue,tEquiv,0.0207,0.02,243,243
-Mixed Cantonese–English,whisper-yue,tNum,0.0212,0.0203,243,243
-Mixed Cantonese–English,whisper-yue,tStrict,0.0212,0.0203,243,243
-Mixed Cantonese–English,glm-asr,tEquivNum,0.1662,0.1591,243,243
-Mixed Cantonese–English,glm-asr,tEquiv,0.1667,0.1595,243,243
-Mixed Cantonese–English,glm-asr,tNum,0.1671,0.1596,243,243
-Mixed Cantonese–English,glm-asr,tStrict,0.1675,0.16,243,243
-Mixed Cantonese–English,glm-asr-yue,tEquivNum,0.1762,0.1726,243,243
-Mixed Cantonese–English,glm-asr-yue,tEquiv,0.1767,0.1729,243,243
-Mixed Cantonese–English,glm-asr-yue,tNum,0.1772,0.1732,243,243
-Mixed Cantonese–English,glm-asr-yue,tStrict,0.1776,0.1735,243,243
-Mixed Cantonese–English,azure-standard,tEquivNum,0.1609,0.1607,243,243
-Mixed Cantonese–English,azure-standard,tEquiv,0.1611,0.1609,243,243
-Mixed Cantonese–English,azure-standard,tNum,0.1615,0.1612,243,243
-Mixed Cantonese–English,azure-standard,tStrict,0.1617,0.1614,243,243
-Mixed Cantonese–English,gemini,tEquivNum,0.1412,0.1321,243,243
-Mixed Cantonese–English,gemini,tEquiv,0.1412,0.1321,243,243
-Mixed Cantonese–English,gemini,tNum,0.1417,0.1326,243,243
-Mixed Cantonese–English,gemini,tStrict,0.1417,0.1326,243,243
-Mixed Cantonese–English,mai,tEquivNum,0.1429,0.1347,243,243
-Mixed Cantonese–English,mai,tEquiv,0.1429,0.1347,243,243
-Mixed Cantonese–English,mai,tNum,0.1439,0.1357,243,243
-Mixed Cantonese–English,mai,tStrict,0.1439,0.1357,243,243
-Mixed Cantonese–English,cantonese-ai,tEquivNum,0.1005,0.0981,243,243
-Mixed Cantonese–English,cantonese-ai,tEquiv,0.101,0.0985,243,243
-Mixed Cantonese–English,cantonese-ai,tNum,0.1034,0.1006,243,243
-Mixed Cantonese–English,cantonese-ai,tStrict,0.1038,0.1009,243,243
-words.hk sentences,cantocaptions-v3,tEquivNum,0.0677,0.0391,300,300
-words.hk sentences,cantocaptions-v3,tEquiv,0.0712,0.0422,300,300
-words.hk sentences,cantocaptions-v3,tNum,0.0719,0.0433,300,300
-words.hk sentences,cantocaptions-v3,tStrict,0.0753,0.0465,300,300
-words.hk sentences,cantocaptions,tEquivNum,0.0726,0.0397,300,300
-words.hk sentences,cantocaptions,tEquiv,0.0748,0.0419,300,300
-words.hk sentences,cantocaptions,tNum,0.0771,0.0445,300,300
-words.hk sentences,cantocaptions,tStrict,0.0793,0.0467,300,300
-words.hk sentences,qwen3-asr-stock,tEquivNum,0.3316,0.3051,300,300
-words.hk sentences,qwen3-asr-stock,tEquiv,0.332,0.3054,300,300
-words.hk sentences,qwen3-asr-stock,tNum,0.3367,0.3108,300,300
-words.hk sentences,qwen3-asr-stock,tStrict,0.3372,0.311,300,300
-words.hk sentences,qwen3-asr-stock+hk,tEquivNum,0.0655,0.0388,300,300
-words.hk sentences,qwen3-asr-stock+hk,tEquiv,0.066,0.0391,300,300
-words.hk sentences,qwen3-asr-stock+hk,tNum,0.0706,0.0445,300,300
-words.hk sentences,qwen3-asr-stock+hk,tStrict,0.0711,0.0448,300,300
-words.hk sentences,qwen3-asr-trad,tEquivNum,0.2975,0.272,300,300
-words.hk sentences,qwen3-asr-trad,tEquiv,0.2979,0.2722,300,300
-words.hk sentences,qwen3-asr-trad,tNum,0.3026,0.2776,300,300
-words.hk sentences,qwen3-asr-trad,tStrict,0.3031,0.2779,300,300
-words.hk sentences,qwen3-asr-trad+hk,tEquivNum,0.0748,0.0425,300,300
-words.hk sentences,qwen3-asr-trad+hk,tEquiv,0.0753,0.0428,300,300
-words.hk sentences,qwen3-asr-trad+hk,tNum,0.08,0.0482,300,300
-words.hk sentences,qwen3-asr-trad+hk,tStrict,0.0804,0.0484,300,300
-words.hk sentences,sensevoice,tEquivNum,0.345,0.3153,300,300
-words.hk sentences,sensevoice,tEquiv,0.3455,0.3156,300,300
-words.hk sentences,sensevoice,tNum,0.3501,0.3207,300,300
-words.hk sentences,sensevoice,tStrict,0.3506,0.321,300,300
-words.hk sentences,sensevoice+hk,tEquivNum,0.0881,0.0569,300,300
-words.hk sentences,sensevoice+hk,tEquiv,0.0886,0.0572,300,300
-words.hk sentences,sensevoice+hk,tNum,0.0932,0.0623,300,300
-words.hk sentences,sensevoice+hk,tStrict,0.0937,0.0626,300,300
-words.hk sentences,whisper-yue,tEquivNum,0.1469,0.0952,300,300
-words.hk sentences,whisper-yue,tEquiv,0.1474,0.0955,300,300
-words.hk sentences,whisper-yue,tNum,0.1506,0.0989,300,300
-words.hk sentences,whisper-yue,tStrict,0.1511,0.0992,300,300
-words.hk sentences,glm-asr,tEquivNum,0.2701,0.1334,300,300
-words.hk sentences,glm-asr,tEquiv,0.2714,0.1343,300,300
-words.hk sentences,glm-asr,tNum,0.2734,0.1374,300,300
-words.hk sentences,glm-asr,tStrict,0.2747,0.1382,300,300
-words.hk sentences,glm-asr-yue,tEquivNum,0.2204,0.1224,300,300
-words.hk sentences,glm-asr-yue,tEquiv,0.2209,0.1227,300,300
-words.hk sentences,glm-asr-yue,tNum,0.224,0.1263,300,300
-words.hk sentences,glm-asr-yue,tStrict,0.2245,0.1266,300,300
-words.hk sentences,azure-standard,tEquivNum,0.1057,0.0654,300,300
-words.hk sentences,azure-standard,tEquiv,0.1094,0.0694,300,300
-words.hk sentences,azure-standard,tNum,0.1102,0.0703,300,300
-words.hk sentences,azure-standard,tStrict,0.114,0.0742,300,300
-words.hk sentences,gemini,tEquivNum,0.1913,0.1351,300,300
-words.hk sentences,gemini,tEquiv,0.1936,0.1368,300,300
-words.hk sentences,gemini,tNum,0.1934,0.1377,300,300
-words.hk sentences,gemini,tStrict,0.1957,0.1394,300,300
-words.hk sentences,mai,tEquivNum,0.2764,0.1983,300,300
-words.hk sentences,mai,tEquiv,0.2774,0.1992,300,300
-words.hk sentences,mai,tNum,0.2781,0.2,300,300
-words.hk sentences,mai,tStrict,0.2791,0.2008,300,300
-words.hk sentences,cantonese-ai,tEquivNum,0.1067,0.047,300,300
-words.hk sentences,cantonese-ai,tEquiv,0.1072,0.0473,300,300
-words.hk sentences,cantonese-ai,tNum,0.1102,0.0501,300,300
-words.hk sentences,cantonese-ai,tStrict,0.1107,0.0504,300,300
+"CantoMap (conversation, noisy references)",cantocaptions-v3,tEquivNum,0.1902,0.1862,300,300
+"CantoMap (conversation, noisy references)",cantocaptions-v3,tEquiv,0.1904,0.1866,300,300
+"CantoMap (conversation, noisy references)",cantocaptions-v3,tNum,0.2195,0.2149,300,300
+"CantoMap (conversation, noisy references)",cantocaptions-v3,tStrict,0.2197,0.2153,300,300
+"CantoMap (conversation, noisy references)",cantocaptions,tEquivNum,0.2058,0.1929,300,300
+"CantoMap (conversation, noisy references)",cantocaptions,tEquiv,0.2064,0.1935,300,300
+"CantoMap (conversation, noisy references)",cantocaptions,tNum,0.2354,0.222,300,300
+"CantoMap (conversation, noisy references)",cantocaptions,tStrict,0.236,0.2225,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-stock,tEquivNum,0.2624,0.2609,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-stock,tEquiv,0.2624,0.2609,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-stock,tNum,0.2936,0.2917,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-stock,tStrict,0.2936,0.2917,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-stock+hk,tEquivNum,0.172,0.1683,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-stock+hk,tEquiv,0.172,0.1683,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-stock+hk,tNum,0.2032,0.1991,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-stock+hk,tStrict,0.2032,0.1991,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-trad,tEquivNum,0.1967,0.2021,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-trad,tEquiv,0.1967,0.2021,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-trad,tNum,0.228,0.2329,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-trad,tStrict,0.228,0.2329,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-trad+hk,tEquivNum,0.1739,0.17,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-trad+hk,tEquiv,0.1739,0.17,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-trad+hk,tNum,0.2051,0.2008,300,300
+"CantoMap (conversation, noisy references)",qwen3-asr-trad+hk,tStrict,0.2051,0.2008,300,300
+"CantoMap (conversation, noisy references)",sensevoice,tEquivNum,0.4368,0.4211,300,300
+"CantoMap (conversation, noisy references)",sensevoice,tEquiv,0.4368,0.4211,300,300
+"CantoMap (conversation, noisy references)",sensevoice,tNum,0.464,0.4476,300,300
+"CantoMap (conversation, noisy references)",sensevoice,tStrict,0.464,0.4476,300,300
+"CantoMap (conversation, noisy references)",sensevoice+hk,tEquivNum,0.2035,0.1942,300,300
+"CantoMap (conversation, noisy references)",sensevoice+hk,tEquiv,0.2035,0.1942,300,300
+"CantoMap (conversation, noisy references)",sensevoice+hk,tNum,0.2307,0.2207,300,300
+"CantoMap (conversation, noisy references)",sensevoice+hk,tStrict,0.2307,0.2207,300,300
+"CantoMap (conversation, noisy references)",sensevoice-yue,tEquivNum,0.4447,0.4286,300,300
+"CantoMap (conversation, noisy references)",sensevoice-yue,tEquiv,0.4447,0.4286,300,300
+"CantoMap (conversation, noisy references)",sensevoice-yue,tNum,0.4642,0.4452,300,300
+"CantoMap (conversation, noisy references)",sensevoice-yue,tStrict,0.4642,0.4452,300,300
+"CantoMap (conversation, noisy references)",whisper-yue,tEquivNum,0.2624,0.2549,300,300
+"CantoMap (conversation, noisy references)",whisper-yue,tEquiv,0.2624,0.2549,300,300
+"CantoMap (conversation, noisy references)",whisper-yue,tNum,0.2811,0.2684,300,300
+"CantoMap (conversation, noisy references)",whisper-yue,tStrict,0.2811,0.2684,300,300
+"CantoMap (conversation, noisy references)",whisper-m-yue,tEquivNum,0.4458,0.4281,300,300
+"CantoMap (conversation, noisy references)",whisper-m-yue,tEquiv,0.4458,0.4281,300,300
+"CantoMap (conversation, noisy references)",whisper-m-yue,tNum,0.4691,0.4497,300,300
+"CantoMap (conversation, noisy references)",whisper-m-yue,tStrict,0.4691,0.4497,300,300
+"CantoMap (conversation, noisy references)",u2pp-yue,tEquivNum,0.4516,0.4323,300,300
+"CantoMap (conversation, noisy references)",u2pp-yue,tEquiv,0.4516,0.4323,300,300
+"CantoMap (conversation, noisy references)",u2pp-yue,tNum,0.4763,0.4554,300,300
+"CantoMap (conversation, noisy references)",u2pp-yue,tStrict,0.4763,0.4554,300,300
+"CantoMap (conversation, noisy references)",fireredasr2,tEquivNum,0.4215,0.4064,300,300
+"CantoMap (conversation, noisy references)",fireredasr2,tEquiv,0.4215,0.4064,300,300
+"CantoMap (conversation, noisy references)",fireredasr2,tNum,0.4438,0.426,300,300
+"CantoMap (conversation, noisy references)",fireredasr2,tStrict,0.4438,0.426,300,300
+"CantoMap (conversation, noisy references)",mimo-asr,tEquivNum,0.4831,0.4575,300,300
+"CantoMap (conversation, noisy references)",mimo-asr,tEquiv,0.4831,0.4575,300,300
+"CantoMap (conversation, noisy references)",mimo-asr,tNum,0.5099,0.4846,300,300
+"CantoMap (conversation, noisy references)",mimo-asr,tStrict,0.5099,0.4846,300,300
+"CantoMap (conversation, noisy references)",step-audio2,tEquivNum,0.448,0.4332,300,300
+"CantoMap (conversation, noisy references)",step-audio2,tEquiv,0.448,0.4332,300,300
+"CantoMap (conversation, noisy references)",step-audio2,tNum,0.474,0.4591,300,300
+"CantoMap (conversation, noisy references)",step-audio2,tStrict,0.474,0.4591,300,300
+"CantoMap (conversation, noisy references)",qwen3-omni,tEquivNum,0.2361,0.2243,300,300
+"CantoMap (conversation, noisy references)",qwen3-omni,tEquiv,0.2361,0.2243,300,300
+"CantoMap (conversation, noisy references)",qwen3-omni,tNum,0.2663,0.2542,300,300
+"CantoMap (conversation, noisy references)",qwen3-omni,tStrict,0.2663,0.2542,300,300
+"CantoMap (conversation, noisy references)",glm-asr,tEquivNum,0.3308,0.2852,300,300
+"CantoMap (conversation, noisy references)",glm-asr,tEquiv,0.3308,0.2852,300,300
+"CantoMap (conversation, noisy references)",glm-asr,tNum,0.3603,0.3147,300,300
+"CantoMap (conversation, noisy references)",glm-asr,tStrict,0.3603,0.3147,300,300
+"CantoMap (conversation, noisy references)",glm-asr-yue,tEquivNum,0.2845,0.2672,300,300
+"CantoMap (conversation, noisy references)",glm-asr-yue,tEquiv,0.2845,0.2672,300,300
+"CantoMap (conversation, noisy references)",glm-asr-yue,tNum,0.3141,0.2968,300,300
+"CantoMap (conversation, noisy references)",glm-asr-yue,tStrict,0.3141,0.2968,300,300
+"CantoMap (conversation, noisy references)",azure-standard,tEquivNum,0.2273,0.2042,300,300
+"CantoMap (conversation, noisy references)",azure-standard,tEquiv,0.2318,0.2079,300,300
+"CantoMap (conversation, noisy references)",azure-standard,tNum,0.2558,0.2327,300,300
+"CantoMap (conversation, noisy references)",azure-standard,tStrict,0.2604,0.2364,300,300
+"CantoMap (conversation, noisy references)",gemini,tEquivNum,0.3033,0.283,300,300
+"CantoMap (conversation, noisy references)",gemini,tEquiv,0.3046,0.2839,300,300
+"CantoMap (conversation, noisy references)",gemini,tNum,0.3251,0.297,300,300
+"CantoMap (conversation, noisy references)",gemini,tStrict,0.3264,0.2978,300,300
+"CantoMap (conversation, noisy references)",gemini-3.8-flash,tEquivNum,0.3172,0.2991,300,300
+"CantoMap (conversation, noisy references)",gemini-3.8-flash,tEquiv,0.3175,0.2994,300,300
+"CantoMap (conversation, noisy references)",gemini-3.8-flash,tNum,0.3494,0.3241,300,300
+"CantoMap (conversation, noisy references)",gemini-3.8-flash,tStrict,0.3497,0.3244,300,300
+"CantoMap (conversation, noisy references)",gemini-argon,tEquivNum,0.3109,0.2487,300,300
+"CantoMap (conversation, noisy references)",gemini-argon,tEquiv,0.3112,0.2489,300,300
+"CantoMap (conversation, noisy references)",gemini-argon,tNum,0.3366,0.2718,300,300
+"CantoMap (conversation, noisy references)",gemini-argon,tStrict,0.3369,0.272,300,300
+"CantoMap (conversation, noisy references)",mai,tEquivNum,0.222,0.1986,300,300
+"CantoMap (conversation, noisy references)",mai,tEquiv,0.2226,0.1989,300,300
+"CantoMap (conversation, noisy references)",mai,tNum,0.2255,0.2015,300,300
+"CantoMap (conversation, noisy references)",mai,tStrict,0.2262,0.2019,300,300
+"CantoMap (conversation, noisy references)",cantonese-ai,tEquivNum,0.1808,0.176,300,300
+"CantoMap (conversation, noisy references)",cantonese-ai,tEquiv,0.1808,0.176,300,300
+"CantoMap (conversation, noisy references)",cantonese-ai,tNum,0.2115,0.2052,300,300
+"CantoMap (conversation, noisy references)",cantonese-ai,tStrict,0.2115,0.2052,300,300
+Mixed Cantonese–English,cantocaptions-v3,tEquivNum,0.0744,0.0725,243,243
+Mixed Cantonese–English,cantocaptions-v3,tEquiv,0.0744,0.0725,243,243
+Mixed Cantonese–English,cantocaptions-v3,tNum,0.077,0.075,243,243
+Mixed Cantonese–English,cantocaptions-v3,tStrict,0.077,0.075,243,243
+Mixed Cantonese–English,cantocaptions,tEquivNum,0.0737,0.071,243,243
+Mixed Cantonese–English,cantocaptions,tEquiv,0.0737,0.071,243,243
+Mixed Cantonese–English,cantocaptions,tNum,0.0764,0.0736,243,243
+Mixed Cantonese–English,cantocaptions,tStrict,0.0764,0.0736,243,243
+Mixed Cantonese–English,qwen3-asr-stock,tEquivNum,0.1575,0.1493,243,243
+Mixed Cantonese–English,qwen3-asr-stock,tEquiv,0.1579,0.1497,243,243
+Mixed Cantonese–English,qwen3-asr-stock,tNum,0.1583,0.1498,243,243
+Mixed Cantonese–English,qwen3-asr-stock,tStrict,0.1587,0.1502,243,243
+Mixed Cantonese–English,qwen3-asr-stock+hk,tEquivNum,0.101,0.0997,243,243
+Mixed Cantonese–English,qwen3-asr-stock+hk,tEquiv,0.1015,0.1001,243,243
+Mixed Cantonese–English,qwen3-asr-stock+hk,tNum,0.1018,0.1003,243,243
+Mixed Cantonese–English,qwen3-asr-stock+hk,tStrict,0.1022,0.1006,243,243
+Mixed Cantonese–English,qwen3-asr-trad,tEquivNum,0.1136,0.1077,243,243
+Mixed Cantonese–English,qwen3-asr-trad,tEquiv,0.114,0.1081,243,243
+Mixed Cantonese–English,qwen3-asr-trad,tNum,0.1145,0.1083,243,243
+Mixed Cantonese–English,qwen3-asr-trad,tStrict,0.1149,0.1087,243,243
+Mixed Cantonese–English,qwen3-asr-trad+hk,tEquivNum,0.0872,0.086,243,243
+Mixed Cantonese–English,qwen3-asr-trad+hk,tEquiv,0.0876,0.0863,243,243
+Mixed Cantonese–English,qwen3-asr-trad+hk,tNum,0.0878,0.0865,243,243
+Mixed Cantonese–English,qwen3-asr-trad+hk,tStrict,0.0883,0.0869,243,243
+Mixed Cantonese–English,sensevoice,tEquivNum,0.2723,0.2623,243,243
+Mixed Cantonese–English,sensevoice,tEquiv,0.2727,0.2626,243,243
+Mixed Cantonese–English,sensevoice,tNum,0.2732,0.2629,243,243
+Mixed Cantonese–English,sensevoice,tStrict,0.2737,0.2632,243,243
+Mixed Cantonese–English,sensevoice+hk,tEquivNum,0.1536,0.1527,243,243
+Mixed Cantonese–English,sensevoice+hk,tEquiv,0.154,0.153,243,243
+Mixed Cantonese–English,sensevoice+hk,tNum,0.1545,0.1533,243,243
+Mixed Cantonese–English,sensevoice+hk,tStrict,0.1549,0.1536,243,243
+Mixed Cantonese–English,sensevoice-yue,tEquivNum,0.2622,0.2539,243,243
+Mixed Cantonese–English,sensevoice-yue,tEquiv,0.2627,0.2542,243,243
+Mixed Cantonese–English,sensevoice-yue,tNum,0.2629,0.2544,243,243
+Mixed Cantonese–English,sensevoice-yue,tStrict,0.2633,0.2547,243,243
+Mixed Cantonese–English,whisper-yue,tEquivNum,0.0196,0.0188,243,243
+Mixed Cantonese–English,whisper-yue,tEquiv,0.0196,0.0188,243,243
+Mixed Cantonese–English,whisper-yue,tNum,0.02,0.0191,243,243
+Mixed Cantonese–English,whisper-yue,tStrict,0.02,0.0191,243,243
+Mixed Cantonese–English,whisper-m-yue,tEquivNum,0.2448,0.2346,243,243
+Mixed Cantonese–English,whisper-m-yue,tEquiv,0.2454,0.2351,243,243
+Mixed Cantonese–English,whisper-m-yue,tNum,0.2456,0.2352,243,243
+Mixed Cantonese–English,whisper-m-yue,tStrict,0.2462,0.2357,243,243
+Mixed Cantonese–English,u2pp-yue,tEquivNum,0.341,0.3391,243,243
+Mixed Cantonese–English,u2pp-yue,tEquiv,0.3413,0.3393,243,243
+Mixed Cantonese–English,u2pp-yue,tNum,0.3419,0.3397,243,243
+Mixed Cantonese–English,u2pp-yue,tStrict,0.3422,0.3399,243,243
+Mixed Cantonese–English,fireredasr2,tEquivNum,0.2317,0.2189,243,243
+Mixed Cantonese–English,fireredasr2,tEquiv,0.2321,0.2192,243,243
+Mixed Cantonese–English,fireredasr2,tNum,0.2326,0.2196,243,243
+Mixed Cantonese–English,fireredasr2,tStrict,0.2331,0.2199,243,243
+Mixed Cantonese–English,mimo-asr,tEquivNum,0.2437,0.2274,243,243
+Mixed Cantonese–English,mimo-asr,tEquiv,0.2441,0.2277,243,243
+Mixed Cantonese–English,mimo-asr,tNum,0.2447,0.2283,243,243
+Mixed Cantonese–English,mimo-asr,tStrict,0.2451,0.2286,243,243
+Mixed Cantonese–English,step-audio2,tEquivNum,0.2516,0.2411,243,243
+Mixed Cantonese–English,step-audio2,tEquiv,0.2521,0.2414,243,243
+Mixed Cantonese–English,step-audio2,tNum,0.2527,0.2418,243,243
+Mixed Cantonese–English,step-audio2,tStrict,0.2532,0.2421,243,243
+Mixed Cantonese–English,qwen3-omni,tEquivNum,0.1025,0.1046,243,243
+Mixed Cantonese–English,qwen3-omni,tEquiv,0.103,0.105,243,243
+Mixed Cantonese–English,qwen3-omni,tNum,0.1036,0.1056,243,243
+Mixed Cantonese–English,qwen3-omni,tStrict,0.104,0.1059,243,243
+Mixed Cantonese–English,glm-asr,tEquivNum,0.1579,0.1507,243,243
+Mixed Cantonese–English,glm-asr,tEquiv,0.1584,0.151,243,243
+Mixed Cantonese–English,glm-asr,tNum,0.1588,0.1512,243,243
+Mixed Cantonese–English,glm-asr,tStrict,0.1592,0.1515,243,243
+Mixed Cantonese–English,glm-asr-yue,tEquivNum,0.1686,0.1649,243,243
+Mixed Cantonese–English,glm-asr-yue,tEquiv,0.1691,0.1652,243,243
+Mixed Cantonese–English,glm-asr-yue,tNum,0.1696,0.1655,243,243
+Mixed Cantonese–English,glm-asr-yue,tStrict,0.17,0.1658,243,243
+Mixed Cantonese–English,azure-standard,tEquivNum,0.1496,0.1491,243,243
+Mixed Cantonese–English,azure-standard,tEquiv,0.1499,0.1494,243,243
+Mixed Cantonese–English,azure-standard,tNum,0.1502,0.1497,243,243
+Mixed Cantonese–English,azure-standard,tStrict,0.1505,0.1499,243,243
+Mixed Cantonese–English,gemini,tEquivNum,0.1384,0.1295,243,243
+Mixed Cantonese–English,gemini,tEquiv,0.1384,0.1295,243,243
+Mixed Cantonese–English,gemini,tNum,0.1389,0.1299,243,243
+Mixed Cantonese–English,gemini,tStrict,0.1389,0.1299,243,243
+Mixed Cantonese–English,gemini-3.8-flash,tEquivNum,0.089,0.0831,243,243
+Mixed Cantonese–English,gemini-3.8-flash,tEquiv,0.089,0.0831,243,243
+Mixed Cantonese–English,gemini-3.8-flash,tNum,0.0908,0.0847,243,243
+Mixed Cantonese–English,gemini-3.8-flash,tStrict,0.0908,0.0847,243,243
+Mixed Cantonese–English,gemini-argon,tEquivNum,0.0764,0.0697,243,243
+Mixed Cantonese–English,gemini-argon,tEquiv,0.0765,0.0698,243,243
+Mixed Cantonese–English,gemini-argon,tNum,0.0777,0.0709,243,243
+Mixed Cantonese–English,gemini-argon,tStrict,0.0778,0.071,243,243
+Mixed Cantonese–English,mai,tEquivNum,0.1384,0.1303,243,243
+Mixed Cantonese–English,mai,tEquiv,0.1384,0.1303,243,243
+Mixed Cantonese–English,mai,tNum,0.1394,0.1313,243,243
+Mixed Cantonese–English,mai,tStrict,0.1394,0.1313,243,243
+Mixed Cantonese–English,cantonese-ai,tEquivNum,0.094,0.0918,243,243
+Mixed Cantonese–English,cantonese-ai,tEquiv,0.0945,0.0921,243,243
+Mixed Cantonese–English,cantonese-ai,tNum,0.0969,0.0942,243,243
+Mixed Cantonese–English,cantonese-ai,tStrict,0.0973,0.0946,243,243
+words.hk sentences,cantocaptions-v3,tEquivNum,0.0674,0.0385,300,300
+words.hk sentences,cantocaptions-v3,tEquiv,0.0708,0.0416,300,300
+words.hk sentences,cantocaptions-v3,tNum,0.0715,0.0428,300,300
+words.hk sentences,cantocaptions-v3,tStrict,0.075,0.0459,300,300
+words.hk sentences,cantocaptions,tEquivNum,0.0724,0.0394,300,300
+words.hk sentences,cantocaptions,tEquiv,0.0746,0.0416,300,300
+words.hk sentences,cantocaptions,tNum,0.0769,0.0442,300,300
+words.hk sentences,cantocaptions,tStrict,0.0791,0.0465,300,300
+words.hk sentences,qwen3-asr-stock,tEquivNum,0.3313,0.3048,300,300
+words.hk sentences,qwen3-asr-stock,tEquiv,0.3318,0.3051,300,300
+words.hk sentences,qwen3-asr-stock,tNum,0.3365,0.3105,300,300
+words.hk sentences,qwen3-asr-stock,tStrict,0.337,0.3108,300,300
+words.hk sentences,qwen3-asr-stock+hk,tEquivNum,0.0652,0.0385,300,300
+words.hk sentences,qwen3-asr-stock+hk,tEquiv,0.0657,0.0388,300,300
+words.hk sentences,qwen3-asr-stock+hk,tNum,0.0704,0.0442,300,300
+words.hk sentences,qwen3-asr-stock+hk,tStrict,0.0709,0.0445,300,300
+words.hk sentences,qwen3-asr-trad,tEquivNum,0.2971,0.2714,300,300
+words.hk sentences,qwen3-asr-trad,tEquiv,0.2976,0.2717,300,300
+words.hk sentences,qwen3-asr-trad,tNum,0.3023,0.2771,300,300
+words.hk sentences,qwen3-asr-trad,tStrict,0.3028,0.2773,300,300
+words.hk sentences,qwen3-asr-trad+hk,tEquivNum,0.0745,0.0419,300,300
+words.hk sentences,qwen3-asr-trad+hk,tEquiv,0.0749,0.0422,300,300
+words.hk sentences,qwen3-asr-trad+hk,tNum,0.0796,0.0476,300,300
+words.hk sentences,qwen3-asr-trad+hk,tStrict,0.0801,0.0479,300,300
+words.hk sentences,sensevoice,tEquivNum,0.3437,0.3139,300,300
+words.hk sentences,sensevoice,tEquiv,0.3442,0.3142,300,300
+words.hk sentences,sensevoice,tNum,0.3488,0.3193,300,300
+words.hk sentences,sensevoice,tStrict,0.3493,0.3195,300,300
+words.hk sentences,sensevoice+hk,tEquivNum,0.0868,0.0555,300,300
+words.hk sentences,sensevoice+hk,tEquiv,0.0873,0.0558,300,300
+words.hk sentences,sensevoice+hk,tNum,0.0919,0.0609,300,300
+words.hk sentences,sensevoice+hk,tStrict,0.0924,0.0612,300,300
+words.hk sentences,sensevoice-yue,tEquivNum,0.3432,0.3153,300,300
+words.hk sentences,sensevoice-yue,tEquiv,0.3437,0.3156,300,300
+words.hk sentences,sensevoice-yue,tNum,0.3477,0.3204,300,300
+words.hk sentences,sensevoice-yue,tStrict,0.3482,0.3207,300,300
+words.hk sentences,whisper-yue,tEquivNum,0.1463,0.0943,300,300
+words.hk sentences,whisper-yue,tEquiv,0.1468,0.0946,300,300
+words.hk sentences,whisper-yue,tNum,0.1501,0.098,300,300
+words.hk sentences,whisper-yue,tStrict,0.1506,0.0983,300,300
+words.hk sentences,whisper-m-yue,tEquivNum,0.3396,0.3136,300,300
+words.hk sentences,whisper-m-yue,tEquiv,0.3401,0.3139,300,300
+words.hk sentences,whisper-m-yue,tNum,0.3448,0.3193,300,300
+words.hk sentences,whisper-m-yue,tStrict,0.3453,0.3195,300,300
+words.hk sentences,u2pp-yue,tEquivNum,0.3447,0.319,300,300
+words.hk sentences,u2pp-yue,tEquiv,0.3451,0.3193,300,300
+words.hk sentences,u2pp-yue,tNum,0.3498,0.3246,300,300
+words.hk sentences,u2pp-yue,tStrict,0.3503,0.3249,300,300
+words.hk sentences,fireredasr2,tEquivNum,0.3476,0.3292,300,300
+words.hk sentences,fireredasr2,tEquiv,0.348,0.3295,300,300
+words.hk sentences,fireredasr2,tNum,0.3516,0.3337,300,300
+words.hk sentences,fireredasr2,tStrict,0.3521,0.334,300,300
+words.hk sentences,mimo-asr,tEquivNum,0.3894,0.3144,300,300
+words.hk sentences,mimo-asr,tEquiv,0.3899,0.3147,300,300
+words.hk sentences,mimo-asr,tNum,0.3926,0.3184,300,300
+words.hk sentences,mimo-asr,tStrict,0.3931,0.3187,300,300
+words.hk sentences,step-audio2,tEquivNum,0.3778,0.3159,300,300
+words.hk sentences,step-audio2,tEquiv,0.3783,0.3161,300,300
+words.hk sentences,step-audio2,tNum,0.3817,0.3204,300,300
+words.hk sentences,step-audio2,tStrict,0.3822,0.3207,300,300
+words.hk sentences,qwen3-omni,tEquivNum,0.0781,0.0408,300,300
+words.hk sentences,qwen3-omni,tEquiv,0.0785,0.0411,300,300
+words.hk sentences,qwen3-omni,tNum,0.0805,0.0439,300,300
+words.hk sentences,qwen3-omni,tStrict,0.081,0.0442,300,300
+words.hk sentences,glm-asr,tEquivNum,0.2696,0.1326,300,300
+words.hk sentences,glm-asr,tEquiv,0.2709,0.1334,300,300
+words.hk sentences,glm-asr,tNum,0.2729,0.1365,300,300
+words.hk sentences,glm-asr,tStrict,0.2742,0.1374,300,300
+words.hk sentences,glm-asr-yue,tEquivNum,0.2199,0.1215,300,300
+words.hk sentences,glm-asr-yue,tEquiv,0.2204,0.1218,300,300
+words.hk sentences,glm-asr-yue,tNum,0.2235,0.1255,300,300
+words.hk sentences,glm-asr-yue,tStrict,0.224,0.1258,300,300
+words.hk sentences,azure-standard,tEquivNum,0.1052,0.0646,300,300
+words.hk sentences,azure-standard,tEquiv,0.109,0.0686,300,300
+words.hk sentences,azure-standard,tNum,0.1098,0.0694,300,300
+words.hk sentences,azure-standard,tStrict,0.1135,0.0734,300,300
+words.hk sentences,gemini,tEquivNum,0.191,0.1348,300,300
+words.hk sentences,gemini,tEquiv,0.1933,0.1365,300,300
+words.hk sentences,gemini,tNum,0.1932,0.1374,300,300
+words.hk sentences,gemini,tStrict,0.1955,0.1391,300,300
+words.hk sentences,gemini-3.8-flash,tEquivNum,0.124,0.0581,300,300
+words.hk sentences,gemini-3.8-flash,tEquiv,0.1245,0.0584,300,300
+words.hk sentences,gemini-3.8-flash,tNum,0.1269,0.0615,300,300
+words.hk sentences,gemini-3.8-flash,tStrict,0.1273,0.0618,300,300
+words.hk sentences,gemini-argon,tEquivNum,0.1795,0.0793,300,300
+words.hk sentences,gemini-argon,tEquiv,0.1811,0.0807,300,300
+words.hk sentences,gemini-argon,tNum,0.1817,0.0822,300,300
+words.hk sentences,gemini-argon,tStrict,0.1833,0.0836,300,300
+words.hk sentences,mai,tEquivNum,0.2759,0.1975,300,300
+words.hk sentences,mai,tEquiv,0.2769,0.1983,300,300
+words.hk sentences,mai,tNum,0.2776,0.1992,300,300
+words.hk sentences,mai,tStrict,0.2786,0.2,300,300
+words.hk sentences,cantonese-ai,tEquivNum,0.1065,0.0467,300,300
+words.hk sentences,cantonese-ai,tEquiv,0.1069,0.047,300,300
+words.hk sentences,cantonese-ai,tNum,0.11,0.0499,300,300
+words.hk sentences,cantonese-ai,tStrict,0.1105,0.0501,300,300
 LIDA stories,cantocaptions-v3,tEquivNum,0.0323,0.0226,182,182
 LIDA stories,cantocaptions-v3,tEquiv,0.0346,0.028,182,182
 LIDA stories,cantocaptions-v3,tNum,0.0381,0.03,182,182
@@ -1111,10 +1759,38 @@ LIDA stories,sensevoice+hk,tEquivNum,0.0735,0.049,182,182
 LIDA stories,sensevoice+hk,tEquiv,0.0735,0.049,182,182
 LIDA stories,sensevoice+hk,tNum,0.0794,0.0548,182,182
 LIDA stories,sensevoice+hk,tStrict,0.0794,0.0548,182,182
+LIDA stories,sensevoice-yue,tEquivNum,0.3065,0.2748,182,182
+LIDA stories,sensevoice-yue,tEquiv,0.3065,0.2748,182,182
+LIDA stories,sensevoice-yue,tNum,0.3098,0.2782,182,182
+LIDA stories,sensevoice-yue,tStrict,0.3098,0.2782,182,182
 LIDA stories,whisper-yue,tEquivNum,0.0941,0.068,182,182
 LIDA stories,whisper-yue,tEquiv,0.0954,0.0707,182,182
 LIDA stories,whisper-yue,tNum,0.0956,0.0716,182,182
 LIDA stories,whisper-yue,tStrict,0.0968,0.0742,182,182
+LIDA stories,whisper-m-yue,tEquivNum,0.2943,0.2699,182,182
+LIDA stories,whisper-m-yue,tEquiv,0.2943,0.2699,182,182
+LIDA stories,whisper-m-yue,tNum,0.2958,0.2724,182,182
+LIDA stories,whisper-m-yue,tStrict,0.2958,0.2724,182,182
+LIDA stories,u2pp-yue,tEquivNum,0.3075,0.2735,182,182
+LIDA stories,u2pp-yue,tEquiv,0.3075,0.2735,182,182
+LIDA stories,u2pp-yue,tNum,0.3118,0.2766,182,182
+LIDA stories,u2pp-yue,tStrict,0.3118,0.2766,182,182
+LIDA stories,fireredasr2,tEquivNum,0.3047,0.2672,182,182
+LIDA stories,fireredasr2,tEquiv,0.3047,0.2672,182,182
+LIDA stories,fireredasr2,tNum,0.31,0.2739,182,182
+LIDA stories,fireredasr2,tStrict,0.31,0.2739,182,182
+LIDA stories,mimo-asr,tEquivNum,0.3447,0.2777,182,182
+LIDA stories,mimo-asr,tEquiv,0.345,0.2784,182,182
+LIDA stories,mimo-asr,tNum,0.3489,0.2838,182,182
+LIDA stories,mimo-asr,tStrict,0.3492,0.2844,182,182
+LIDA stories,step-audio2,tEquivNum,0.3053,0.2719,182,182
+LIDA stories,step-audio2,tEquiv,0.3053,0.2719,182,182
+LIDA stories,step-audio2,tNum,0.311,0.2775,182,182
+LIDA stories,step-audio2,tStrict,0.311,0.2775,182,182
+LIDA stories,qwen3-omni,tEquivNum,0.0576,0.0461,182,182
+LIDA stories,qwen3-omni,tEquiv,0.0576,0.0461,182,182
+LIDA stories,qwen3-omni,tNum,0.0617,0.0508,182,182
+LIDA stories,qwen3-omni,tStrict,0.0617,0.0508,182,182
 LIDA stories,glm-asr,tEquivNum,0.1479,0.0883,182,182
 LIDA stories,glm-asr,tEquiv,0.1479,0.0883,182,182
 LIDA stories,glm-asr,tNum,0.152,0.0926,182,182
@@ -1131,6 +1807,14 @@ LIDA stories,gemini,tEquivNum,0.1364,0.0836,182,182
 LIDA stories,gemini,tEquiv,0.1392,0.0883,182,182
 LIDA stories,gemini,tNum,0.1387,0.0888,182,182
 LIDA stories,gemini,tStrict,0.1416,0.0935,182,182
+LIDA stories,gemini-3.8-flash,tEquivNum,0.102,0.0543,182,182
+LIDA stories,gemini-3.8-flash,tEquiv,0.103,0.057,182,182
+LIDA stories,gemini-3.8-flash,tNum,0.1037,0.0584,182,182
+LIDA stories,gemini-3.8-flash,tStrict,0.1047,0.061,182,182
+LIDA stories,gemini-argon,tEquivNum,0.1422,0.0514,182,182
+LIDA stories,gemini-argon,tEquiv,0.1443,0.0564,182,182
+LIDA stories,gemini-argon,tNum,0.1448,0.0559,182,182
+LIDA stories,gemini-argon,tStrict,0.1469,0.0608,182,182
 LIDA stories,mai,tEquivNum,0.2674,0.1632,182,182
 LIDA stories,mai,tEquiv,0.2692,0.167,182,182
 LIDA stories,mai,tNum,0.2678,0.1644,182,182
@@ -1171,10 +1855,38 @@ level 1,sensevoice+hk,tEquivNum,0.0675,0.0488,39,39
 level 1,sensevoice+hk,tEquiv,0.0675,0.0488,39,39
 level 1,sensevoice+hk,tNum,0.0699,0.0537,39,39
 level 1,sensevoice+hk,tStrict,0.0699,0.0537,39,39
+level 1,sensevoice-yue,tEquivNum,0.3503,0.3317,39,39
+level 1,sensevoice-yue,tEquiv,0.3503,0.3317,39,39
+level 1,sensevoice-yue,tNum,0.3526,0.3366,39,39
+level 1,sensevoice-yue,tStrict,0.3526,0.3366,39,39
 level 1,whisper-yue,tEquivNum,0.0967,0.078,39,39
 level 1,whisper-yue,tEquiv,0.0967,0.078,39,39
 level 1,whisper-yue,tNum,0.0967,0.078,39,39
 level 1,whisper-yue,tStrict,0.0967,0.078,39,39
+level 1,whisper-m-yue,tEquivNum,0.3344,0.3171,39,39
+level 1,whisper-m-yue,tEquiv,0.3344,0.3171,39,39
+level 1,whisper-m-yue,tNum,0.3367,0.322,39,39
+level 1,whisper-m-yue,tStrict,0.3367,0.322,39,39
+level 1,u2pp-yue,tEquivNum,0.355,0.3317,39,39
+level 1,u2pp-yue,tEquiv,0.355,0.3317,39,39
+level 1,u2pp-yue,tNum,0.3573,0.3366,39,39
+level 1,u2pp-yue,tStrict,0.3573,0.3366,39,39
+level 1,fireredasr2,tEquivNum,0.3722,0.3415,39,39
+level 1,fireredasr2,tEquiv,0.3722,0.3415,39,39
+level 1,fireredasr2,tNum,0.3745,0.3463,39,39
+level 1,fireredasr2,tStrict,0.3745,0.3463,39,39
+level 1,mimo-asr,tEquivNum,0.4465,0.3854,39,39
+level 1,mimo-asr,tEquiv,0.4465,0.3854,39,39
+level 1,mimo-asr,tNum,0.4489,0.3902,39,39
+level 1,mimo-asr,tStrict,0.4489,0.3902,39,39
+level 1,step-audio2,tEquivNum,0.3575,0.3366,39,39
+level 1,step-audio2,tEquiv,0.3575,0.3366,39,39
+level 1,step-audio2,tNum,0.3598,0.3415,39,39
+level 1,step-audio2,tStrict,0.3598,0.3415,39,39
+level 1,qwen3-omni,tEquivNum,0.0286,0.0195,39,39
+level 1,qwen3-omni,tEquiv,0.0286,0.0195,39,39
+level 1,qwen3-omni,tNum,0.031,0.0244,39,39
+level 1,qwen3-omni,tStrict,0.031,0.0244,39,39
 level 1,glm-asr,tEquivNum,0.1775,0.1317,39,39
 level 1,glm-asr,tEquiv,0.1775,0.1317,39,39
 level 1,glm-asr,tNum,0.1798,0.1366,39,39
@@ -1191,6 +1903,14 @@ level 1,gemini,tEquivNum,0.1226,0.0878,39,39
 level 1,gemini,tEquiv,0.1263,0.0927,39,39
 level 1,gemini,tNum,0.1226,0.0878,39,39
 level 1,gemini,tStrict,0.1263,0.0927,39,39
+level 1,gemini-3.8-flash,tEquivNum,0.1081,0.0829,39,39
+level 1,gemini-3.8-flash,tEquiv,0.1081,0.0829,39,39
+level 1,gemini-3.8-flash,tNum,0.1081,0.0829,39,39
+level 1,gemini-3.8-flash,tStrict,0.1081,0.0829,39,39
+level 1,gemini-argon,tEquivNum,0.209,0.1805,39,39
+level 1,gemini-argon,tEquiv,0.209,0.1805,39,39
+level 1,gemini-argon,tNum,0.209,0.1805,39,39
+level 1,gemini-argon,tStrict,0.209,0.1805,39,39
 level 1,mai,tEquivNum,0.3079,0.2829,39,39
 level 1,mai,tEquiv,0.3079,0.2829,39,39
 level 1,mai,tNum,0.3079,0.2829,39,39
@@ -1231,10 +1951,38 @@ level 2,sensevoice+hk,tEquivNum,0.0976,0.0904,62,62
 level 2,sensevoice+hk,tEquiv,0.0976,0.0904,62,62
 level 2,sensevoice+hk,tNum,0.1072,0.1004,62,62
 level 2,sensevoice+hk,tStrict,0.1072,0.1004,62,62
+level 2,sensevoice-yue,tEquivNum,0.3139,0.3092,62,62
+level 2,sensevoice-yue,tEquiv,0.3139,0.3092,62,62
+level 2,sensevoice-yue,tNum,0.3182,0.3133,62,62
+level 2,sensevoice-yue,tStrict,0.3182,0.3133,62,62
 level 2,whisper-yue,tEquivNum,0.1222,0.1104,62,62
 level 2,whisper-yue,tEquiv,0.1222,0.1104,62,62
 level 2,whisper-yue,tNum,0.1222,0.1104,62,62
 level 2,whisper-yue,tStrict,0.1222,0.1104,62,62
+level 2,whisper-m-yue,tEquivNum,0.2969,0.2972,62,62
+level 2,whisper-m-yue,tEquiv,0.2969,0.2972,62,62
+level 2,whisper-m-yue,tNum,0.2969,0.2972,62,62
+level 2,whisper-m-yue,tStrict,0.2969,0.2972,62,62
+level 2,u2pp-yue,tEquivNum,0.3193,0.3112,62,62
+level 2,u2pp-yue,tEquiv,0.3193,0.3112,62,62
+level 2,u2pp-yue,tNum,0.3257,0.3153,62,62
+level 2,u2pp-yue,tStrict,0.3257,0.3153,62,62
+level 2,fireredasr2,tEquivNum,0.3094,0.2992,62,62
+level 2,fireredasr2,tEquiv,0.3094,0.2992,62,62
+level 2,fireredasr2,tNum,0.3143,0.3052,62,62
+level 2,fireredasr2,tStrict,0.3143,0.3052,62,62
+level 2,mimo-asr,tEquivNum,0.3765,0.3454,62,62
+level 2,mimo-asr,tEquiv,0.3765,0.3454,62,62
+level 2,mimo-asr,tNum,0.3797,0.3474,62,62
+level 2,mimo-asr,tStrict,0.3797,0.3474,62,62
+level 2,step-audio2,tEquivNum,0.3117,0.2992,62,62
+level 2,step-audio2,tEquiv,0.3117,0.2992,62,62
+level 2,step-audio2,tNum,0.3214,0.3092,62,62
+level 2,step-audio2,tStrict,0.3214,0.3092,62,62
+level 2,qwen3-omni,tEquivNum,0.0835,0.0763,62,62
+level 2,qwen3-omni,tEquiv,0.0835,0.0763,62,62
+level 2,qwen3-omni,tNum,0.089,0.0823,62,62
+level 2,qwen3-omni,tStrict,0.089,0.0823,62,62
 level 2,glm-asr,tEquivNum,0.2006,0.1546,62,62
 level 2,glm-asr,tEquiv,0.2006,0.1546,62,62
 level 2,glm-asr,tNum,0.206,0.1606,62,62
@@ -1251,6 +1999,14 @@ level 2,gemini,tEquivNum,0.2029,0.1627,62,62
 level 2,gemini,tEquiv,0.2029,0.1627,62,62
 level 2,gemini,tNum,0.2029,0.1627,62,62
 level 2,gemini,tStrict,0.2029,0.1627,62,62
+level 2,gemini-3.8-flash,tEquivNum,0.1649,0.1124,62,62
+level 2,gemini-3.8-flash,tEquiv,0.1649,0.1124,62,62
+level 2,gemini-3.8-flash,tNum,0.1649,0.1124,62,62
+level 2,gemini-3.8-flash,tStrict,0.1649,0.1124,62,62
+level 2,gemini-argon,tEquivNum,0.2338,0.1687,62,62
+level 2,gemini-argon,tEquiv,0.2338,0.1687,62,62
+level 2,gemini-argon,tNum,0.2365,0.1707,62,62
+level 2,gemini-argon,tStrict,0.2365,0.1707,62,62
 level 2,mai,tEquivNum,0.3829,0.2932,62,62
 level 2,mai,tEquiv,0.3829,0.2932,62,62
 level 2,mai,tNum,0.3829,0.2932,62,62
@@ -1291,10 +2047,38 @@ level 3,sensevoice+hk,tEquivNum,0.1185,0.1078,18,18
 level 3,sensevoice+hk,tEquiv,0.1185,0.1078,18,18
 level 3,sensevoice+hk,tNum,0.1256,0.1144,18,18
 level 3,sensevoice+hk,tStrict,0.1256,0.1144,18,18
+level 3,sensevoice-yue,tEquivNum,0.349,0.3595,18,18
+level 3,sensevoice-yue,tEquiv,0.349,0.3595,18,18
+level 3,sensevoice-yue,tNum,0.3525,0.3627,18,18
+level 3,sensevoice-yue,tStrict,0.3525,0.3627,18,18
 level 3,whisper-yue,tEquivNum,0.1267,0.1242,18,18
 level 3,whisper-yue,tEquiv,0.1267,0.1242,18,18
 level 3,whisper-yue,tNum,0.1289,0.1275,18,18
 level 3,whisper-yue,tStrict,0.1289,0.1275,18,18
+level 3,whisper-m-yue,tEquivNum,0.3305,0.3366,18,18
+level 3,whisper-m-yue,tEquiv,0.3305,0.3366,18,18
+level 3,whisper-m-yue,tNum,0.3339,0.3399,18,18
+level 3,whisper-m-yue,tStrict,0.3339,0.3399,18,18
+level 3,u2pp-yue,tEquivNum,0.337,0.3464,18,18
+level 3,u2pp-yue,tEquiv,0.337,0.3464,18,18
+level 3,u2pp-yue,tNum,0.3441,0.3529,18,18
+level 3,u2pp-yue,tStrict,0.3441,0.3529,18,18
+level 3,fireredasr2,tEquivNum,0.3351,0.3366,18,18
+level 3,fireredasr2,tEquiv,0.3351,0.3366,18,18
+level 3,fireredasr2,tNum,0.3423,0.3431,18,18
+level 3,fireredasr2,tStrict,0.3423,0.3431,18,18
+level 3,mimo-asr,tEquivNum,0.3247,0.3399,18,18
+level 3,mimo-asr,tEquiv,0.3247,0.3399,18,18
+level 3,mimo-asr,tNum,0.3282,0.3431,18,18
+level 3,mimo-asr,tStrict,0.3282,0.3431,18,18
+level 3,step-audio2,tEquivNum,0.3383,0.3497,18,18
+level 3,step-audio2,tEquiv,0.3383,0.3497,18,18
+level 3,step-audio2,tNum,0.3418,0.3529,18,18
+level 3,step-audio2,tStrict,0.3418,0.3529,18,18
+level 3,qwen3-omni,tEquivNum,0.0929,0.0882,18,18
+level 3,qwen3-omni,tEquiv,0.0929,0.0882,18,18
+level 3,qwen3-omni,tNum,0.0964,0.0915,18,18
+level 3,qwen3-omni,tStrict,0.0964,0.0915,18,18
 level 3,glm-asr,tEquivNum,0.1657,0.1601,18,18
 level 3,glm-asr,tEquiv,0.1657,0.1601,18,18
 level 3,glm-asr,tNum,0.1692,0.1634,18,18
@@ -1311,6 +2095,14 @@ level 3,gemini,tEquivNum,0.1536,0.1471,18,18
 level 3,gemini,tEquiv,0.1536,0.1471,18,18
 level 3,gemini,tNum,0.1571,0.1503,18,18
 level 3,gemini,tStrict,0.1571,0.1503,18,18
+level 3,gemini-3.8-flash,tEquivNum,0.0597,0.0654,18,18
+level 3,gemini-3.8-flash,tEquiv,0.0597,0.0654,18,18
+level 3,gemini-3.8-flash,tNum,0.0597,0.0654,18,18
+level 3,gemini-3.8-flash,tStrict,0.0597,0.0654,18,18
+level 3,gemini-argon,tEquivNum,0.0931,0.0719,18,18
+level 3,gemini-argon,tEquiv,0.0931,0.0719,18,18
+level 3,gemini-argon,tNum,0.0953,0.0752,18,18
+level 3,gemini-argon,tStrict,0.0953,0.0752,18,18
 level 3,mai,tEquivNum,0.264,0.2484,18,18
 level 3,mai,tEquiv,0.264,0.2484,18,18
 level 3,mai,tNum,0.264,0.2484,18,18
@@ -1351,10 +2143,38 @@ level 4,sensevoice+hk,tEquivNum,0.0495,0.0469,34,34
 level 4,sensevoice+hk,tEquiv,0.0495,0.0469,34,34
 level 4,sensevoice+hk,tNum,0.0525,0.0503,34,34
 level 4,sensevoice+hk,tStrict,0.0525,0.0503,34,34
+level 4,sensevoice-yue,tEquivNum,0.2645,0.2619,34,34
+level 4,sensevoice-yue,tEquiv,0.2645,0.2619,34,34
+level 4,sensevoice-yue,tNum,0.2675,0.2653,34,34
+level 4,sensevoice-yue,tStrict,0.2675,0.2653,34,34
 level 4,whisper-yue,tEquivNum,0.0583,0.062,34,34
 level 4,whisper-yue,tEquiv,0.0622,0.0655,34,34
 level 4,whisper-yue,tNum,0.06,0.0648,34,34
 level 4,whisper-yue,tStrict,0.064,0.0682,34,34
+level 4,whisper-m-yue,tEquivNum,0.2584,0.2578,34,34
+level 4,whisper-m-yue,tEquiv,0.2584,0.2578,34,34
+level 4,whisper-m-yue,tNum,0.2597,0.2598,34,34
+level 4,whisper-m-yue,tStrict,0.2597,0.2598,34,34
+level 4,u2pp-yue,tEquivNum,0.261,0.2591,34,34
+level 4,u2pp-yue,tEquiv,0.261,0.2591,34,34
+level 4,u2pp-yue,tNum,0.2634,0.2619,34,34
+level 4,u2pp-yue,tStrict,0.2634,0.2619,34,34
+level 4,fireredasr2,tEquivNum,0.2514,0.2522,34,34
+level 4,fireredasr2,tEquiv,0.2514,0.2522,34,34
+level 4,fireredasr2,tNum,0.2557,0.2571,34,34
+level 4,fireredasr2,tStrict,0.2557,0.2571,34,34
+level 4,mimo-asr,tEquivNum,0.2624,0.2605,34,34
+level 4,mimo-asr,tEquiv,0.2624,0.2605,34,34
+level 4,mimo-asr,tNum,0.2668,0.266,34,34
+level 4,mimo-asr,tStrict,0.2668,0.266,34,34
+level 4,step-audio2,tEquivNum,0.2612,0.2605,34,34
+level 4,step-audio2,tEquiv,0.2612,0.2605,34,34
+level 4,step-audio2,tNum,0.2645,0.264,34,34
+level 4,step-audio2,tStrict,0.2645,0.264,34,34
+level 4,qwen3-omni,tEquivNum,0.0474,0.0482,34,34
+level 4,qwen3-omni,tEquiv,0.0474,0.0482,34,34
+level 4,qwen3-omni,tNum,0.0502,0.0517,34,34
+level 4,qwen3-omni,tStrict,0.0502,0.0517,34,34
 level 4,glm-asr,tEquivNum,0.0865,0.0896,34,34
 level 4,glm-asr,tEquiv,0.0865,0.0896,34,34
 level 4,glm-asr,tNum,0.0906,0.0937,34,34
@@ -1371,6 +2191,14 @@ level 4,gemini,tEquivNum,0.0941,0.0875,34,34
 level 4,gemini,tEquiv,0.1003,0.093,34,34
 level 4,gemini,tNum,0.0979,0.0924,34,34
 level 4,gemini,tStrict,0.1041,0.0979,34,34
+level 4,gemini-3.8-flash,tEquivNum,0.0694,0.0682,34,34
+level 4,gemini-3.8-flash,tEquiv,0.0712,0.0703,34,34
+level 4,gemini-3.8-flash,tNum,0.0726,0.0724,34,34
+level 4,gemini-3.8-flash,tStrict,0.0745,0.0744,34,34
+level 4,gemini-argon,tEquivNum,0.0331,0.0379,34,34
+level 4,gemini-argon,tEquiv,0.0393,0.0434,34,34
+level 4,gemini-argon,tNum,0.0357,0.0414,34,34
+level 4,gemini-argon,tStrict,0.0419,0.0469,34,34
 level 4,mai,tEquivNum,0.134,0.133,34,34
 level 4,mai,tEquiv,0.1402,0.1385,34,34
 level 4,mai,tNum,0.1352,0.1344,34,34
@@ -1411,10 +2239,38 @@ level 5,sensevoice+hk,tEquivNum,0.0303,0.0313,29,29
 level 5,sensevoice+hk,tEquiv,0.0303,0.0313,29,29
 level 5,sensevoice+hk,tNum,0.0359,0.0378,29,29
 level 5,sensevoice+hk,tStrict,0.0359,0.0378,29,29
+level 5,sensevoice-yue,tEquivNum,0.2543,0.257,29,29
+level 5,sensevoice-yue,tEquiv,0.2543,0.257,29,29
+level 5,sensevoice-yue,tNum,0.2574,0.2599,29,29
+level 5,sensevoice-yue,tStrict,0.2574,0.2599,29,29
 level 5,whisper-yue,tEquivNum,0.0523,0.0522,29,29
 level 5,whisper-yue,tEquiv,0.0557,0.0557,29,29
 level 5,whisper-yue,tNum,0.0582,0.0577,29,29
 level 5,whisper-yue,tStrict,0.0615,0.0611,29,29
+level 5,whisper-m-yue,tEquivNum,0.2542,0.257,29,29
+level 5,whisper-m-yue,tEquiv,0.2542,0.257,29,29
+level 5,whisper-m-yue,tNum,0.2573,0.2599,29,29
+level 5,whisper-m-yue,tStrict,0.2573,0.2599,29,29
+level 5,u2pp-yue,tEquivNum,0.2545,0.2575,29,29
+level 5,u2pp-yue,tEquiv,0.2545,0.2575,29,29
+level 5,u2pp-yue,tNum,0.2572,0.2599,29,29
+level 5,u2pp-yue,tStrict,0.2572,0.2599,29,29
+level 5,fireredasr2,tEquivNum,0.2478,0.252,29,29
+level 5,fireredasr2,tEquiv,0.2478,0.252,29,29
+level 5,fireredasr2,tNum,0.2576,0.2604,29,29
+level 5,fireredasr2,tStrict,0.2576,0.2604,29,29
+level 5,mimo-asr,tEquivNum,0.2486,0.253,29,29
+level 5,mimo-asr,tEquiv,0.2505,0.2545,29,29
+level 5,mimo-asr,tNum,0.2576,0.2609,29,29
+level 5,mimo-asr,tStrict,0.2594,0.2624,29,29
+level 5,step-audio2,tEquivNum,0.2527,0.255,29,29
+level 5,step-audio2,tEquiv,0.2527,0.255,29,29
+level 5,step-audio2,tNum,0.2584,0.2614,29,29
+level 5,step-audio2,tStrict,0.2584,0.2614,29,29
+level 5,qwen3-omni,tEquivNum,0.031,0.0333,29,29
+level 5,qwen3-omni,tEquiv,0.031,0.0333,29,29
+level 5,qwen3-omni,tNum,0.0366,0.0388,29,29
+level 5,qwen3-omni,tStrict,0.0366,0.0388,29,29
 level 5,glm-asr,tEquivNum,0.0565,0.0557,29,29
 level 5,glm-asr,tEquiv,0.0565,0.0557,29,29
 level 5,glm-asr,tNum,0.0603,0.0596,29,29
@@ -1431,6 +2287,14 @@ level 5,gemini,tEquivNum,0.0515,0.0512,29,29
 level 5,gemini,tEquiv,0.0571,0.0572,29,29
 level 5,gemini,tNum,0.0596,0.0586,29,29
 level 5,gemini,tStrict,0.0652,0.0646,29,29
+level 5,gemini-3.8-flash,tEquivNum,0.0238,0.0253,29,29
+level 5,gemini-3.8-flash,tEquiv,0.0277,0.0298,29,29
+level 5,gemini-3.8-flash,tNum,0.0307,0.0313,29,29
+level 5,gemini-3.8-flash,tStrict,0.0345,0.0358,29,29
+level 5,gemini-argon,tEquivNum,0.015,0.0159,29,29
+level 5,gemini-argon,tEquiv,0.0212,0.0229,29,29
+level 5,gemini-argon,tNum,0.021,0.0224,29,29
+level 5,gemini-argon,tStrict,0.0272,0.0293,29,29
 level 5,mai,tEquivNum,0.1247,0.1277,29,29
 level 5,mai,tEquiv,0.1288,0.1322,29,29
 level 5,mai,tNum,0.1258,0.1292,29,29
